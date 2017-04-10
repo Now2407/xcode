@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78A67F2B424D94324B17CE76F4EF1DF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E13362F2920BD072BE8E26E8A829C9A1 /* Foundation.framework */; };
+		E3FBD58E0763C068CF751AC6CB0E9308 /* Pods-picapp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F7011F9F3E57F8387A7978FE931879 /* Pods-picapp-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FB3D0EBCE4027EC6711E84E744EA3E3 /* Pods-picapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-picapp.release.xcconfig"; sourceTree = "<group>"; };
+		3C8B26741F9A68378EEC85F86A3A8416 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		424BCBCDA1E699087D0A66A5EF6CAAD8 /* Pods-picapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-picapp.debug.xcconfig"; sourceTree = "<group>"; };
+		6631EE7C499D21D7AC2578B1FDC78226 /* libPods-picapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-picapp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E1B1DA0BA4A8A40B8A1822149FC6CAE /* Pods-picapp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-picapp-resources.sh"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C9DD4C2F6E7AAEBB8AD7164860974128 /* Pods-picapp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-picapp-acknowledgements.plist"; sourceTree = "<group>"; };
+		E13362F2920BD072BE8E26E8A829C9A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E9F7011F9F3E57F8387A7978FE931879 /* Pods-picapp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-picapp-dummy.m"; sourceTree = "<group>"; };
+		FCA55E5C579F15F42D7AC678A8F22544 /* Pods-picapp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-picapp-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAF421A918906AB73CD2D7FEB22552FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A67F2B424D94324B17CE76F4EF1DF3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08EB0301D7058D194787A1E12DE21AEB /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				951D6080941521ECF10E0034F1504700 /* Frameworks */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E13362F2920BD072BE8E26E8A829C9A1 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8FE6DED196B0BB2273DCADFD114B581F /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				8329471BE9AC238751F98BF0D312A709 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8329471BE9AC238751F98BF0D312A709 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C46DC156F69DF3F83823A0E24A6249AB /* Pods-picapp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8FE6DED196B0BB2273DCADFD114B581F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08EB0301D7058D194787A1E12DE21AEB /* Firebase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		951D6080941521ECF10E0034F1504700 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C8B26741F9A68378EEC85F86A3A8416 /* Firebase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C46DC156F69DF3F83823A0E24A6249AB /* Pods-picapp */ = {
+			isa = PBXGroup;
+			children = (
+				FCA55E5C579F15F42D7AC678A8F22544 /* Pods-picapp-acknowledgements.markdown */,
+				C9DD4C2F6E7AAEBB8AD7164860974128 /* Pods-picapp-acknowledgements.plist */,
+				E9F7011F9F3E57F8387A7978FE931879 /* Pods-picapp-dummy.m */,
+				9E1B1DA0BA4A8A40B8A1822149FC6CAE /* Pods-picapp-resources.sh */,
+				424BCBCDA1E699087D0A66A5EF6CAAD8 /* Pods-picapp.debug.xcconfig */,
+				0FB3D0EBCE4027EC6711E84E744EA3E3 /* Pods-picapp.release.xcconfig */,
+			);
+			name = "Pods-picapp";
+			path = "Target Support Files/Pods-picapp";
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6631EE7C499D21D7AC2578B1FDC78226 /* libPods-picapp.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E96F697C546638B40DDFEFC1E71CBF83 /* Pods-picapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59F4B3A1E32D3CF37E5B67DC36182F8B /* Build configuration list for PBXNativeTarget "Pods-picapp" */;
+			buildPhases = (
+				38381816B73A67FA61448BB727E761A7 /* Sources */,
+				BAF421A918906AB73CD2D7FEB22552FB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-picapp";
+			productName = "Pods-picapp";
+			productReference = 6631EE7C499D21D7AC2578B1FDC78226 /* libPods-picapp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E96F697C546638B40DDFEFC1E71CBF83 /* Pods-picapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38381816B73A67FA61448BB727E761A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3FBD58E0763C068CF751AC6CB0E9308 /* Pods-picapp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		132E7DBB03625A56BF65D0C42C1B4C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 424BCBCDA1E699087D0A66A5EF6CAAD8 /* Pods-picapp.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		74857149DC1E0D599B8A01A78349A926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82D46C6F95B416518CB772AB5D070A21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FB3D0EBCE4027EC6711E84E744EA3E3 /* Pods-picapp.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */,
+				74857149DC1E0D599B8A01A78349A926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59F4B3A1E32D3CF37E5B67DC36182F8B /* Build configuration list for PBXNativeTarget "Pods-picapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				132E7DBB03625A56BF65D0C42C1B4C02 /* Debug */,
+				82D46C6F95B416518CB772AB5D070A21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

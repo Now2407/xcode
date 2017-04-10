@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05276512D265DF45F5FBDFCA /* GFQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DDFD0E81C32C9B23A64A5B /* GFQuery.m */; };
+		07B4814745DC93E419F1340A /* GeoFire+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 55A53BB882D01DB68F4CEBE9 /* GeoFire+Private.h */; };
+		10217BE1767E723E4FB5FA06 /* GFQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 01D155EF46DC168D57FF2943 /* GFQuery.h */; };
+		14EB35A264AC8A8B3D3B1C82 /* GFCircleQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 5296B3939E49E9AFDA80C59B /* GFCircleQuery.h */; };
+		1DE42784AAB1BA7720CB571C /* Pods-capsuleit-GeoFire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68722EA60FCDC93CE9DB3819 /* Pods-capsuleit-GeoFire-dummy.m */; };
+		24B0EAC1BFFE22E8FBA6E364 /* GFBase32Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E868AF04A12D8603C57B25 /* GFBase32Utils.m */; };
+		2FEDF3B61ECFD4D6AD8F37FD /* GeoFire.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2CA96088E557FD1494F61D /* GeoFire.m */; };
+		3B6326E5E581CB83DE1893CD /* GFGeoHashQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 423D8917975BAEE24DD365ED /* GFGeoHashQuery.m */; };
+		4612CBDBCB3E22955F7700B6 /* GFRegionQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 03AEF5AE35AD6CC3730896CA /* GFRegionQuery.h */; };
+		5F497EA2DAB4D84D1AFEEC4B /* GFGeoHashQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = BC300D85380E0E14F87E21C8 /* GFGeoHashQuery.h */; };
+		6FA5068B3F46FB58EDEA2142 /* GFQuery+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 8017E6641ADAAF7920B9CAE2 /* GFQuery+Private.h */; };
+		799BE2D80419FB84EF453D66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C9FB3EEA63A82282E134ECB /* Foundation.framework */; };
+		81A045A1A31504DF4BF1BE15 /* GeoFire.h in Headers */ = {isa = PBXBuildFile; fileRef = BFDFD3A3685C33060B310810 /* GeoFire.h */; };
+		9C7F7D07F781350164D90DC8 /* GFGeoHash.h in Headers */ = {isa = PBXBuildFile; fileRef = 29843BE956B5E1ACC6A8DE5D /* GFGeoHash.h */; };
+		A66FEB4BDDD74B619458B6AE /* GFBase32Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA0EC450D6F5CF4DBE53413 /* GFBase32Utils.h */; };
+		A8ABADD64971A6A7945BE187 /* GFGeoHash.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CCE87BA386B3ABC62A39A6 /* GFGeoHash.m */; };
+		C54B90FFAE60BE058CBB3723 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C9FB3EEA63A82282E134ECB /* Foundation.framework */; };
+		FC5C20807A6B94C866837DD9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C295EB9FBF89D9BF1AB52BA6 /* CoreLocation.framework */; };
+		FCA1FC2A768658776C0F2F31 /* Pods-capsuleit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC27DD867A6B80908988AFA1 /* Pods-capsuleit-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46083ECEC67FA6B30DF4E490 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54608EF7DEAA26DCF92A2763 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE8B1083727ACC2EC0395118;
+			remoteInfo = "Pods-capsuleit-GeoFire";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01D155EF46DC168D57FF2943 /* GFQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFQuery.h; path = GeoFire/API/GFQuery.h; sourceTree = "<group>"; };
+		03AEF5AE35AD6CC3730896CA /* GFRegionQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFRegionQuery.h; path = GeoFire/API/GFRegionQuery.h; sourceTree = "<group>"; };
+		09DDFD0E81C32C9B23A64A5B /* GFQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GFQuery.m; path = GeoFire/Implementation/GFQuery.m; sourceTree = "<group>"; };
+		15D6574C2396D762DA69B123 /* libPods-capsuleit-GeoFire.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-capsuleit-GeoFire.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AF84D6E01DF31DFCBF9FB1F /* Pods-capsuleit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-capsuleit-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1C9FB3EEA63A82282E134ECB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2758743E7905F5240B09D770 /* Pods-capsuleit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-capsuleit-acknowledgements.plist"; sourceTree = "<group>"; };
+		29843BE956B5E1ACC6A8DE5D /* GFGeoHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFGeoHash.h; path = GeoFire/Implementation/GFGeoHash.h; sourceTree = "<group>"; };
+		423D8917975BAEE24DD365ED /* GFGeoHashQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GFGeoHashQuery.m; path = GeoFire/Implementation/GFGeoHashQuery.m; sourceTree = "<group>"; };
+		45C2B88534A3A578C0622F99 /* Pods-capsuleit-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-capsuleit-environment.h"; sourceTree = "<group>"; };
+		5296B3939E49E9AFDA80C59B /* GFCircleQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFCircleQuery.h; path = GeoFire/API/GFCircleQuery.h; sourceTree = "<group>"; };
+		55A53BB882D01DB68F4CEBE9 /* GeoFire+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GeoFire+Private.h"; path = "GeoFire/Implementation/GeoFire+Private.h"; sourceTree = "<group>"; };
+		593028D6B1EFC584E8BDE6B0 /* Pods-capsuleit-GeoFire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-capsuleit-GeoFire-Private.xcconfig"; sourceTree = "<group>"; };
+		65F6006E9A00CF7F6631E4A8 /* Pods-capsuleit-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-capsuleit-resources.sh"; sourceTree = "<group>"; };
+		68722EA60FCDC93CE9DB3819 /* Pods-capsuleit-GeoFire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-capsuleit-GeoFire-dummy.m"; sourceTree = "<group>"; };
+		697E1F1E2DBB9CAD152202FF /* Pods-capsuleit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-capsuleit.debug.xcconfig"; sourceTree = "<group>"; };
+		8017E6641ADAAF7920B9CAE2 /* GFQuery+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GFQuery+Private.h"; path = "GeoFire/Implementation/GFQuery+Private.h"; sourceTree = "<group>"; };
+		9AC361AA626AA371DE59386D /* Pods-capsuleit-GeoFire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-capsuleit-GeoFire-prefix.pch"; sourceTree = "<group>"; };
+		A0CCE87BA386B3ABC62A39A6 /* GFGeoHash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GFGeoHash.m; path = GeoFire/Implementation/GFGeoHash.m; sourceTree = "<group>"; };
+		AC27DD867A6B80908988AFA1 /* Pods-capsuleit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-capsuleit-dummy.m"; sourceTree = "<group>"; };
+		AEA0EC450D6F5CF4DBE53413 /* GFBase32Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFBase32Utils.h; path = GeoFire/Implementation/GFBase32Utils.h; sourceTree = "<group>"; };
+		B200E0B9C16F25B4D3B8A0A6 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC300D85380E0E14F87E21C8 /* GFGeoHashQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFGeoHashQuery.h; path = GeoFire/Implementation/GFGeoHashQuery.h; sourceTree = "<group>"; };
+		BFDFD3A3685C33060B310810 /* GeoFire.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GeoFire.h; path = GeoFire/API/GeoFire.h; sourceTree = "<group>"; };
+		C295EB9FBF89D9BF1AB52BA6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		CD2CA96088E557FD1494F61D /* GeoFire.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GeoFire.m; path = GeoFire/Implementation/GeoFire.m; sourceTree = "<group>"; };
+		D5E868AF04A12D8603C57B25 /* GFBase32Utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GFBase32Utils.m; path = GeoFire/Implementation/GFBase32Utils.m; sourceTree = "<group>"; };
+		EF04655A21233EC39A17D60E /* libPods-capsuleit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-capsuleit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDBF86C551E10DD7CB948564 /* Pods-capsuleit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-capsuleit.release.xcconfig"; sourceTree = "<group>"; };
+		FF4F976450B6F30E412FF59D /* Pods-capsuleit-GeoFire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-capsuleit-GeoFire.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B17D1270205C5C44BA87E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5C20807A6B94C866837DD9 /* CoreLocation.framework in Frameworks */,
+				C54B90FFAE60BE058CBB3723 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421855A44728FB8775DACD0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				799BE2D80419FB84EF453D66 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04277B96047929C3F52C3125 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C295EB9FBF89D9BF1AB52BA6 /* CoreLocation.framework */,
+				1C9FB3EEA63A82282E134ECB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1017419036428A28E12D43F9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF4F976450B6F30E412FF59D /* Pods-capsuleit-GeoFire.xcconfig */,
+				593028D6B1EFC584E8BDE6B0 /* Pods-capsuleit-GeoFire-Private.xcconfig */,
+				68722EA60FCDC93CE9DB3819 /* Pods-capsuleit-GeoFire-dummy.m */,
+				9AC361AA626AA371DE59386D /* Pods-capsuleit-GeoFire-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-capsuleit-GeoFire";
+			sourceTree = "<group>";
+		};
+		145547CEA7DED8C017F0F2D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04277B96047929C3F52C3125 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16ADF4E66C448E52C728CBFD = {
+			isa = PBXGroup;
+			children = (
+				B200E0B9C16F25B4D3B8A0A6 /* Podfile */,
+				145547CEA7DED8C017F0F2D9 /* Frameworks */,
+				3D0E27E0A630BB0B9A63C1D1 /* Pods */,
+				BD2866E6CF293269B3E0F3B5 /* Products */,
+				BD286F3B64FBE975915E6206 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		3D0E27E0A630BB0B9A63C1D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8EF9BDD523D23117F7EB50B0 /* Firebase */,
+				D2B3DB16A21D19964647E6AC /* GeoFire */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		691DED7B3D42A08E600FE046 /* Pods-capsuleit */ = {
+			isa = PBXGroup;
+			children = (
+				1AF84D6E01DF31DFCBF9FB1F /* Pods-capsuleit-acknowledgements.markdown */,
+				2758743E7905F5240B09D770 /* Pods-capsuleit-acknowledgements.plist */,
+				AC27DD867A6B80908988AFA1 /* Pods-capsuleit-dummy.m */,
+				45C2B88534A3A578C0622F99 /* Pods-capsuleit-environment.h */,
+				65F6006E9A00CF7F6631E4A8 /* Pods-capsuleit-resources.sh */,
+				697E1F1E2DBB9CAD152202FF /* Pods-capsuleit.debug.xcconfig */,
+				FDBF86C551E10DD7CB948564 /* Pods-capsuleit.release.xcconfig */,
+			);
+			name = "Pods-capsuleit";
+			path = "Target Support Files/Pods-capsuleit";
+			sourceTree = "<group>";
+		};
+		8EF9BDD523D23117F7EB50B0 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		BD2866E6CF293269B3E0F3B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF04655A21233EC39A17D60E /* libPods-capsuleit.a */,
+				15D6574C2396D762DA69B123 /* libPods-capsuleit-GeoFire.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD286F3B64FBE975915E6206 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				691DED7B3D42A08E600FE046 /* Pods-capsuleit */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D2B3DB16A21D19964647E6AC /* GeoFire */ = {
+			isa = PBXGroup;
+			children = (
+				AEA0EC450D6F5CF4DBE53413 /* GFBase32Utils.h */,
+				D5E868AF04A12D8603C57B25 /* GFBase32Utils.m */,
+				5296B3939E49E9AFDA80C59B /* GFCircleQuery.h */,
+				29843BE956B5E1ACC6A8DE5D /* GFGeoHash.h */,
+				A0CCE87BA386B3ABC62A39A6 /* GFGeoHash.m */,
+				BC300D85380E0E14F87E21C8 /* GFGeoHashQuery.h */,
+				423D8917975BAEE24DD365ED /* GFGeoHashQuery.m */,
+				01D155EF46DC168D57FF2943 /* GFQuery.h */,
+				09DDFD0E81C32C9B23A64A5B /* GFQuery.m */,
+				8017E6641ADAAF7920B9CAE2 /* GFQuery+Private.h */,
+				03AEF5AE35AD6CC3730896CA /* GFRegionQuery.h */,
+				BFDFD3A3685C33060B310810 /* GeoFire.h */,
+				CD2CA96088E557FD1494F61D /* GeoFire.m */,
+				55A53BB882D01DB68F4CEBE9 /* GeoFire+Private.h */,
+				1017419036428A28E12D43F9 /* Support Files */,
+			);
+			path = GeoFire;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		948C9B0CA1AB16C213BFC905 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66FEB4BDDD74B619458B6AE /* GFBase32Utils.h in Headers */,
+				14EB35A264AC8A8B3D3B1C82 /* GFCircleQuery.h in Headers */,
+				9C7F7D07F781350164D90DC8 /* GFGeoHash.h in Headers */,
+				5F497EA2DAB4D84D1AFEEC4B /* GFGeoHashQuery.h in Headers */,
+				6FA5068B3F46FB58EDEA2142 /* GFQuery+Private.h in Headers */,
+				10217BE1767E723E4FB5FA06 /* GFQuery.h in Headers */,
+				4612CBDBCB3E22955F7700B6 /* GFRegionQuery.h in Headers */,
+				07B4814745DC93E419F1340A /* GeoFire+Private.h in Headers */,
+				81A045A1A31504DF4BF1BE15 /* GeoFire.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C510ADFE15CA3462E2A01442 /* Pods-capsuleit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC85189EDB429BBF0BF6AFC7 /* Build configuration list for PBXNativeTarget "Pods-capsuleit" */;
+			buildPhases = (
+				21E604C5C92DFF45F9846A98 /* Sources */,
+				421855A44728FB8775DACD0E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5C56DF57A312A1DB029B25D /* PBXTargetDependency */,
+			);
+			name = "Pods-capsuleit";
+			productName = "Pods-capsuleit";
+			productReference = EF04655A21233EC39A17D60E /* libPods-capsuleit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DE8B1083727ACC2EC0395118 /* Pods-capsuleit-GeoFire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88010EFE38586468222F6BF3 /* Build configuration list for PBXNativeTarget "Pods-capsuleit-GeoFire" */;
+			buildPhases = (
+				AE027827C1AECC303E9B2CE3 /* Sources */,
+				2B17D1270205C5C44BA87E04 /* Frameworks */,
+				948C9B0CA1AB16C213BFC905 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-capsuleit-GeoFire";
+			productName = "Pods-capsuleit-GeoFire";
+			productReference = 15D6574C2396D762DA69B123 /* libPods-capsuleit-GeoFire.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54608EF7DEAA26DCF92A2763 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = B817F084FD62192975321307 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 16ADF4E66C448E52C728CBFD;
+			productRefGroup = BD2866E6CF293269B3E0F3B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C510ADFE15CA3462E2A01442 /* Pods-capsuleit */,
+				DE8B1083727ACC2EC0395118 /* Pods-capsuleit-GeoFire */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21E604C5C92DFF45F9846A98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA1FC2A768658776C0F2F31 /* Pods-capsuleit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE027827C1AECC303E9B2CE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B0EAC1BFFE22E8FBA6E364 /* GFBase32Utils.m in Sources */,
+				A8ABADD64971A6A7945BE187 /* GFGeoHash.m in Sources */,
+				3B6326E5E581CB83DE1893CD /* GFGeoHashQuery.m in Sources */,
+				05276512D265DF45F5FBDFCA /* GFQuery.m in Sources */,
+				2FEDF3B61ECFD4D6AD8F37FD /* GeoFire.m in Sources */,
+				1DE42784AAB1BA7720CB571C /* Pods-capsuleit-GeoFire-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E5C56DF57A312A1DB029B25D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-capsuleit-GeoFire";
+			target = DE8B1083727ACC2EC0395118 /* Pods-capsuleit-GeoFire */;
+			targetProxy = 46083ECEC67FA6B30DF4E490 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0EE3393230AED482751FB3B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 593028D6B1EFC584E8BDE6B0 /* Pods-capsuleit-GeoFire-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-capsuleit-GeoFire/Pods-capsuleit-GeoFire-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		22DBF2B7922C265F26863267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BA62EE6D483EF9220062B80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 697E1F1E2DBB9CAD152202FF /* Pods-capsuleit.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		851D2277DF443250C2A505A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 593028D6B1EFC584E8BDE6B0 /* Pods-capsuleit-GeoFire-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-capsuleit-GeoFire/Pods-capsuleit-GeoFire-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8DD7719170FD40D18A590CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDBF86C551E10DD7CB948564 /* Pods-capsuleit.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		ECA07DFDF120E56D57EE93C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88010EFE38586468222F6BF3 /* Build configuration list for PBXNativeTarget "Pods-capsuleit-GeoFire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				851D2277DF443250C2A505A6 /* Debug */,
+				0EE3393230AED482751FB3B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B817F084FD62192975321307 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA07DFDF120E56D57EE93C4 /* Debug */,
+				22DBF2B7922C265F26863267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC85189EDB429BBF0BF6AFC7 /* Build configuration list for PBXNativeTarget "Pods-capsuleit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA62EE6D483EF9220062B80 /* Debug */,
+				8DD7719170FD40D18A590CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54608EF7DEAA26DCF92A2763 /* Project object */;
+}

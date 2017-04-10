@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FA184A21B9FF4D700790B43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA184A11B9FF4D700790B43 /* AppDelegate.swift */; };
+		4FA184A41B9FF4D700790B43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA184A31B9FF4D700790B43 /* ViewController.swift */; };
+		4FA184A71B9FF4D700790B43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FA184A51B9FF4D700790B43 /* Main.storyboard */; };
+		4FA184A91B9FF4D700790B43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FA184A81B9FF4D700790B43 /* Assets.xcassets */; };
+		4FA184AC1B9FF4D700790B43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FA184AA1B9FF4D700790B43 /* LaunchScreen.storyboard */; };
+		4FA184B71B9FF4D700790B43 /* spinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA184B61B9FF4D700790B43 /* spinTests.swift */; };
+		4FA184C21B9FF4D700790B43 /* spinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA184C11B9FF4D700790B43 /* spinUITests.swift */; };
+		4FA184C71B9FF4D700790B43 /* spin WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4FA184C61B9FF4D700790B43 /* spin WatchKit App.app */; };
+		4FA184CD1B9FF4D700790B43 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FA184CB1B9FF4D700790B43 /* Interface.storyboard */; };
+		4FA184CF1B9FF4D700790B43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FA184CE1B9FF4D700790B43 /* Assets.xcassets */; };
+		4FA184D61B9FF4D700790B43 /* spin WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4FA184D51B9FF4D700790B43 /* spin WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4FA184DD1B9FF4D700790B43 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA184DC1B9FF4D700790B43 /* InterfaceController.swift */; };
+		4FA184DF1B9FF4D700790B43 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA184DE1B9FF4D700790B43 /* ExtensionDelegate.swift */; };
+		4FA184E11B9FF4D700790B43 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA184E01B9FF4D700790B43 /* NotificationController.swift */; };
+		4FA184E31B9FF4D700790B43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FA184E21B9FF4D700790B43 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FA184B31B9FF4D700790B43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FA184961B9FF4D700790B43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FA1849D1B9FF4D700790B43;
+			remoteInfo = spin;
+		};
+		4FA184BE1B9FF4D700790B43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FA184961B9FF4D700790B43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FA1849D1B9FF4D700790B43;
+			remoteInfo = spin;
+		};
+		4FA184C81B9FF4D700790B43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FA184961B9FF4D700790B43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FA184C51B9FF4D700790B43;
+			remoteInfo = "spin WatchKit App";
+		};
+		4FA184D71B9FF4D700790B43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FA184961B9FF4D700790B43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FA184D41B9FF4D700790B43;
+			remoteInfo = "spin WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4FA184EA1B9FF4D700790B43 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4FA184D61B9FF4D700790B43 /* spin WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FA184EE1B9FF4D700790B43 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4FA184C71B9FF4D700790B43 /* spin WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4FA1849E1B9FF4D700790B43 /* spin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FA184A11B9FF4D700790B43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FA184A31B9FF4D700790B43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FA184A61B9FF4D700790B43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FA184A81B9FF4D700790B43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FA184AB1B9FF4D700790B43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FA184AD1B9FF4D700790B43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FA184B21B9FF4D700790B43 /* spinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FA184B61B9FF4D700790B43 /* spinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spinTests.swift; sourceTree = "<group>"; };
+		4FA184B81B9FF4D700790B43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FA184BD1B9FF4D700790B43 /* spinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FA184C11B9FF4D700790B43 /* spinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spinUITests.swift; sourceTree = "<group>"; };
+		4FA184C31B9FF4D700790B43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FA184C61B9FF4D700790B43 /* spin WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "spin WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FA184CC1B9FF4D700790B43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		4FA184CE1B9FF4D700790B43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FA184D01B9FF4D700790B43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FA184D51B9FF4D700790B43 /* spin WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "spin WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FA184DB1B9FF4D700790B43 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		4FA184DC1B9FF4D700790B43 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		4FA184DE1B9FF4D700790B43 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		4FA184E01B9FF4D700790B43 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		4FA184E21B9FF4D700790B43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FA184E41B9FF4D700790B43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FA1849B1B9FF4D700790B43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FA184AF1B9FF4D700790B43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FA184BA1B9FF4D700790B43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FA184D21B9FF4D700790B43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FA184951B9FF4D700790B43 = {
+			isa = PBXGroup;
+			children = (
+				4FA184A01B9FF4D700790B43 /* spin */,
+				4FA184B51B9FF4D700790B43 /* spinTests */,
+				4FA184C01B9FF4D700790B43 /* spinUITests */,
+				4FA184CA1B9FF4D700790B43 /* spin WatchKit App */,
+				4FA184D91B9FF4D700790B43 /* spin WatchKit Extension */,
+				4FA1849F1B9FF4D700790B43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FA1849F1B9FF4D700790B43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FA1849E1B9FF4D700790B43 /* spin.app */,
+				4FA184B21B9FF4D700790B43 /* spinTests.xctest */,
+				4FA184BD1B9FF4D700790B43 /* spinUITests.xctest */,
+				4FA184C61B9FF4D700790B43 /* spin WatchKit App.app */,
+				4FA184D51B9FF4D700790B43 /* spin WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FA184A01B9FF4D700790B43 /* spin */ = {
+			isa = PBXGroup;
+			children = (
+				4FA184A11B9FF4D700790B43 /* AppDelegate.swift */,
+				4FA184A31B9FF4D700790B43 /* ViewController.swift */,
+				4FA184A51B9FF4D700790B43 /* Main.storyboard */,
+				4FA184A81B9FF4D700790B43 /* Assets.xcassets */,
+				4FA184AA1B9FF4D700790B43 /* LaunchScreen.storyboard */,
+				4FA184AD1B9FF4D700790B43 /* Info.plist */,
+			);
+			path = spin;
+			sourceTree = "<group>";
+		};
+		4FA184B51B9FF4D700790B43 /* spinTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FA184B61B9FF4D700790B43 /* spinTests.swift */,
+				4FA184B81B9FF4D700790B43 /* Info.plist */,
+			);
+			path = spinTests;
+			sourceTree = "<group>";
+		};
+		4FA184C01B9FF4D700790B43 /* spinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4FA184C11B9FF4D700790B43 /* spinUITests.swift */,
+				4FA184C31B9FF4D700790B43 /* Info.plist */,
+			);
+			path = spinUITests;
+			sourceTree = "<group>";
+		};
+		4FA184CA1B9FF4D700790B43 /* spin WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				4FA184CB1B9FF4D700790B43 /* Interface.storyboard */,
+				4FA184CE1B9FF4D700790B43 /* Assets.xcassets */,
+				4FA184D01B9FF4D700790B43 /* Info.plist */,
+			);
+			path = "spin WatchKit App";
+			sourceTree = "<group>";
+		};
+		4FA184D91B9FF4D700790B43 /* spin WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4FA184DC1B9FF4D700790B43 /* InterfaceController.swift */,
+				4FA184DE1B9FF4D700790B43 /* ExtensionDelegate.swift */,
+				4FA184E01B9FF4D700790B43 /* NotificationController.swift */,
+				4FA184E21B9FF4D700790B43 /* Assets.xcassets */,
+				4FA184E41B9FF4D700790B43 /* Info.plist */,
+				4FA184DA1B9FF4D700790B43 /* Supporting Files */,
+			);
+			path = "spin WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		4FA184DA1B9FF4D700790B43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FA184DB1B9FF4D700790B43 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FA1849D1B9FF4D700790B43 /* spin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FA184EF1B9FF4D700790B43 /* Build configuration list for PBXNativeTarget "spin" */;
+			buildPhases = (
+				4FA1849A1B9FF4D700790B43 /* Sources */,
+				4FA1849B1B9FF4D700790B43 /* Frameworks */,
+				4FA1849C1B9FF4D700790B43 /* Resources */,
+				4FA184EE1B9FF4D700790B43 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FA184C91B9FF4D700790B43 /* PBXTargetDependency */,
+			);
+			name = spin;
+			productName = spin;
+			productReference = 4FA1849E1B9FF4D700790B43 /* spin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FA184B11B9FF4D700790B43 /* spinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FA184F21B9FF4D700790B43 /* Build configuration list for PBXNativeTarget "spinTests" */;
+			buildPhases = (
+				4FA184AE1B9FF4D700790B43 /* Sources */,
+				4FA184AF1B9FF4D700790B43 /* Frameworks */,
+				4FA184B01B9FF4D700790B43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FA184B41B9FF4D700790B43 /* PBXTargetDependency */,
+			);
+			name = spinTests;
+			productName = spinTests;
+			productReference = 4FA184B21B9FF4D700790B43 /* spinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4FA184BC1B9FF4D700790B43 /* spinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FA184F51B9FF4D700790B43 /* Build configuration list for PBXNativeTarget "spinUITests" */;
+			buildPhases = (
+				4FA184B91B9FF4D700790B43 /* Sources */,
+				4FA184BA1B9FF4D700790B43 /* Frameworks */,
+				4FA184BB1B9FF4D700790B43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FA184BF1B9FF4D700790B43 /* PBXTargetDependency */,
+			);
+			name = spinUITests;
+			productName = spinUITests;
+			productReference = 4FA184BD1B9FF4D700790B43 /* spinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		4FA184C51B9FF4D700790B43 /* spin WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FA184EB1B9FF4D700790B43 /* Build configuration list for PBXNativeTarget "spin WatchKit App" */;
+			buildPhases = (
+				4FA184C41B9FF4D700790B43 /* Resources */,
+				4FA184EA1B9FF4D700790B43 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FA184D81B9FF4D700790B43 /* PBXTargetDependency */,
+			);
+			name = "spin WatchKit App";
+			productName = "spin WatchKit App";
+			productReference = 4FA184C61B9FF4D700790B43 /* spin WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		4FA184D41B9FF4D700790B43 /* spin WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FA184E71B9FF4D700790B43 /* Build configuration list for PBXNativeTarget "spin WatchKit Extension" */;
+			buildPhases = (
+				4FA184D11B9FF4D700790B43 /* Sources */,
+				4FA184D21B9FF4D700790B43 /* Frameworks */,
+				4FA184D31B9FF4D700790B43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "spin WatchKit Extension";
+			productName = "spin WatchKit Extension";
+			productReference = 4FA184D51B9FF4D700790B43 /* spin WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FA184961B9FF4D700790B43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Noah Marriott";
+				TargetAttributes = {
+					4FA1849D1B9FF4D700790B43 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					4FA184B11B9FF4D700790B43 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 4FA1849D1B9FF4D700790B43;
+					};
+					4FA184BC1B9FF4D700790B43 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 4FA1849D1B9FF4D700790B43;
+					};
+					4FA184C51B9FF4D700790B43 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					4FA184D41B9FF4D700790B43 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 4FA184991B9FF4D700790B43 /* Build configuration list for PBXProject "spin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FA184951B9FF4D700790B43;
+			productRefGroup = 4FA1849F1B9FF4D700790B43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FA1849D1B9FF4D700790B43 /* spin */,
+				4FA184B11B9FF4D700790B43 /* spinTests */,
+				4FA184BC1B9FF4D700790B43 /* spinUITests */,
+				4FA184C51B9FF4D700790B43 /* spin WatchKit App */,
+				4FA184D41B9FF4D700790B43 /* spin WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FA1849C1B9FF4D700790B43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA184AC1B9FF4D700790B43 /* LaunchScreen.storyboard in Resources */,
+				4FA184A91B9FF4D700790B43 /* Assets.xcassets in Resources */,
+				4FA184A71B9FF4D700790B43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FA184B01B9FF4D700790B43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FA184BB1B9FF4D700790B43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FA184C41B9FF4D700790B43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA184CF1B9FF4D700790B43 /* Assets.xcassets in Resources */,
+				4FA184CD1B9FF4D700790B43 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FA184D31B9FF4D700790B43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA184E31B9FF4D700790B43 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FA1849A1B9FF4D700790B43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA184A41B9FF4D700790B43 /* ViewController.swift in Sources */,
+				4FA184A21B9FF4D700790B43 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FA184AE1B9FF4D700790B43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA184B71B9FF4D700790B43 /* spinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FA184B91B9FF4D700790B43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA184C21B9FF4D700790B43 /* spinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FA184D11B9FF4D700790B43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA184E11B9FF4D700790B43 /* NotificationController.swift in Sources */,
+				4FA184DF1B9FF4D700790B43 /* ExtensionDelegate.swift in Sources */,
+				4FA184DD1B9FF4D700790B43 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FA184B41B9FF4D700790B43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FA1849D1B9FF4D700790B43 /* spin */;
+			targetProxy = 4FA184B31B9FF4D700790B43 /* PBXContainerItemProxy */;
+		};
+		4FA184BF1B9FF4D700790B43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FA1849D1B9FF4D700790B43 /* spin */;
+			targetProxy = 4FA184BE1B9FF4D700790B43 /* PBXContainerItemProxy */;
+		};
+		4FA184C91B9FF4D700790B43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FA184C51B9FF4D700790B43 /* spin WatchKit App */;
+			targetProxy = 4FA184C81B9FF4D700790B43 /* PBXContainerItemProxy */;
+		};
+		4FA184D81B9FF4D700790B43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FA184D41B9FF4D700790B43 /* spin WatchKit Extension */;
+			targetProxy = 4FA184D71B9FF4D700790B43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4FA184A51B9FF4D700790B43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FA184A61B9FF4D700790B43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FA184AA1B9FF4D700790B43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FA184AB1B9FF4D700790B43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4FA184CB1B9FF4D700790B43 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FA184CC1B9FF4D700790B43 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FA184E51B9FF4D700790B43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FA184E61B9FF4D700790B43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FA184E81B9FF4D700790B43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "spin WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.triyada.spin.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		4FA184E91B9FF4D700790B43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "spin WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.triyada.spin.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		4FA184EC1B9FF4D700790B43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = spin_WatchKit_Extension;
+				INFOPLIST_FILE = "spin WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.triyada.spin.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		4FA184ED1B9FF4D700790B43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = spin_WatchKit_Extension;
+				INFOPLIST_FILE = "spin WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.triyada.spin.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		4FA184F01B9FF4D700790B43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = spin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.triyada.spin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4FA184F11B9FF4D700790B43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = spin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.triyada.spin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4FA184F31B9FF4D700790B43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = spinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.triyada.spinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spin.app/spin";
+			};
+			name = Debug;
+		};
+		4FA184F41B9FF4D700790B43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = spinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.triyada.spinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spin.app/spin";
+			};
+			name = Release;
+		};
+		4FA184F61B9FF4D700790B43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = spinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.triyada.spinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = spin;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4FA184F71B9FF4D700790B43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = spinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.triyada.spinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = spin;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FA184991B9FF4D700790B43 /* Build configuration list for PBXProject "spin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FA184E51B9FF4D700790B43 /* Debug */,
+				4FA184E61B9FF4D700790B43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FA184E71B9FF4D700790B43 /* Build configuration list for PBXNativeTarget "spin WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FA184E81B9FF4D700790B43 /* Debug */,
+				4FA184E91B9FF4D700790B43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4FA184EB1B9FF4D700790B43 /* Build configuration list for PBXNativeTarget "spin WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FA184EC1B9FF4D700790B43 /* Debug */,
+				4FA184ED1B9FF4D700790B43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4FA184EF1B9FF4D700790B43 /* Build configuration list for PBXNativeTarget "spin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FA184F01B9FF4D700790B43 /* Debug */,
+				4FA184F11B9FF4D700790B43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4FA184F21B9FF4D700790B43 /* Build configuration list for PBXNativeTarget "spinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FA184F31B9FF4D700790B43 /* Debug */,
+				4FA184F41B9FF4D700790B43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4FA184F51B9FF4D700790B43 /* Build configuration list for PBXNativeTarget "spinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FA184F61B9FF4D700790B43 /* Debug */,
+				4FA184F71B9FF4D700790B43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FA184961B9FF4D700790B43 /* Project object */;
+}

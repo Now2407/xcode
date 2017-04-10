@@ -1,0 +1,20 @@
+PODS:
+  - AWSCognito (2.2.4):
+    - AWSCore (= 2.2.4)
+  - AWSCore (2.2.4)
+  - AWSS3 (2.2.4):
+    - AWSCore (= 2.2.4)
+  - Firebase (2.3.3)
+
+DEPENDENCIES:
+  - AWSCognito
+  - AWSS3
+  - Firebase (>= 2.3.3)
+
+SPEC CHECKSUMS:
+  AWSCognito: 1ee514de6d25940f4e498ab8c82ec162c33f7c47
+  AWSCore: 483fa0f25c8508e3364f818e9b941c6204619afa
+  AWSS3: da758d5a95e65bb9e6e718245c1a86b6f63de9ae
+  Firebase: 2db60272f68ce40c7d47e5ae6eddc16977c65d4c
+
+COCOAPODS: 0.38.2

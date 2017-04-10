@@ -1,0 +1,73 @@
+PODS:
+  - AWSAutoScaling (2.2.4):
+    - AWSCore (= 2.2.4)
+  - AWSCloudWatch (2.2.4):
+    - AWSCore (= 2.2.4)
+  - AWSCognito (2.2.4):
+    - AWSCore (= 2.2.4)
+  - AWSCore (2.2.4)
+  - AWSDynamoDB (2.2.4):
+    - AWSCore (= 2.2.4)
+  - AWSEC2 (2.2.4):
+    - AWSCore (= 2.2.4)
+  - AWSElasticLoadBalancing (2.2.4):
+    - AWSCore (= 2.2.4)
+  - AWSKinesis (2.2.4):
+    - AWSCore (= 2.2.4)
+  - AWSLambda (2.2.4):
+    - AWSCore (= 2.2.4)
+  - AWSMachineLearning (2.2.4):
+    - AWSCore (= 2.2.4)
+  - AWSMobileAnalytics (2.2.4):
+    - AWSCore (= 2.2.4)
+  - AWSS3 (2.2.4):
+    - AWSCore (= 2.2.4)
+  - AWSSES (2.2.4):
+    - AWSCore (= 2.2.4)
+  - AWSSimpleDB (2.2.4):
+    - AWSCore (= 2.2.4)
+  - AWSSNS (2.2.4):
+    - AWSCore (= 2.2.4)
+  - AWSSQS (2.2.4):
+    - AWSCore (= 2.2.4)
+  - Firebase (2.3.3)
+
+DEPENDENCIES:
+  - AWSAutoScaling
+  - AWSCloudWatch
+  - AWSCognito
+  - AWSCore
+  - AWSDynamoDB
+  - AWSEC2
+  - AWSElasticLoadBalancing
+  - AWSKinesis
+  - AWSLambda
+  - AWSMachineLearning
+  - AWSMobileAnalytics
+  - AWSS3
+  - AWSSES
+  - AWSSimpleDB
+  - AWSSNS
+  - AWSSQS
+  - Firebase (>= 2.3.3)
+
+SPEC CHECKSUMS:
+  AWSAutoScaling: 81edb7475d9cddefa66f0fb1fc0dc395a7148f12
+  AWSCloudWatch: 57677fa827d877b11072952ad9a78bc0d0e3083e
+  AWSCognito: 1ee514de6d25940f4e498ab8c82ec162c33f7c47
+  AWSCore: 483fa0f25c8508e3364f818e9b941c6204619afa
+  AWSDynamoDB: a9e80d068a1d98b1728e72a1c6a8f147376873dd
+  AWSEC2: 51143f172c8bd710d0cd5b45dc8f490ef8f8dcb3
+  AWSElasticLoadBalancing: 484f7c5693ebb18eaf38cef28d521262366ba542
+  AWSKinesis: 06130d116b3adf988f2e0b7fb5bf37a4a68ca60d
+  AWSLambda: 77785df227c598fe0d64cf491b96dbc612f4bd75
+  AWSMachineLearning: 6d1db12cec311423cf2b01337b82363fe1643e61
+  AWSMobileAnalytics: 453733c50175991bdec253060d5a926a46ab0469
+  AWSS3: da758d5a95e65bb9e6e718245c1a86b6f63de9ae
+  AWSSES: 7f366c2c4ee1754f7853d38fb4777e0e5c31b9ff
+  AWSSimpleDB: 91144ef81862eb941bc054165244a557fd20b021
+  AWSSNS: eb986fcd0ef60ecf261e08d99764ed6426c772b1
+  AWSSQS: 5fd93e1f028a7aa0940481605970fb36fc5c6f30
+  Firebase: 2db60272f68ce40c7d47e5ae6eddc16977c65d4c
+
+COCOAPODS: 0.38.2

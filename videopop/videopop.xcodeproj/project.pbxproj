@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F5C3DEF1CE0D67D003813D0 /* videopop.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F5C3DEE1CE0D67D003813D0 /* videopop.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F5C3DFB1CE0D71A003813D0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5C3DFA1CE0D71A003813D0 /* AVFoundation.framework */; };
+		4F5C3DFF1CE0DBE5003813D0 /* avplayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5C3DFE1CE0DBE5003813D0 /* avplayer.swift */; };
+		4F5C3E011CE0E68E003813D0 /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5C3E001CE0E68E003813D0 /* testViewController.swift */; };
+		4FEFEAC11CE169D00018B69D /* modalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEFEAC01CE169D00018B69D /* modalViewController.swift */; };
+		4FEFEAEF1CE182000018B69D /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEFEAEE1CE182000018B69D /* AVKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F5C3DEB1CE0D67D003813D0 /* videopop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = videopop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F5C3DEE1CE0D67D003813D0 /* videopop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = videopop.h; sourceTree = "<group>"; };
+		4F5C3DF01CE0D67D003813D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F5C3DFA1CE0D71A003813D0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4F5C3DFE1CE0DBE5003813D0 /* avplayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = avplayer.swift; sourceTree = "<group>"; };
+		4F5C3E001CE0E68E003813D0 /* testViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
+		4FEFEAC01CE169D00018B69D /* modalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = modalViewController.swift; sourceTree = "<group>"; };
+		4FEFEAEE1CE182000018B69D /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F5C3DE71CE0D67D003813D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FEFEAEF1CE182000018B69D /* AVKit.framework in Frameworks */,
+				4F5C3DFB1CE0D71A003813D0 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F5C3DE11CE0D67D003813D0 = {
+			isa = PBXGroup;
+			children = (
+				4FEFEAEE1CE182000018B69D /* AVKit.framework */,
+				4F5C3DFE1CE0DBE5003813D0 /* avplayer.swift */,
+				4F5C3E001CE0E68E003813D0 /* testViewController.swift */,
+				4FEFEAC01CE169D00018B69D /* modalViewController.swift */,
+				4F5C3DFA1CE0D71A003813D0 /* AVFoundation.framework */,
+				4F5C3DED1CE0D67D003813D0 /* videopop */,
+				4F5C3DEC1CE0D67D003813D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F5C3DEC1CE0D67D003813D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F5C3DEB1CE0D67D003813D0 /* videopop.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F5C3DED1CE0D67D003813D0 /* videopop */ = {
+			isa = PBXGroup;
+			children = (
+				4F5C3DEE1CE0D67D003813D0 /* videopop.h */,
+				4F5C3DF01CE0D67D003813D0 /* Info.plist */,
+			);
+			path = videopop;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4F5C3DE81CE0D67D003813D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F5C3DEF1CE0D67D003813D0 /* videopop.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4F5C3DEA1CE0D67D003813D0 /* videopop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F5C3DF31CE0D67D003813D0 /* Build configuration list for PBXNativeTarget "videopop" */;
+			buildPhases = (
+				4F5C3DE61CE0D67D003813D0 /* Sources */,
+				4F5C3DE71CE0D67D003813D0 /* Frameworks */,
+				4F5C3DE81CE0D67D003813D0 /* Headers */,
+				4F5C3DE91CE0D67D003813D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = videopop;
+			productName = videopop;
+			productReference = 4F5C3DEB1CE0D67D003813D0 /* videopop.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F5C3DE21CE0D67D003813D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Noah Marriott";
+				TargetAttributes = {
+					4F5C3DEA1CE0D67D003813D0 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 295SA56L2N;
+					};
+				};
+			};
+			buildConfigurationList = 4F5C3DE51CE0D67D003813D0 /* Build configuration list for PBXProject "videopop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4F5C3DE11CE0D67D003813D0;
+			productRefGroup = 4F5C3DEC1CE0D67D003813D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F5C3DEA1CE0D67D003813D0 /* videopop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F5C3DE91CE0D67D003813D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F5C3DE61CE0D67D003813D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FEFEAC11CE169D00018B69D /* modalViewController.swift in Sources */,
+				4F5C3E011CE0E68E003813D0 /* testViewController.swift in Sources */,
+				4F5C3DFF1CE0DBE5003813D0 /* avplayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4F5C3DF11CE0D67D003813D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4F5C3DF21CE0D67D003813D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4F5C3DF41CE0D67D003813D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = videopop/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.triyada.videopop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F5C3DF51CE0D67D003813D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = videopop/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.triyada.videopop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F5C3DE51CE0D67D003813D0 /* Build configuration list for PBXProject "videopop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F5C3DF11CE0D67D003813D0 /* Debug */,
+				4F5C3DF21CE0D67D003813D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F5C3DF31CE0D67D003813D0 /* Build configuration list for PBXNativeTarget "videopop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F5C3DF41CE0D67D003813D0 /* Debug */,
+				4F5C3DF51CE0D67D003813D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F5C3DE21CE0D67D003813D0 /* Project object */;
+}

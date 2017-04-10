@@ -1,0 +1,21 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '6.0'
+
+
+
+pod 'Firebase', '>= 2.3.3'
+pod 'AWSCognito'
+pod 'AWSCore'
+pod 'AWSS3'
+
+
+#target 'wantsy' do
+
+
+
+#end
+
+#target 'wantsyTests' do
+
+#end
+

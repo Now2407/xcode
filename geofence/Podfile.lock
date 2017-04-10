@@ -1,0 +1,10 @@
+PODS:
+  - QKGeofenceManager (1.2.4)
+
+DEPENDENCIES:
+  - QKGeofenceManager (~> 1.1)
+
+SPEC CHECKSUMS:
+  QKGeofenceManager: 63b50a877bfb8baabe33588dd69535146f7d5d47
+
+COCOAPODS: 0.38.2

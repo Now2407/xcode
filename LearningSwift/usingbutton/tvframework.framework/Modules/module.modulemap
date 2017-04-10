@@ -1,0 +1,10 @@
+framework module tvframework {
+  umbrella header "tvframework.h"
+
+  export *
+  module * { export * }
+}
+
+module tvframework.Swift {
+    header "tvframework-Swift.h"
+}

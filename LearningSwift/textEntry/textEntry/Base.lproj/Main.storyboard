@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="textEntry" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1001" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="m3g-hf-92R">
+                                <rect key="frame" x="55" y="90" width="890" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="890" id="5cf-65-Gon"/>
+                                    <constraint firstAttribute="height" constant="46" id="fLp-vH-TgL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oVi-iU-uHM">
+                                <rect key="frame" x="319" y="226" width="364" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="364" id="7RR-8u-KXR"/>
+                                    <constraint firstAttribute="height" constant="42" id="QfD-gx-D10"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="m3g-hf-92R" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="90" id="2KI-Qk-D7a"/>
+                            <constraint firstItem="oVi-iU-uHM" firstAttribute="top" secondItem="m3g-hf-92R" secondAttribute="bottom" constant="90" id="5NR-9B-7Yl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="m3g-hf-92R" secondAttribute="trailing" constant="36" id="LmC-bl-7Jb"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="oVi-iU-uHM" secondAttribute="bottom" constant="300" id="aAe-Ow-bb6"/>
+                            <constraint firstItem="oVi-iU-uHM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="299" id="nlp-Yz-qdr"/>
+                            <constraint firstItem="m3g-hf-92R" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="35" id="qWt-uk-LED"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="oVi-iU-uHM" secondAttribute="trailing" constant="298" id="vou-Oc-Bm0"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="1001" height="568"/>
+                    <connections>
+                        <outlet property="myLabel" destination="oVi-iU-uHM" id="aH9-26-ow8"/>
+                        <outlet property="myTxtField" destination="m3g-hf-92R" id="Gp8-nM-3m2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138.5" y="316"/>
+        </scene>
+    </scenes>
+</document>

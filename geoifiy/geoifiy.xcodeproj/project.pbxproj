@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FF00B041B9D170700BA6E0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF00B031B9D170700BA6E0C /* AppDelegate.swift */; };
+		4FF00B061B9D170700BA6E0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF00B051B9D170700BA6E0C /* ViewController.swift */; };
+		4FF00B091B9D170700BA6E0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FF00B071B9D170700BA6E0C /* Main.storyboard */; };
+		4FF00B0B1B9D170700BA6E0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FF00B0A1B9D170700BA6E0C /* Images.xcassets */; };
+		4FF00B0E1B9D170700BA6E0C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FF00B0C1B9D170700BA6E0C /* LaunchScreen.xib */; };
+		4FF00B1A1B9D170700BA6E0C /* geoifiyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF00B191B9D170700BA6E0C /* geoifiyTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FF00B141B9D170700BA6E0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FF00AF61B9D170700BA6E0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FF00AFD1B9D170700BA6E0C;
+			remoteInfo = geoifiy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4FF00AFE1B9D170700BA6E0C /* geoifiy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = geoifiy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FF00B021B9D170700BA6E0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FF00B031B9D170700BA6E0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FF00B051B9D170700BA6E0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FF00B081B9D170700BA6E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FF00B0A1B9D170700BA6E0C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4FF00B0D1B9D170700BA6E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4FF00B131B9D170700BA6E0C /* geoifiyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = geoifiyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FF00B181B9D170700BA6E0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FF00B191B9D170700BA6E0C /* geoifiyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geoifiyTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FF00AFB1B9D170700BA6E0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FF00B101B9D170700BA6E0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FF00AF51B9D170700BA6E0C = {
+			isa = PBXGroup;
+			children = (
+				4FF00B001B9D170700BA6E0C /* geoifiy */,
+				4FF00B161B9D170700BA6E0C /* geoifiyTests */,
+				4FF00AFF1B9D170700BA6E0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FF00AFF1B9D170700BA6E0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FF00AFE1B9D170700BA6E0C /* geoifiy.app */,
+				4FF00B131B9D170700BA6E0C /* geoifiyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FF00B001B9D170700BA6E0C /* geoifiy */ = {
+			isa = PBXGroup;
+			children = (
+				4FF00B031B9D170700BA6E0C /* AppDelegate.swift */,
+				4FF00B051B9D170700BA6E0C /* ViewController.swift */,
+				4FF00B071B9D170700BA6E0C /* Main.storyboard */,
+				4FF00B0A1B9D170700BA6E0C /* Images.xcassets */,
+				4FF00B0C1B9D170700BA6E0C /* LaunchScreen.xib */,
+				4FF00B011B9D170700BA6E0C /* Supporting Files */,
+			);
+			path = geoifiy;
+			sourceTree = "<group>";
+		};
+		4FF00B011B9D170700BA6E0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FF00B021B9D170700BA6E0C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FF00B161B9D170700BA6E0C /* geoifiyTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FF00B191B9D170700BA6E0C /* geoifiyTests.swift */,
+				4FF00B171B9D170700BA6E0C /* Supporting Files */,
+			);
+			path = geoifiyTests;
+			sourceTree = "<group>";
+		};
+		4FF00B171B9D170700BA6E0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FF00B181B9D170700BA6E0C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FF00AFD1B9D170700BA6E0C /* geoifiy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FF00B1D1B9D170700BA6E0C /* Build configuration list for PBXNativeTarget "geoifiy" */;
+			buildPhases = (
+				4FF00AFA1B9D170700BA6E0C /* Sources */,
+				4FF00AFB1B9D170700BA6E0C /* Frameworks */,
+				4FF00AFC1B9D170700BA6E0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = geoifiy;
+			productName = geoifiy;
+			productReference = 4FF00AFE1B9D170700BA6E0C /* geoifiy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FF00B121B9D170700BA6E0C /* geoifiyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FF00B201B9D170700BA6E0C /* Build configuration list for PBXNativeTarget "geoifiyTests" */;
+			buildPhases = (
+				4FF00B0F1B9D170700BA6E0C /* Sources */,
+				4FF00B101B9D170700BA6E0C /* Frameworks */,
+				4FF00B111B9D170700BA6E0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FF00B151B9D170700BA6E0C /* PBXTargetDependency */,
+			);
+			name = geoifiyTests;
+			productName = geoifiyTests;
+			productReference = 4FF00B131B9D170700BA6E0C /* geoifiyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FF00AF61B9D170700BA6E0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Noah Marriott";
+				TargetAttributes = {
+					4FF00AFD1B9D170700BA6E0C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					4FF00B121B9D170700BA6E0C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 4FF00AFD1B9D170700BA6E0C;
+					};
+				};
+			};
+			buildConfigurationList = 4FF00AF91B9D170700BA6E0C /* Build configuration list for PBXProject "geoifiy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FF00AF51B9D170700BA6E0C;
+			productRefGroup = 4FF00AFF1B9D170700BA6E0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FF00AFD1B9D170700BA6E0C /* geoifiy */,
+				4FF00B121B9D170700BA6E0C /* geoifiyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FF00AFC1B9D170700BA6E0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FF00B091B9D170700BA6E0C /* Main.storyboard in Resources */,
+				4FF00B0E1B9D170700BA6E0C /* LaunchScreen.xib in Resources */,
+				4FF00B0B1B9D170700BA6E0C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FF00B111B9D170700BA6E0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FF00AFA1B9D170700BA6E0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FF00B061B9D170700BA6E0C /* ViewController.swift in Sources */,
+				4FF00B041B9D170700BA6E0C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FF00B0F1B9D170700BA6E0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FF00B1A1B9D170700BA6E0C /* geoifiyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FF00B151B9D170700BA6E0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FF00AFD1B9D170700BA6E0C /* geoifiy */;
+			targetProxy = 4FF00B141B9D170700BA6E0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4FF00B071B9D170700BA6E0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FF00B081B9D170700BA6E0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FF00B0C1B9D170700BA6E0C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FF00B0D1B9D170700BA6E0C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FF00B1B1B9D170700BA6E0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FF00B1C1B9D170700BA6E0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FF00B1E1B9D170700BA6E0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = geoifiy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4FF00B1F1B9D170700BA6E0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = geoifiy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4FF00B211B9D170700BA6E0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = geoifiyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/geoifiy.app/geoifiy";
+			};
+			name = Debug;
+		};
+		4FF00B221B9D170700BA6E0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = geoifiyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/geoifiy.app/geoifiy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FF00AF91B9D170700BA6E0C /* Build configuration list for PBXProject "geoifiy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FF00B1B1B9D170700BA6E0C /* Debug */,
+				4FF00B1C1B9D170700BA6E0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FF00B1D1B9D170700BA6E0C /* Build configuration list for PBXNativeTarget "geoifiy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FF00B1E1B9D170700BA6E0C /* Debug */,
+				4FF00B1F1B9D170700BA6E0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4FF00B201B9D170700BA6E0C /* Build configuration list for PBXNativeTarget "geoifiyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FF00B211B9D170700BA6E0C /* Debug */,
+				4FF00B221B9D170700BA6E0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FF00AF61B9D170700BA6E0C /* Project object */;
+}

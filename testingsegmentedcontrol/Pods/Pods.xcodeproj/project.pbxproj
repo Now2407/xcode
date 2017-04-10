@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F208AEC1251C5A2D5B0EBFD638CF85D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
+		35132826B7845DB0DE5549C9ED70B10D /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F82F79672C0FDDD164AD704B387C17A /* HMSegmentedControl.m */; };
+		4BF06C4CC80395349C04DD73DBC7F6A7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */; };
+		4D07AB99E49E1703DDB0027B57CF2C65 /* HMSegmentedControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF86226E68C5F5093A1FE7E65AA6EF7B /* HMSegmentedControl-dummy.m */; };
+		59E9959293DE7205BE54F6252FDC5289 /* HMSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CF3A369DD9BDADFD48FE8FD493EAA5D /* HMSegmentedControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		626057324E69C411415CC8217873253A /* Pods-testingsegmentedcontrol-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D24049773102A57DCD9ACB161BCAFF3B /* Pods-testingsegmentedcontrol-dummy.m */; };
+		83E37DBF3C28526D019213A077D42FD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45ED37F00D356B6E24770BE16B5F2F27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AB49797D14D57FA43A345254AFB9F18;
+			remoteInfo = HMSegmentedControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2F45CEF719C818090264D685B4A6B3FB /* Pods-testingsegmentedcontrol.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testingsegmentedcontrol.release.xcconfig"; sourceTree = "<group>"; };
+		42BA47F5B6A8B2DB8450DF01B530C711 /* libPods-testingsegmentedcontrol.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testingsegmentedcontrol.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF3A369DD9BDADFD48FE8FD493EAA5D /* HMSegmentedControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HMSegmentedControl.h; path = HMSegmentedControl/HMSegmentedControl.h; sourceTree = "<group>"; };
+		506ECD8B8E5056552F6A53A9680B1653 /* Pods-testingsegmentedcontrol-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testingsegmentedcontrol-frameworks.sh"; sourceTree = "<group>"; };
+		707615C13AA1B4B411A5EB30FFC2D9C4 /* Pods-testingsegmentedcontrol.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testingsegmentedcontrol.debug.xcconfig"; sourceTree = "<group>"; };
+		7B39F7595341D157F4B13D9D2FB44106 /* HMSegmentedControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HMSegmentedControl.xcconfig; sourceTree = "<group>"; };
+		8EF9EE766E0E9B6C8DA57E27943B2EFA /* Pods-testingsegmentedcontrol-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-testingsegmentedcontrol-acknowledgements.markdown"; sourceTree = "<group>"; };
+		98F3C81CEF2E5D4CF54EC3DAABEE216D /* HMSegmentedControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HMSegmentedControl-prefix.pch"; sourceTree = "<group>"; };
+		9F82F79672C0FDDD164AD704B387C17A /* HMSegmentedControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HMSegmentedControl.m; path = HMSegmentedControl/HMSegmentedControl.m; sourceTree = "<group>"; };
+		B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BD416E8B8B26B1B0413960F2D0D6B3E6 /* Pods-testingsegmentedcontrol-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-testingsegmentedcontrol-acknowledgements.plist"; sourceTree = "<group>"; };
+		BD4C454A50ED5FA2AD21B8F28F53A63B /* libHMSegmentedControl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHMSegmentedControl.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCFF31557B83266A0753A463DAB50642 /* Pods-testingsegmentedcontrol-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testingsegmentedcontrol-resources.sh"; sourceTree = "<group>"; };
+		D24049773102A57DCD9ACB161BCAFF3B /* Pods-testingsegmentedcontrol-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-testingsegmentedcontrol-dummy.m"; sourceTree = "<group>"; };
+		EF86226E68C5F5093A1FE7E65AA6EF7B /* HMSegmentedControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HMSegmentedControl-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C85CB9FE53D6797F4C9F9DF50F0AEED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F208AEC1251C5A2D5B0EBFD638CF85D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE40D41D217C3621B111AF0015F78B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E37DBF3C28526D019213A077D42FD8 /* Foundation.framework in Frameworks */,
+				4BF06C4CC80395349C04DD73DBC7F6A7 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2913DA175D95F7950CB1368CEAAB5653 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B39F7595341D157F4B13D9D2FB44106 /* HMSegmentedControl.xcconfig */,
+				EF86226E68C5F5093A1FE7E65AA6EF7B /* HMSegmentedControl-dummy.m */,
+				98F3C81CEF2E5D4CF54EC3DAABEE216D /* HMSegmentedControl-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HMSegmentedControl";
+			sourceTree = "<group>";
+		};
+		38819E54439A6559568A5EB474E29D40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8CFF329B49FB70979FE960561A35FAE /* HMSegmentedControl */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3926C638AD0708942C88C2BC89261735 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */,
+				B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3926C638AD0708942C88C2BC89261735 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		564E1E8799C859B5013B29131622562A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				602F63E63FEA0E2BAD155BEC8F9DB099 /* Pods-testingsegmentedcontrol */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5A305AE06441F4F4B16A731C3A02E6B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD4C454A50ED5FA2AD21B8F28F53A63B /* libHMSegmentedControl.a */,
+				42BA47F5B6A8B2DB8450DF01B530C711 /* libPods-testingsegmentedcontrol.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		602F63E63FEA0E2BAD155BEC8F9DB099 /* Pods-testingsegmentedcontrol */ = {
+			isa = PBXGroup;
+			children = (
+				8EF9EE766E0E9B6C8DA57E27943B2EFA /* Pods-testingsegmentedcontrol-acknowledgements.markdown */,
+				BD416E8B8B26B1B0413960F2D0D6B3E6 /* Pods-testingsegmentedcontrol-acknowledgements.plist */,
+				D24049773102A57DCD9ACB161BCAFF3B /* Pods-testingsegmentedcontrol-dummy.m */,
+				506ECD8B8E5056552F6A53A9680B1653 /* Pods-testingsegmentedcontrol-frameworks.sh */,
+				CCFF31557B83266A0753A463DAB50642 /* Pods-testingsegmentedcontrol-resources.sh */,
+				707615C13AA1B4B411A5EB30FFC2D9C4 /* Pods-testingsegmentedcontrol.debug.xcconfig */,
+				2F45CEF719C818090264D685B4A6B3FB /* Pods-testingsegmentedcontrol.release.xcconfig */,
+			);
+			name = "Pods-testingsegmentedcontrol";
+			path = "Target Support Files/Pods-testingsegmentedcontrol";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				38819E54439A6559568A5EB474E29D40 /* Pods */,
+				5A305AE06441F4F4B16A731C3A02E6B1 /* Products */,
+				564E1E8799C859B5013B29131622562A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F8CFF329B49FB70979FE960561A35FAE /* HMSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				4CF3A369DD9BDADFD48FE8FD493EAA5D /* HMSegmentedControl.h */,
+				9F82F79672C0FDDD164AD704B387C17A /* HMSegmentedControl.m */,
+				2913DA175D95F7950CB1368CEAAB5653 /* Support Files */,
+			);
+			path = HMSegmentedControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4D306B0DD2A7F81ED683A2CE1362ADEE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59E9959293DE7205BE54F6252FDC5289 /* HMSegmentedControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2AB49797D14D57FA43A345254AFB9F18 /* HMSegmentedControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 347E9BA283340153288375433E29A926 /* Build configuration list for PBXNativeTarget "HMSegmentedControl" */;
+			buildPhases = (
+				11C51FA0D9A79D1E3B2B4A3BC66ABD05 /* Sources */,
+				EBE40D41D217C3621B111AF0015F78B5 /* Frameworks */,
+				4D306B0DD2A7F81ED683A2CE1362ADEE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HMSegmentedControl;
+			productName = HMSegmentedControl;
+			productReference = BD4C454A50ED5FA2AD21B8F28F53A63B /* libHMSegmentedControl.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A6151DF3C9DCE1D2B7190A75F7093F57 /* Pods-testingsegmentedcontrol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F33D42EDFFE002A28A09160C12BC97E8 /* Build configuration list for PBXNativeTarget "Pods-testingsegmentedcontrol" */;
+			buildPhases = (
+				AE9BE6A9ACD616D012FEBF3BE1945427 /* Sources */,
+				3C85CB9FE53D6797F4C9F9DF50F0AEED /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3C82D122F4FCCA2B823B5AC9D4674A1 /* PBXTargetDependency */,
+			);
+			name = "Pods-testingsegmentedcontrol";
+			productName = "Pods-testingsegmentedcontrol";
+			productReference = 42BA47F5B6A8B2DB8450DF01B530C711 /* libPods-testingsegmentedcontrol.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5A305AE06441F4F4B16A731C3A02E6B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AB49797D14D57FA43A345254AFB9F18 /* HMSegmentedControl */,
+				A6151DF3C9DCE1D2B7190A75F7093F57 /* Pods-testingsegmentedcontrol */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11C51FA0D9A79D1E3B2B4A3BC66ABD05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D07AB99E49E1703DDB0027B57CF2C65 /* HMSegmentedControl-dummy.m in Sources */,
+				35132826B7845DB0DE5549C9ED70B10D /* HMSegmentedControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE9BE6A9ACD616D012FEBF3BE1945427 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				626057324E69C411415CC8217873253A /* Pods-testingsegmentedcontrol-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3C82D122F4FCCA2B823B5AC9D4674A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HMSegmentedControl;
+			target = 2AB49797D14D57FA43A345254AFB9F18 /* HMSegmentedControl */;
+			targetProxy = 45ED37F00D356B6E24770BE16B5F2F27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1FC1D8935CDE7A9D56EC650BB2E467D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 707615C13AA1B4B411A5EB30FFC2D9C4 /* Pods-testingsegmentedcontrol.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2B389FAB51F6EEA43F72CA7BDC8E8E28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5A0C6FE968931D888F00C9EC18DDF5BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6751F13D6FC5A31588AB0853206FE829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F45CEF719C818090264D685B4A6B3FB /* Pods-testingsegmentedcontrol.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		95F704441359D5EA700F4018B4AD0355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B39F7595341D157F4B13D9D2FB44106 /* HMSegmentedControl.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HMSegmentedControl/HMSegmentedControl-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B0900F4A7814AE888C7D5452D151587C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B39F7595341D157F4B13D9D2FB44106 /* HMSegmentedControl.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HMSegmentedControl/HMSegmentedControl-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B389FAB51F6EEA43F72CA7BDC8E8E28 /* Debug */,
+				5A0C6FE968931D888F00C9EC18DDF5BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		347E9BA283340153288375433E29A926 /* Build configuration list for PBXNativeTarget "HMSegmentedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F704441359D5EA700F4018B4AD0355 /* Debug */,
+				B0900F4A7814AE888C7D5452D151587C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F33D42EDFFE002A28A09160C12BC97E8 /* Build configuration list for PBXNativeTarget "Pods-testingsegmentedcontrol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC1D8935CDE7A9D56EC650BB2E467D6 /* Debug */,
+				6751F13D6FC5A31588AB0853206FE829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

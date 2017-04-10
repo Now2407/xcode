@@ -1,0 +1,1815 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00379EAF1AA42C3B2E910050 /* ccbord.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F512FF232A1DFAF478A6FE5 /* ccbord.h */; };
+		05A2716014054E69DAE884E0 /* language_model.h in Headers */ = {isa = PBXBuildFile; fileRef = D8E52ABDA70CE4168820BE0B /* language_model.h */; };
+		093E16CD7BF1FCFC32667FFB /* drawedg.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B7752F96D965C12DC96F691 /* drawedg.h */; };
+		0A4A990D6C9D440D74C03E45 /* dawg.h in Headers */ = {isa = PBXBuildFile; fileRef = 836A5113A9FABA7972F76466 /* dawg.h */; };
+		0AE840DA848179B990999744 /* split.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FB9D39763C3557298D4B9C2 /* split.h */; };
+		0C123707DAD9F16514DB51E9 /* gettimeofday.h in Headers */ = {isa = PBXBuildFile; fileRef = 407C438831FD17C25F7A40FE /* gettimeofday.h */; };
+		0C2F671AE5D262C2B74AE87B /* normmatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BDD8DF0F207F9DF87D1D030 /* normmatch.h */; };
+		0C536C04217BA47696846EF7 /* efio.h in Headers */ = {isa = PBXBuildFile; fileRef = 65A2032F6D5671FD4BA698CD /* efio.h */; };
+		0C5E24BA41A7FB4A69A05A17 /* bits16.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B06A14D9BBB628B4B8C6D1E /* bits16.h */; };
+		0DB1536EA2C5DCE9527E57D3 /* tesseract_cube_combiner.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C7D20E18A187F0EC7BB29BB /* tesseract_cube_combiner.h */; };
+		0DCBFA4371AFA8D7D02C73E4 /* oldbasel.h in Headers */ = {isa = PBXBuildFile; fileRef = 179586AA341B07A48CCB96D8 /* oldbasel.h */; };
+		0E2EAF50C5B4A1E32283E31D /* errorcounter.h in Headers */ = {isa = PBXBuildFile; fileRef = D237AF1F21A4B05F1DB0260F /* errorcounter.h */; };
+		0E3AFDFD941DACB09C9A541D /* quadratc.h in Headers */ = {isa = PBXBuildFile; fileRef = D95C4AA047CA0BD1C46CF7F8 /* quadratc.h */; };
+		0EDFA8FE2D65297EB42910E6 /* tessclassifier.h in Headers */ = {isa = PBXBuildFile; fileRef = AAC4517D053B1325A5A65488 /* tessclassifier.h */; };
+		0F2A414120770197CD533ED1 /* classify.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F88B562A78D73871EF64143 /* classify.h */; };
+		0FE20734A91AF881BD87159C /* intfx.h in Headers */ = {isa = PBXBuildFile; fileRef = 41EABC7D7EC3D7DEFF5D75B1 /* intfx.h */; };
+		1062D58321184CE4895ED5D9 /* scrollview.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AAEE2F5DAF799FEBA1C1A39 /* scrollview.h */; };
+		1085268F10C9865B578F1DFC /* fontinfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DAF36FDDF9E6A9594393FB2 /* fontinfo.h */; };
+		118060CCC0DB57FD70D9DFF9 /* shapeclassifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 3806912BB5BBB7A50A08942F /* shapeclassifier.h */; };
+		1221D1B0B6D8081F2F2EE334 /* morph.h in Headers */ = {isa = PBXBuildFile; fileRef = 87243AB4F8225AB7274B5DCD /* morph.h */; };
+		128C6020083EA85975D63329 /* edgblob.h in Headers */ = {isa = PBXBuildFile; fileRef = 61E335A1BE02632C1F3E3D31 /* edgblob.h */; };
+		13A1F3C52C1620A19BCB97A3 /* search_column.h in Headers */ = {isa = PBXBuildFile; fileRef = D0E8B1C237AD4F3077127404 /* search_column.h */; };
+		13B8D25A5405D4428BB557CD /* dppoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F34157F9CD2533015B9C0F8 /* dppoint.h */; };
+		13E4288D2B2D02506E8515DA /* matrix.h in Headers */ = {isa = PBXBuildFile; fileRef = FC2389FBB2B7A462BAF4A322 /* matrix.h */; };
+		152B21DDE357CF6144D83534 /* normfeat.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8757521DC38950CC8DCA86 /* normfeat.h */; };
+		155DA760C37B16A197357CF8 /* tuning_params.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C97DB15341D85D29206CAFF /* tuning_params.h */; };
+		157C42CBD5D675954A92E9D7 /* apitypes.h in Headers */ = {isa = PBXBuildFile; fileRef = F990BDD4893CD74E313E88E9 /* apitypes.h */; };
+		1840D4E6CFC5FF20B2A1F36B /* hpdsizes.h in Headers */ = {isa = PBXBuildFile; fileRef = DA61C0AEF15E45E5731D8CDB /* hpdsizes.h */; };
+		189F606DED6F318DFA9EE1E9 /* leptwin.h in Headers */ = {isa = PBXBuildFile; fileRef = 9645F1F15E45047A7A95A34A /* leptwin.h */; };
+		191F8F836BB611251AC6EDFC /* cluster.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF14E42B6E90CD0C24AE846 /* cluster.h */; };
+		1976E1D62F4584E5DD6D0A6A /* colpartition.h in Headers */ = {isa = PBXBuildFile; fileRef = C56437F0D3E0C70A079A1003 /* colpartition.h */; };
+		19C1EDE45CCFA6814065A2F5 /* danerror.h in Headers */ = {isa = PBXBuildFile; fileRef = AD1C70EB286D715A1A67B1C3 /* danerror.h */; };
+		1A4A78F9296FA1637AD039CC /* tesseractclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 2634162E865B55137D29F8A9 /* tesseractclass.h */; };
+		1BD4D881731AB410C3EB81BC /* ocrclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CD64246722D46BD958C70F4 /* ocrclass.h */; };
+		1D196E558087BA31391D0796 /* quspline.h in Headers */ = {isa = PBXBuildFile; fileRef = A6193986CAEC7BE4B4148CB1 /* quspline.h */; };
+		1D5A7B8989D88DCBE31A0D03 /* cutoffs.h in Headers */ = {isa = PBXBuildFile; fileRef = CB793B19EA41DCE77F54D6A8 /* cutoffs.h */; };
+		1F8D9DF7A96E340F3F964864 /* tessopt.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B26352851290B5066AA4A16 /* tessopt.h */; };
+		20932843E52B63137F354CE3 /* object_cache.h in Headers */ = {isa = PBXBuildFile; fileRef = D458170A3686D11F06AB1D8C /* object_cache.h */; };
+		20E186624E4F42E26CA9F622 /* regutils.h in Headers */ = {isa = PBXBuildFile; fileRef = C371A5DABA219805210E1ED4 /* regutils.h */; };
+		21730E001A22D5EE13923E24 /* equationdetectbase.h in Headers */ = {isa = PBXBuildFile; fileRef = F57444C31D8D20DD047CF175 /* equationdetectbase.h */; };
+		219DDD58ED7A64CB758507AF /* char_samp_set.h in Headers */ = {isa = PBXBuildFile; fileRef = 465116A3608E6CCC9F9D28D6 /* char_samp_set.h */; };
+		2216DF8207D5295456BB5F40 /* char_set.h in Headers */ = {isa = PBXBuildFile; fileRef = F54A762927EF72DC067DFBCD /* char_set.h */; };
+		230C0F18F077F4DAB72ACE76 /* word_altlist.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F4A34DD900C9DA757E9DEBD /* word_altlist.h */; };
+		2333A1FDEB7AD9E0261FFDFC /* ndminx.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EF1B4700BC3EF4F126D6562 /* ndminx.h */; };
+		24F20B70C0C3993164DACCA4 /* search_object.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E2BA6334D93906059D9A83C /* search_object.h */; };
+		25C60BE4C9AD5BD7B76D68A5 /* tess_lang_model.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F624FCDFC294D44762D51D3 /* tess_lang_model.h */; };
+		25EFE14BCB36E4824D1E970B /* memry.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FFE286F703BD449CDB6C281 /* memry.h */; };
+		266A3D62FCCC577E12B4197D /* cubeclassifier.h in Headers */ = {isa = PBXBuildFile; fileRef = FA64DA8AD67A9F0BB5B620AC /* cubeclassifier.h */; };
+		2671058D07903FB294058F9F /* ocrrow.h in Headers */ = {isa = PBXBuildFile; fileRef = D6F8DA1B60D28D469851F14B /* ocrrow.h */; };
+		2736240C3D3D933EEA893E5B /* points.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B8D24C4F513486940685696 /* points.h */; };
+		27CB7CF722305D72FBC76F4C /* intmatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 13853E599808F2A261DAB0EB /* intmatcher.h */; };
+		283C15C1D85FFF99FFA63974 /* dewarp.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FD426401B3D0EB33BCEC496 /* dewarp.h */; };
+		285992C68B25E27D918196E8 /* drawfx.h in Headers */ = {isa = PBXBuildFile; fileRef = C0818542EFDBB9C6A930CE28 /* drawfx.h */; };
+		293A3EC02EE5DD4D83E8A2A3 /* genericheap.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE39D3066276CA7072836D0 /* genericheap.h */; };
+		2A76EE21BB6E32F6C53FFC15 /* outlines.h in Headers */ = {isa = PBXBuildFile; fileRef = CA549C3803F186DA34980E4F /* outlines.h */; };
+		2BADA3612740D6522C053443 /* polyaprx.h in Headers */ = {isa = PBXBuildFile; fileRef = 965CA0ADCB7D27384E6DA3F6 /* polyaprx.h */; };
+		2CBEFD9D15CDD12F1501E51C /* associate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C81A70246B2DB48BE87037D /* associate.h */; };
+		2D550578BD929B0A8D3BE321 /* intfeaturedist.h in Headers */ = {isa = PBXBuildFile; fileRef = 688BF768A776B257643470EC /* intfeaturedist.h */; };
+		2E779590DD68F7C87596235F /* sudoku.h in Headers */ = {isa = PBXBuildFile; fileRef = FF58A5DD0DEFD3E3EA3EBDAE /* sudoku.h */; };
+		2EEFE9716379244C12B66BEB /* colfind.h in Headers */ = {isa = PBXBuildFile; fileRef = 322E1BA78CBF599BE1C72FF3 /* colfind.h */; };
+		2EF6DDE6F1115ABC0C0FD1DD /* underlin.h in Headers */ = {isa = PBXBuildFile; fileRef = 4187FDE77CFF803038FA247D /* underlin.h */; };
+		3005166E35D52078370FA985 /* strcasestr.h in Headers */ = {isa = PBXBuildFile; fileRef = 093C533145A04F6BC39F4E52 /* strcasestr.h */; };
+		301B00524AE8D0516F112145 /* con_comp.h in Headers */ = {isa = PBXBuildFile; fileRef = EE98E529A8A50F55F4B6FDDF /* con_comp.h */; };
+		304135A0EC52FDE9295CD2AA /* arrayaccess.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E38636C97C3C558299277E1 /* arrayaccess.h */; };
+		339C2C0E2B83D30B3763EDCD /* tordmain.h in Headers */ = {isa = PBXBuildFile; fileRef = 93A9DDDBE9353DB85217BAFE /* tordmain.h */; };
+		33AD72313B00960E8163F6E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC45397E7236937834BE995 /* UIKit.framework */; };
+		34818F130E6B362544D460F5 /* ocrblock.h in Headers */ = {isa = PBXBuildFile; fileRef = 458AEA2589687B33B2E84FDB /* ocrblock.h */; };
+		34B6A6B8E08FB6B6330D1B30 /* float2int.h in Headers */ = {isa = PBXBuildFile; fileRef = 260E16468753EA2DA52AF2AD /* float2int.h */; };
+		351D089D4BCD36BF720F0C2C /* werd.h in Headers */ = {isa = PBXBuildFile; fileRef = 3792567F2682A79F160CE7ED /* werd.h */; };
+		353B5ECF424E535116E41939 /* rejctmap.h in Headers */ = {isa = PBXBuildFile; fileRef = BAC7529019E681B97A05ABB2 /* rejctmap.h */; };
+		35684377E619F3A038F697ED /* osdetect.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D9243690FDB9FCCC2BC1D1B /* osdetect.h */; };
+		374B7BE54C7D3470BA67F157 /* secname.h in Headers */ = {isa = PBXBuildFile; fileRef = BEF42A9ECEEC0B46C0B4D7C5 /* secname.h */; };
+		3783D58B0F2C2CC54FF7BC4D /* seam.h in Headers */ = {isa = PBXBuildFile; fileRef = 16A35236D8D3B31A89936083 /* seam.h */; };
+		3810B5BA73FE90E4064215DD /* gplot.h in Headers */ = {isa = PBXBuildFile; fileRef = F01EAD7B206F002E2C43A206 /* gplot.h */; };
+		38E2953F243DFC014008BB7A /* colpartitionset.h in Headers */ = {isa = PBXBuildFile; fileRef = 338C450B05D7C1C50A8D3E2F /* colpartitionset.h */; };
+		396F66ADD8B82894B357C83B /* tessbox.h in Headers */ = {isa = PBXBuildFile; fileRef = A8283044E899A1DB096A658C /* tessbox.h */; };
+		3A68CB99A3D1E1F390DC47B3 /* paragraphs_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 767726535D2402BDC93F6B1F /* paragraphs_internal.h */; };
+		3B956C54FCFE158F6C809137 /* scanutils.h in Headers */ = {isa = PBXBuildFile; fileRef = 5896CEB7A3609A4B5348339A /* scanutils.h */; };
+		3C623A9B390A784EE08ADBCD /* gradechop.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4DAFB1B36EDE640671BEF4 /* gradechop.h */; };
+		3C71A589D7089AC886A2D8E7 /* globals.h in Headers */ = {isa = PBXBuildFile; fileRef = 21E4EC691937346099FAC21D /* globals.h */; };
+		3CD5FDC7930236B14F7BE786 /* bitvector.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A2DD5E9D843BF8CD12D9054 /* bitvector.h */; };
+		3D0CD2D8AEBE3F56D81B3452 /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CFCC0317E8618506164C5CD /* version.h */; };
+		3E04D7C239637D408640E9A8 /* polyblk.h in Headers */ = {isa = PBXBuildFile; fileRef = F1B8E09982B7CEBE8DDEA25E /* polyblk.h */; };
+		3E2FC2DA7B8659EE638E4284 /* outfeat.h in Headers */ = {isa = PBXBuildFile; fileRef = 848FABFB2CF8B6FD2C5025E2 /* outfeat.h */; };
+		3E3148B81A897742921EFE7E /* ocrfeatures.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4AFCD82B8858240AC03AB3 /* ocrfeatures.h */; };
+		3E4BE80473F496A473B3A425 /* trainingsampleset.h in Headers */ = {isa = PBXBuildFile; fileRef = 73A6C6438AF6A17B49485C21 /* trainingsampleset.h */; };
+		3EEA8A035481FC3669153829 /* tprintf.h in Headers */ = {isa = PBXBuildFile; fileRef = C4408707910CBA106D92B809 /* tprintf.h */; };
+		3F3584CCF15F5BF7E9EDD2ED /* util.h in Headers */ = {isa = PBXBuildFile; fileRef = C400CBFBD0A03C2E8CBA3C09 /* util.h */; };
+		3F780544F9885ACEB438EAF0 /* heap.h in Headers */ = {isa = PBXBuildFile; fileRef = F5485FD2ECBC434AD924C4C5 /* heap.h */; };
+		3FC8F17235B044848186725E /* equationdetect.h in Headers */ = {isa = PBXBuildFile; fileRef = F0DBE067EF16D07E43B91460 /* equationdetect.h */; };
+		407F64048501AED692095A67 /* blkocc.h in Headers */ = {isa = PBXBuildFile; fileRef = F18F32A407BC68F61B7D73CE /* blkocc.h */; };
+		419E5DD831E97387EAFF2D35 /* adaptive.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C9A9E2E3B588765886BE14D /* adaptive.h */; };
+		41B49C86C9A38450D6D5E7EB /* pdblock.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E2208FC17A15CC788DE9F2F /* pdblock.h */; };
+		43961DA08EA92D713F015ACC /* tablefind.h in Headers */ = {isa = PBXBuildFile; fileRef = 55397FCF3E972E6013D11F41 /* tablefind.h */; };
+		43FEC03D92DDD2913F8B8005 /* bmp_8.h in Headers */ = {isa = PBXBuildFile; fileRef = CC72B0B2E7C8AF63F1E968A9 /* bmp_8.h */; };
+		45B17CE7E509362EBA5E85AE /* otsuthr.h in Headers */ = {isa = PBXBuildFile; fileRef = B001A883951BE7405FCAB583 /* otsuthr.h */; };
+		460CD865F3EE7A079B4D43E2 /* olutil.h in Headers */ = {isa = PBXBuildFile; fileRef = 0459A6703FB3951AFEDF4900 /* olutil.h */; };
+		46AE8205D23E962295F291D7 /* elst.h in Headers */ = {isa = PBXBuildFile; fileRef = C39069D90267BA9B70F57006 /* elst.h */; };
+		46BDEABF421C71AAFCBBB6B7 /* G8Tesseract.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1FE20A0BB9C6C6BF5926C6 /* G8Tesseract.h */; };
+		48BCBC2F1D04C5A75A4C1954 /* kdtree.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DC8AEC93EEFCE171FD88B06 /* kdtree.h */; };
+		49C18DEFCB96A81DC896A09B /* cube_search_object.h in Headers */ = {isa = PBXBuildFile; fileRef = 09D7D6089DBEA27A34AAC599 /* cube_search_object.h */; };
+		4BD4D0B3038EDEAF651A9263 /* dict.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C1A1930163CC77028C0F238 /* dict.h */; };
+		4D061B36BD3292438FDB64F8 /* drawtord.h in Headers */ = {isa = PBXBuildFile; fileRef = 576689CF970CFE06CC2C6DA8 /* drawtord.h */; };
+		4D20C280FAF009B4971D8ECF /* cjkpitch.h in Headers */ = {isa = PBXBuildFile; fileRef = E4B5636858342858773BB903 /* cjkpitch.h */; };
+		4D6871AB80CDDCEA9AFEC5F9 /* G8RecognitionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F298D8739C7BBC2074825253 /* G8RecognitionOperation.m */; };
+		4E65E992E32203BA28D508FC /* altlist.h in Headers */ = {isa = PBXBuildFile; fileRef = 151DD863ADA2A12601ECBE82 /* altlist.h */; };
+		4F7DC710F7425B1C4EA3F28F /* cube_line_segmenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 37EAD0DC9506C195369C4F60 /* cube_line_segmenter.h */; };
+		505C9747D0B9DCB22D32DDE9 /* tovars.h in Headers */ = {isa = PBXBuildFile; fileRef = 08152E063D04BAB91292994A /* tovars.h */; };
+		50D41DF8598578A60A1A17B7 /* measure.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C0987E6E92D0D6F4F640D8F /* measure.h */; };
+		529851C761102BAD30199E1E /* pango_font_info.h in Headers */ = {isa = PBXBuildFile; fileRef = 90A21CA0642CC27D752978B7 /* pango_font_info.h */; };
+		52AF0476A5E0BA1552020CB2 /* char_samp.h in Headers */ = {isa = PBXBuildFile; fileRef = 43585DB0BD3C2805AB2A2DB7 /* char_samp.h */; };
+		53B20DEFF29574480C37B2C5 /* universalambigs.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E4994A3A8109D056A7900AA /* universalambigs.h */; };
+		53D52608C3B7876D741B5135 /* conv_net_classifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 6833A8D5858AB1916B08ADD4 /* conv_net_classifier.h */; };
+		552A227362F55322E850E69E /* commandlineflags.h in Headers */ = {isa = PBXBuildFile; fileRef = 33747E2EDD21845D317C55B6 /* commandlineflags.h */; };
+		555842BA2D4AFC63F5089597 /* reject.h in Headers */ = {isa = PBXBuildFile; fileRef = 209A65B98F746A4A05A043EC /* reject.h */; };
+		56040D9689A5F1DA22586D54 /* fpoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DBB8499E55E261FD84F880B /* fpoint.h */; };
+		5607111BC5209094A7B2C8C8 /* bmp.h in Headers */ = {isa = PBXBuildFile; fileRef = 69D544F5148B1B40E641D9AE /* bmp.h */; };
+		561619FFCD798288CEAE2F85 /* edgloop.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CBB75F78BFE6B81DA0FB31 /* edgloop.h */; };
+		5674BF026A958430D62F54CD /* genblob.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B25C1C52EB0BCE626DE6F9 /* genblob.h */; };
+		56B12978D3DDB6800E81428F /* host.h in Headers */ = {isa = PBXBuildFile; fileRef = 387E83BB01B1FBF4C69C22E3 /* host.h */; };
+		5803BCBF5476AC82633CC62A /* qrsequence.h in Headers */ = {isa = PBXBuildFile; fileRef = B13EA522BA52AF61D321DB5C /* qrsequence.h */; };
+		5859A18F53037075C95BE7EB /* bmf.h in Headers */ = {isa = PBXBuildFile; fileRef = B403F2E3E0AE030930D0C7F8 /* bmf.h */; };
+		587CEEAF10A3D290513559E1 /* flexfx.h in Headers */ = {isa = PBXBuildFile; fileRef = A44F5F9CA5C599716C457DA9 /* flexfx.h */; };
+		595ED9CDA9E07E4CC516165A /* callcpp.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EABDA78E29D04E891DF0F95 /* callcpp.h */; };
+		59A9351B835903F97C599C70 /* genericvector.h in Headers */ = {isa = PBXBuildFile; fileRef = D6A9B3AFA6A90E21B9D82848 /* genericvector.h */; };
+		5A2FA008270C8C33478394AD /* icuerrorcode.h in Headers */ = {isa = PBXBuildFile; fileRef = 2275215F7DEBA51232D108ED /* icuerrorcode.h */; };
+		5B6369D2D429706BD27B2A69 /* nwmain.h in Headers */ = {isa = PBXBuildFile; fileRef = ED0D6B8E5FF0F9B844532631 /* nwmain.h */; };
+		5DFEB99607DA123BDFF95519 /* sorthelper.h in Headers */ = {isa = PBXBuildFile; fileRef = FF9BFE23191D53CDCDDC413E /* sorthelper.h */; };
+		5F73E43AC80F763702536BB9 /* clusttool.h in Headers */ = {isa = PBXBuildFile; fileRef = 09AF341CA994B63CBE5E76B8 /* clusttool.h */; };
+		5FAA43F10D8CBA42919E5C23 /* blamer.h in Headers */ = {isa = PBXBuildFile; fileRef = B546755DC148E1787C55BE5E /* blamer.h */; };
+		5FC125CB90105B691C0BA6A8 /* oldlist.h in Headers */ = {isa = PBXBuildFile; fileRef = 528373516043A008A8218C4F /* oldlist.h */; };
+		617E540E6A7AE24B1580680A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 686014FCAD5ADE1C95CA97C8 /* Foundation.framework */; };
+		61F6952B54B3147C53A8E7FC /* neural_net.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C38F65E6B6EF7190B25196C /* neural_net.h */; };
+		620A9835020FD566D7A2351D /* extract.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F782B70BC8DB7450A05676D /* extract.h */; };
+		621D7636F4E91F9C267BD567 /* readbarcode.h in Headers */ = {isa = PBXBuildFile; fileRef = 11C885875E858197D85A38BA /* readbarcode.h */; };
+		62A66F93A3AA4C5160F1A5B8 /* config_auto.h in Headers */ = {isa = PBXBuildFile; fileRef = D9F18C037C15E26D5BEFA789 /* config_auto.h */; };
+		6334840D0D20F3EAE5A35ED6 /* helpers.h in Headers */ = {isa = PBXBuildFile; fileRef = D27411B3D6524BBA316592FB /* helpers.h */; };
+		659990406F790CF09E09EB3B /* UIImage+G8Filters.h in Headers */ = {isa = PBXBuildFile; fileRef = BCF84464B1A71682EE05A3F5 /* UIImage+G8Filters.h */; };
+		65A5BE7E4FBA7FA618F7CD4D /* mfx.h in Headers */ = {isa = PBXBuildFile; fileRef = D0BFEFA02D2EC3A40AE641D5 /* mfx.h */; };
+		66A3EEA6A8E7BB50E1A2AE29 /* stderr.h in Headers */ = {isa = PBXBuildFile; fileRef = D083A21A42B362BCD764F54D /* stderr.h */; };
+		66B6CCBDE048C2FEF5770E93 /* input_file_buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 090431831A32ADEE21602761 /* input_file_buffer.h */; };
+		6783542BDC7A219E3F62E8A4 /* rect.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8B94497D260975755786F7 /* rect.h */; };
+		67DC2D547FD8A3B1ED87DA5A /* feature_hybrid.h in Headers */ = {isa = PBXBuildFile; fileRef = 20700974E8AD1FC13D8E2345 /* feature_hybrid.h */; };
+		67F592EF7D7908AF6F8AECEF /* openclwrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = DF94445B4144D9754DB92B30 /* openclwrapper.h */; };
+		691750B58262D083882EFEBB /* recog.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F9AAFF8E005C7BF71213521 /* recog.h */; };
+		6A1FCFF1B4EE64DE18B450EB /* char_altlist.h in Headers */ = {isa = PBXBuildFile; fileRef = B17E2DF43539E408C12D6B7D /* char_altlist.h */; };
+		6C0F58218CB0CD351FE0D4EE /* hashfn.h in Headers */ = {isa = PBXBuildFile; fileRef = 58E24CD1F1F97B75526BA0D1 /* hashfn.h */; };
+		6C6C1F3857A13ABB4DFEB331 /* baselinedetect.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BBBA5E89B0ADB891C1AF8DD /* baselinedetect.h */; };
+		6C96D935E2D5BAD671CF9A9C /* blobclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 318A3786B600EDDCA475598A /* blobclass.h */; };
+		6D957EF295404749BAC809CD /* feature_base.h in Headers */ = {isa = PBXBuildFile; fileRef = 67679FE6732C29875830A37A /* feature_base.h */; };
+		6F77A0EC8D4000A276E876C8 /* mfdefs.h in Headers */ = {isa = PBXBuildFile; fileRef = 38F72A228DD9E065B5962439 /* mfdefs.h */; };
+		7095F6C2C3798253E64921B7 /* opencl_device_selection.h in Headers */ = {isa = PBXBuildFile; fileRef = 09D35889707219898BD7EBFA /* opencl_device_selection.h */; };
+		730E833932C0BF03834863DD /* imageio.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FF3EB0C639DFC6AD8E054EF /* imageio.h */; };
+		731FBEDCE17C7076E79B77BC /* mf.h in Headers */ = {isa = PBXBuildFile; fileRef = F0E2A31601B5260E6865260A /* mf.h */; };
+		7328D5C189F8E8491B2F0C80 /* dawg_cache.h in Headers */ = {isa = PBXBuildFile; fileRef = 762E512C57187122F02D900D /* dawg_cache.h */; };
+		73C8A5F1928AF5C6D42124A6 /* string_32.h in Headers */ = {isa = PBXBuildFile; fileRef = F9607AF4E8A15278A53D072E /* string_32.h */; };
+		7439CE4E7320751410AE7BE9 /* docqual.h in Headers */ = {isa = PBXBuildFile; fileRef = DEAD40C24F9E76500F1C9F24 /* docqual.h */; };
+		7577890D4DFA0D75326C269E /* makerow.h in Headers */ = {isa = PBXBuildFile; fileRef = D812F281637788B4C51814CD /* makerow.h */; };
+		77E7C870F3796B77B979CC1C /* wordseg.h in Headers */ = {isa = PBXBuildFile; fileRef = 224AF9F3BF5AEAE49E4DAAE1 /* wordseg.h */; };
+		7884BC05B7F93D3917072B96 /* watershed.h in Headers */ = {isa = PBXBuildFile; fileRef = 37777A990166976E5821011B /* watershed.h */; };
+		78C1208DC8DE96B0A0017DD9 /* G8Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = E0A6D83C43F783423CE89226 /* G8Constants.h */; };
+		799061BCA3AFA89D8053F819 /* xform2d.h in Headers */ = {isa = PBXBuildFile; fileRef = 8825E71F63EB2844E829B841 /* xform2d.h */; };
+		799E421C6DFD22271E0ADF49 /* UIImage+G8Filters.m in Sources */ = {isa = PBXBuildFile; fileRef = 9491CEE40161D64F3CC667F8 /* UIImage+G8Filters.m */; };
+		7B34BEC818B442C134EFF9B7 /* endianness.h in Headers */ = {isa = PBXBuildFile; fileRef = A1370BA43B26956C3C95DA48 /* endianness.h */; };
+		7B43149E2313A59D5AFEE5CE /* array.h in Headers */ = {isa = PBXBuildFile; fileRef = 86718BBB6E4DEC4BC5F58BF5 /* array.h */; };
+		7C5FD762741FB2D632585907 /* ocrpara.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F84CBD892F1867318F4F59D /* ocrpara.h */; };
+		7CA647018626890007E163B4 /* listio.h in Headers */ = {isa = PBXBuildFile; fileRef = BD1C1880A98CEF6B06AD246B /* listio.h */; };
+		7E7874C548222F3C2AAB8FBA /* tabfind.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E97C061A80F9C7589EEF9BD /* tabfind.h */; };
+		7FC0DC948240CE61C7249A74 /* serialis.h in Headers */ = {isa = PBXBuildFile; fileRef = F8DA4A58CA4C135D4E375DA0 /* serialis.h */; };
+		80052A6EACBDC238FE58C7E2 /* ambigs.h in Headers */ = {isa = PBXBuildFile; fileRef = FED1C68C568EB3C39065A38E /* ambigs.h */; };
+		801AD60A6FEDE3D1035DB2FE /* lang_model.h in Headers */ = {isa = PBXBuildFile; fileRef = 4836DAA20276E220462D46AD /* lang_model.h */; };
+		80676CFAF951A9A5EDC5EB56 /* paramsd.h in Headers */ = {isa = PBXBuildFile; fileRef = 40D68DDF3D27C88D2CA14E9C /* paramsd.h */; };
+		80680E31E0C1C73C191C1A48 /* fixspace.h in Headers */ = {isa = PBXBuildFile; fileRef = 63F09E1D2A584CB3AC36683C /* fixspace.h */; };
+		81220FACC6F844E8CF53B74B /* svmnode.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C67FF7B158DE7E3393D771 /* svmnode.h */; };
+		81949DA4573F847ADDCE533A /* G8TesseractDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 52589A0F1DA83E30CE0D3B71 /* G8TesseractDelegate.h */; };
+		81BEB3664864E18B056A3077 /* extern.h in Headers */ = {isa = PBXBuildFile; fileRef = 7528CFBCC6148347E819494F /* extern.h */; };
+		841D12F7ECE6E5E98A2E0FDC /* normalis.h in Headers */ = {isa = PBXBuildFile; fileRef = 71BDAB23E13E3374C028C58B /* normalis.h */; };
+		857F5EF84A1DCF0C6DE85F9D /* clst.h in Headers */ = {isa = PBXBuildFile; fileRef = DF340825AEAB78DF974DBF04 /* clst.h */; };
+		85925A3D5C713E1C1AAE5CD6 /* stack.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DD13F49BBF3580780F8D88A /* stack.h */; };
+		87103DE696CD295A89393A80 /* cutil_class.h in Headers */ = {isa = PBXBuildFile; fileRef = 913E1070EE8FF34855463D61 /* cutil_class.h */; };
+		87332173FB17754118CF7771 /* fpchop.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F4F8ACAB4375EE252A4012A /* fpchop.h */; };
+		8756A1820338698EBC9C495F /* cube_line_object.h in Headers */ = {isa = PBXBuildFile; fileRef = BC11C0E2CDD7522094FDA504 /* cube_line_object.h */; };
+		8873EC2D98865B252B93CCB3 /* blobgrid.h in Headers */ = {isa = PBXBuildFile; fileRef = 042C993B7ECD96837F8A3031 /* blobgrid.h */; };
+		8874892BDA68294531D5B7E3 /* tessedit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DB4E45EF08E88B186A40F68 /* tessedit.h */; };
+		89AB60A572810C4095D2EFA9 /* devanagari_processing.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E3E99341C774C3D26625D9D /* devanagari_processing.h */; };
+		8A16EE363BD3C8EEBC430531 /* lsterr.h in Headers */ = {isa = PBXBuildFile; fileRef = 899278A221FA76531D1C46B1 /* lsterr.h */; };
+		8A1BF879E70B57EDA85D413C /* sampleiterator.h in Headers */ = {isa = PBXBuildFile; fileRef = D58516DB816F048AF2B0FC14 /* sampleiterator.h */; };
+		8A3B9922A649253EECF02391 /* boxword.h in Headers */ = {isa = PBXBuildFile; fileRef = CB61EBD75654805A0110A613 /* boxword.h */; };
+		8A94C8BDA481E7F52110D362 /* params_training_featdef.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B980312507120ECE818B0D /* params_training_featdef.h */; };
+		8B6EB647BC019466C7FD0851 /* intproto.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B461FC0EAF9D8F38F04AFA9 /* intproto.h */; };
+		90285A8B21D3E4E29AC7E5E2 /* textord.h in Headers */ = {isa = PBXBuildFile; fileRef = E59356F5666CDBD73D6DF084 /* textord.h */; };
+		90381FE468F4F171E0F5AFAB /* alignedblob.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AD2DC968A5ECCC8E4C08AEC /* alignedblob.h */; };
+		913E8A15D9DD2C1CD8E2B060 /* hybrid_neural_net_classifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 9617EF94E3A56299C1F87A6A /* hybrid_neural_net_classifier.h */; };
+		91F8724F861F694A8359054D /* params_model.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B81021289EE517AD513AE2B /* params_model.h */; };
+		92DAF98B4A75A5D30EACEEF2 /* bitvec.h in Headers */ = {isa = PBXBuildFile; fileRef = CED84393D83F8ADFEB1367F9 /* bitvec.h */; };
+		9322E88ECE34C446C124B5DC /* bbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = F8F8127AAF351F60176E1C89 /* bbuffer.h */; };
+		93AD2B046B432CF6DA09FFFC /* topitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 71B116A94C5AC27F8E585A94 /* topitch.h */; };
+		9572FAC742E4740DA8CB4006 /* stopper.h in Headers */ = {isa = PBXBuildFile; fileRef = B374C4150D88C34D11585706 /* stopper.h */; };
+		95FEAFE0C323F76C72612D88 /* stepblob.h in Headers */ = {isa = PBXBuildFile; fileRef = C5B235668F4A996D474270B3 /* stepblob.h */; };
+		964CF3E5BF9A1B955E447771 /* cube_const.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2ADCE33BEAD3C8345D6987 /* cube_const.h */; };
+		96CEAB4BE355C075B2C285B0 /* trie.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A5465872A61D3E8CF7A89C7 /* trie.h */; };
+		96FFDCDC16933301BB9C57BE /* tessdatamanager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F239226CE788554C039AC81 /* tessdatamanager.h */; };
+		97614915A6A40DD9CFB9354A /* thresholder.h in Headers */ = {isa = PBXBuildFile; fileRef = 65A0810F5AAD8F11AD2690B2 /* thresholder.h */; };
+		9783E5949ADF9B9381E5CFBB /* neuron.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F9BBDDBC184C56346562206 /* neuron.h */; };
+		97B7052B98CE0E75A5E780FD /* matchdefs.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A197B2177D1DBDCF4B2E1DD /* matchdefs.h */; };
+		97E65603C6C2EC66461743EB /* word_list_lang_model.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E26492A881D2DAF97E06B4D /* word_list_lang_model.h */; };
+		98B3AC6560575F9DB5DA61A2 /* trainingsample.h in Headers */ = {isa = PBXBuildFile; fileRef = E97FA5B247A674F0A2506BE0 /* trainingsample.h */; };
+		9A30ECBC11E3341660CC37A2 /* lm_pain_points.h in Headers */ = {isa = PBXBuildFile; fileRef = A457860D6A4D20C855D86183 /* lm_pain_points.h */; };
+		9B3146C4F25CB032D0E7FB51 /* jbclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 2069228B8AD86AAB5622513E /* jbclass.h */; };
+		9B36F3AA6FB78769312F76CD /* fileerr.h in Headers */ = {isa = PBXBuildFile; fileRef = B28A87C1157E566651DE010E /* fileerr.h */; };
+		9CA5C9512984A510ECB499DB /* alltypes.h in Headers */ = {isa = PBXBuildFile; fileRef = C0299C61978CFA5768B44AD3 /* alltypes.h */; };
+		9DE109D42577B0AC243F7231 /* basedir.h in Headers */ = {isa = PBXBuildFile; fileRef = 0229131B994CADF30AD415B8 /* basedir.h */; };
+		9EE8F2159B2E5E42479A3AB3 /* G8RecognitionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 67E5F78E0CAED6ADAEBB55D9 /* G8RecognitionOperation.h */; };
+		9F2DA0818CF1E00710467003 /* linlsq.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EC577E9998E92C197927013 /* linlsq.h */; };
+		A1135017CDC25D2F83B93557 /* protos.h in Headers */ = {isa = PBXBuildFile; fileRef = AF0BF1229B788F4FA7119AD5 /* protos.h */; };
+		A21F5F766FFEB2BD7F02953C /* bbgrid.h in Headers */ = {isa = PBXBuildFile; fileRef = F04117A801C29A55BA02B377 /* bbgrid.h */; };
+		A2B0FC0C48207F5186A55798 /* boxread.h in Headers */ = {isa = PBXBuildFile; fileRef = E5B066CFC74B6364E8A48A77 /* boxread.h */; };
+		A306EF44AB8348A82545FE00 /* picofeat.h in Headers */ = {isa = PBXBuildFile; fileRef = 941F3778340EB3B3E148069F /* picofeat.h */; };
+		A376E39E461F88097D0F499C /* word_size_model.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E0B7A5E3FFD06ED3DDF941B /* word_size_model.h */; };
+		A43194BD454FE21849316430 /* stringrenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DA10C0599643F0BD7DBBF053 /* stringrenderer.h */; };
+		A43A9B5C504DFABDACC9E5E0 /* queue.h in Headers */ = {isa = PBXBuildFile; fileRef = 4005ADAA830344BB17426D44 /* queue.h */; };
+		A47A5667DB5E603CB50F205A /* Pods-TesseractOCRiOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E4D8EACBCF7FA2EEDFF05 /* Pods-TesseractOCRiOS-dummy.m */; };
+		A4D051016A8CDDEDBD733E26 /* crakedge.h in Headers */ = {isa = PBXBuildFile; fileRef = 58EB144B6C157E5A208A2D10 /* crakedge.h */; };
+		A50E912E4657B77B30D5F942 /* doubleptr.h in Headers */ = {isa = PBXBuildFile; fileRef = A97A3F82AEA9A8488B8AFBC9 /* doubleptr.h */; };
+		A67C4D68E61B7ADBDE097B83 /* ipoints.h in Headers */ = {isa = PBXBuildFile; fileRef = 814E3B7AAA9548850A6035F4 /* ipoints.h */; };
+		A768B25240683733B284BD39 /* mutableiterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DD24F80EE37990FB25DF347 /* mutableiterator.h */; };
+		A78EE1B3C7C72B27AA872B54 /* pitsync1.h in Headers */ = {isa = PBXBuildFile; fileRef = 60E5205A09D050B5930F5753 /* pitsync1.h */; };
+		A86859B52AC8EC81B84B3BB1 /* output.h in Headers */ = {isa = PBXBuildFile; fileRef = 20390AAAD4BB522420180F3C /* output.h */; };
+		A93847FD48515DC0A5223949 /* strtok_r.h in Headers */ = {isa = PBXBuildFile; fileRef = 650D1242188E852E35136A8B /* strtok_r.h */; };
+		AA38DDDA7358DAF0C6B98B9A /* pgedit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3979213AB9AED76AE226A02F /* pgedit.h */; };
+		AB99E7D8BB563FAFC281E307 /* unicharmap.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8422AF8E76F333C839DDB3 /* unicharmap.h */; };
+		AC2E44D289B92517D9C0C87E /* boxchar.h in Headers */ = {isa = PBXBuildFile; fileRef = 57FBF8303033EC8214BFF807 /* boxchar.h */; };
+		ACAF6853534172C9ECDAE317 /* findseam.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C12FD50CF250AAD0F05AB4E /* findseam.h */; };
+		AD8E42873196EAD82E4B401B /* intfeaturemap.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA153B202F034298BF225A7 /* intfeaturemap.h */; };
+		ADA5446120D76784832BB6A3 /* quadlsq.h in Headers */ = {isa = PBXBuildFile; fileRef = 447ACDB93AB02CB63A24E5B0 /* quadlsq.h */; };
+		ADE7401F7F5B2D678076BA62 /* cube_tuning_params.h in Headers */ = {isa = PBXBuildFile; fileRef = 049EADE660ECF8503DF34FC5 /* cube_tuning_params.h */; };
+		AEA2C92F8763E708C9FE1CE3 /* baseapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 483350C5248463D1791C3374 /* baseapi.h */; };
+		AF52454566A0A11BFBE40077 /* config_auto.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F34AD617455AFFEFEEB864 /* config_auto.h */; };
+		AF714AA0BBB713F854AE231E /* resultiterator.h in Headers */ = {isa = PBXBuildFile; fileRef = D7577A863F7C06AFF1C69E53 /* resultiterator.h */; };
+		B0FF8629BE6171780A1186C9 /* cube_object.h in Headers */ = {isa = PBXBuildFile; fileRef = E09BF6B411EC2A667FD0E5A1 /* cube_object.h */; };
+		B1507AEF2C7BCC9002E7DC49 /* beam_search.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D7BA5EA1C7838E01F7D9D73 /* beam_search.h */; };
+		B1C8D482FDC1D6CFA609C5C3 /* blobs.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BB573ACBC48C81FA5E755C3 /* blobs.h */; };
+		B27743D4818B6A7B32652ABC /* kdpair.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FF6A5AA8B5129376AD3BF44 /* kdpair.h */; };
+		B2B2CE32F57F4C2B5F441336 /* lm_consistency.h in Headers */ = {isa = PBXBuildFile; fileRef = C93C671D1CC3AFD9E0823AFA /* lm_consistency.h */; };
+		B3B0CE341B3C00E51D4DD8EA /* plotedges.h in Headers */ = {isa = PBXBuildFile; fileRef = CD86D4B4E57B1C727639B2AF /* plotedges.h */; };
+		B41575B47F8BFF7C47F443FF /* unicodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F4EF83FF1A5D5D2DEDF9C58 /* unicodes.h */; };
+		B4CBB668624A3305D8D1CB59 /* sortflts.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A973C6EC8500E0809E9715C /* sortflts.h */; };
+		B4FF4AD312FA44EA0E62965B /* ptra.h in Headers */ = {isa = PBXBuildFile; fileRef = 310762C43FC351F533A49EFB /* ptra.h */; };
+		B528EAD60CB9BD3FDD331113 /* tesscallback.h in Headers */ = {isa = PBXBuildFile; fileRef = 26D9BE8A12D094A8FA488EBC /* tesscallback.h */; };
+		B624907BCC73509F446AC2E1 /* statistc.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C50ECCDDF1342C8C623E444 /* statistc.h */; };
+		B82A4778C70430515784293A /* mathfix.h in Headers */ = {isa = PBXBuildFile; fileRef = AE801093453B79ADDE24BFDC /* mathfix.h */; };
+		B8B04283C551E0D7B1C8D8C9 /* globaloc.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C4357938E276D374428A21A /* globaloc.h */; };
+		B9A6CD598DE7CBA966B3FE9C /* freetype.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D1CCC75DE5475D0F9C118E2 /* freetype.h */; };
+		B9B8591C575076836AE0518B /* mastertrainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 874A407043F93603D04BB161 /* mastertrainer.h */; };
+		BB0C18B545707CD77D1A2198 /* intfeaturespace.h in Headers */ = {isa = PBXBuildFile; fileRef = AE2916D53694EB91C42DAE48 /* intfeaturespace.h */; };
+		BBD739A42FE5B3EEC018719A /* indexmapbidi.h in Headers */ = {isa = PBXBuildFile; fileRef = 53DCEFB5828C0D92B573C6B2 /* indexmapbidi.h */; };
+		BD173C5BD01F77697E0D122A /* params.h in Headers */ = {isa = PBXBuildFile; fileRef = 2153236D07B2868452934C00 /* params.h */; };
+		BD4496C3CF3825F9B719ECCC /* svutil.h in Headers */ = {isa = PBXBuildFile; fileRef = B93E8DF641312448DF9C8C2F /* svutil.h */; };
+		BE45529DFE07E693A3108B66 /* lm_state.h in Headers */ = {isa = PBXBuildFile; fileRef = AB1B7DCAD734AA2C4ED78B0E /* lm_state.h */; };
+		BEE34CC70E425A1FF4438088 /* ccnontextdetect.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A526EE86BF6F7733DF2675E /* ccnontextdetect.h */; };
+		BF07DE6DFD6CF9958BFFAE01 /* normstrngs.h in Headers */ = {isa = PBXBuildFile; fileRef = 549B6386C2F98DCC54ECFD73 /* normstrngs.h */; };
+		BF17A6B5C45E86F6683FC0CF /* mod128.h in Headers */ = {isa = PBXBuildFile; fileRef = 82016A2A227DC89B466589B5 /* mod128.h */; };
+		C05DF9AD218ADC0855F39327 /* lang_mod_edge.h in Headers */ = {isa = PBXBuildFile; fileRef = D4AF8CD33B35A89EAAEBEC12 /* lang_mod_edge.h */; };
+		C0B1DE737F5157FCFB12B052 /* mfoutline.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDB75422AFEEF6672B3DBA9 /* mfoutline.h */; };
+		C2863588DE2A9FF722BD04A5 /* unichar.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B7A1272DB99586B4C95BF46 /* unichar.h */; };
+		C3418631CCBF7E10B2A7B0AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 686014FCAD5ADE1C95CA97C8 /* Foundation.framework */; };
+		C3EB9C4E35F00289742A314E /* cached_file.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ADAC155E402E65600F61D15 /* cached_file.h */; };
+		C4A15D37A20FFCE868BA984F /* ligature_table.h in Headers */ = {isa = PBXBuildFile; fileRef = C357423E5ACF84EDBCD1FA68 /* ligature_table.h */; };
+		C76A4208418B5AB4789E7064 /* renderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C4CF6EE7BE23D701A092390 /* renderer.h */; };
+		C88AEB1A059ADD623B118325 /* environ.h in Headers */ = {isa = PBXBuildFile; fileRef = 207900DFC177F09222446C44 /* environ.h */; };
+		C978C072034A7533E7453AC0 /* pithsync.h in Headers */ = {isa = PBXBuildFile; fileRef = E79CA96DD8F693149FB659D6 /* pithsync.h */; };
+		CAE31B611E4CBE78C40E51D6 /* cube_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = BD2D89D811418AFB7E2C2F7F /* cube_utils.h */; };
+		CC290D616AED09059E792D09 /* tessvars.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EAAB031913754BB1188F28A /* tessvars.h */; };
+		CE26216F5E3C0A98B4C52020 /* char_samp_enum.h in Headers */ = {isa = PBXBuildFile; fileRef = ED8C803F456C87A2318648D5 /* char_samp_enum.h */; };
+		CE58569BA44FB9F89C3149D6 /* colpartitiongrid.h in Headers */ = {isa = PBXBuildFile; fileRef = 47C8110185C9444E520422D5 /* colpartitiongrid.h */; };
+		CECDEAC52D0F95A76299049A /* tabvector.h in Headers */ = {isa = PBXBuildFile; fileRef = E74E645994FEA7068FB9F3CD /* tabvector.h */; };
+		CECFD2281D9EA2D14044FEE2 /* G8Tesseract.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8CD64721A659DDFD054CA553 /* G8Tesseract.mm */; };
+		CF17FFE05D44A01400635B09 /* G8RecognizedBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D67AC6B933E08A8D319B49D /* G8RecognizedBlock.h */; };
+		CF7764B73A2D2D72041608F2 /* mergenf.h in Headers */ = {isa = PBXBuildFile; fileRef = 109053263D8A38FCD0745C8B /* mergenf.h */; };
+		D01137332D43108B3CDE1C32 /* feature_chebyshev.h in Headers */ = {isa = PBXBuildFile; fileRef = 32D8EF43E8AA284DED181A4B /* feature_chebyshev.h */; };
+		D10289DB2A55E73CDE62A325 /* scanedg.h in Headers */ = {isa = PBXBuildFile; fileRef = 9249DAE57BBEF84DA1CF0326 /* scanedg.h */; };
+		D24359FC42917201AF6F6A6B /* chopper.h in Headers */ = {isa = PBXBuildFile; fileRef = 402726867289BF79D685E401 /* chopper.h */; };
+		D26248E7815FE04713FB1A1D /* makechop.h in Headers */ = {isa = PBXBuildFile; fileRef = EFF2DD6F41EF8D27CDAF0D82 /* makechop.h */; };
+		D3FEE44225E3786CEEE7D658 /* strokewidth.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6DFEB0F399159F9AAF7D41 /* strokewidth.h */; };
+		D4C47AC8F3F4CD4115112DE9 /* G8TesseractParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9ADF5FCDC28EE232085D58 /* G8TesseractParameters.m */; };
+		D53413766EB318967123CB77 /* gap_map.h in Headers */ = {isa = PBXBuildFile; fileRef = 20584C5690C31D5725BB8CDB /* gap_map.h */; };
+		D539CDD34E58804B54D2B789 /* char_bigrams.h in Headers */ = {isa = PBXBuildFile; fileRef = A2BB169441EF745AB20C935A /* char_bigrams.h */; };
+		D541539498F9ABBC0C421BD3 /* control.h in Headers */ = {isa = PBXBuildFile; fileRef = D97D1209C4BF9E4C8F9467E9 /* control.h */; };
+		D5C3CB7AB2099D28E97C9939 /* paragraphs.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FC084F2BBB556D14682B0EB /* paragraphs.h */; };
+		D6A5A8D5B14040BB9D0770F3 /* oclkernels.h in Headers */ = {isa = PBXBuildFile; fileRef = 0534FE3A2E86C8DA420F39A9 /* oclkernels.h */; };
+		D6F0AC208343E8FE2AE0F5EB /* bilateral.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C471331AA5FE361CA792D77 /* bilateral.h */; };
+		D862EF9324C73A3B0DDD3A85 /* commontraining.h in Headers */ = {isa = PBXBuildFile; fileRef = 772606BA656CEDE314265F85 /* commontraining.h */; };
+		D982D5EBCB3555E07E58217E /* coutln.h in Headers */ = {isa = PBXBuildFile; fileRef = F95F4CEE85E732B377C46A4F /* coutln.h */; };
+		DA40609EA5188F3A8C5257DB /* const.h in Headers */ = {isa = PBXBuildFile; fileRef = D432085913A35B94A4794BD3 /* const.h */; };
+		DAEC6961B61B6BBC0EDD3F2C /* elst2.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E0DB97595A8A2324095209 /* elst2.h */; };
+		DAF7AFB18D915969F213F38B /* search_node.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F29817A474CBAF5C7DF5C51 /* search_node.h */; };
+		DB2276CD6173D080B559DA18 /* ltrresultiterator.h in Headers */ = {isa = PBXBuildFile; fileRef = F6B9C3B103E862E655F07281 /* ltrresultiterator.h */; };
+		DD0651782D92AA9450E52485 /* detlinefit.h in Headers */ = {isa = PBXBuildFile; fileRef = 121E7E00BFF1F7D4B7FC1E5F /* detlinefit.h */; };
+		DDF7BD680B896C3885E2BF57 /* cutil.h in Headers */ = {isa = PBXBuildFile; fileRef = 11A5EAEEE9B2422E4C0E0F7F /* cutil.h */; };
+		DE0DC5FE6EF6139C9DA75892 /* emalloc.h in Headers */ = {isa = PBXBuildFile; fileRef = D26DF75143192CABC105C47F /* emalloc.h */; };
+		DEA0667D2D6B7CF120E9140A /* fileio.h in Headers */ = {isa = PBXBuildFile; fileRef = D9243C6F1D8A7D225C96F900 /* fileio.h */; };
+		DF135CFBFC5ACAE3F3E94A30 /* blread.h in Headers */ = {isa = PBXBuildFile; fileRef = 40B7768F9AEE9D0BE13C33B4 /* blread.h */; };
+		DF8295EDFB728C506BC4AD95 /* word_unigrams.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C2201617B4B501759C03B80 /* word_unigrams.h */; };
+		E07860F87B1A64F3D9C3283B /* platform.h in Headers */ = {isa = PBXBuildFile; fileRef = 575DC1F4F2782A97FA14D94D /* platform.h */; };
+		E0DFBF82AE493451D75A6FEF /* G8TesseractParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A7B6F3B8B2B1C08763D763B /* G8TesseractParameters.h */; };
+		E19B6AC77FD80E35E031BEF9 /* strngs.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D93C2BD1FA91341A6F6A55D /* strngs.h */; };
+		E25D0C3E7F991114C1C03AFE /* featdefs.h in Headers */ = {isa = PBXBuildFile; fileRef = DE1C47BBC06612AE278665E7 /* featdefs.h */; };
+		E3A73E02798C6E0BD7F68BE8 /* textlineprojection.h in Headers */ = {isa = PBXBuildFile; fileRef = CEE0177948712BB4636A6487 /* textlineprojection.h */; };
+		E3E2AD3EFF4FD89F8D8DEF44 /* workingpartset.h in Headers */ = {isa = PBXBuildFile; fileRef = D9DD4109850E7D62479EDE52 /* workingpartset.h */; };
+		E3F5CA347AC9D403FC43F0CC /* allheaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 955A1DD27C0DE0BB9F0C9F86 /* allheaders.h */; };
+		E4A2518D6EAB3B7FC6C4E637 /* chop.h in Headers */ = {isa = PBXBuildFile; fileRef = 11FB3D55A8692ED833D040A8 /* chop.h */; };
+		E689D2E16F38C46CD85DE043 /* UIImage+G8FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 13698CC2B9EA52C0F66A78D6 /* UIImage+G8FixOrientation.m */; };
+		E6F86DE27B1699B8BC48C047 /* UIImage+G8FixOrientation.h in Headers */ = {isa = PBXBuildFile; fileRef = C1E05EF0FEB135FD0E3E9A07 /* UIImage+G8FixOrientation.h */; };
+		E8CDCB25F9C4E8F92C4D5CF8 /* pageiterator.h in Headers */ = {isa = PBXBuildFile; fileRef = BBC5AA64A730C06DC7313BDC /* pageiterator.h */; };
+		E9AE1B2F646014FBA81B756E /* pix.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CE41CEF7EC37EE34291CA84 /* pix.h */; };
+		E9CC51F2E4E0830E0D9798B2 /* TesseractOCR.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA3E5882AB7AEC61C7C6D0A /* TesseractOCR.h */; };
+		EAC95AC9EB9E3A4A0BE5863D /* fxdefs.h in Headers */ = {isa = PBXBuildFile; fileRef = 863FF752EAA06517B862A076 /* fxdefs.h */; };
+		EBF5A3DCDEB1FC13C174F75B /* tablerecog.h in Headers */ = {isa = PBXBuildFile; fileRef = DC746F7948168492A6F62D09 /* tablerecog.h */; };
+		ED88632E43CEF307AD15B178 /* shapetable.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DBDA1DF20AF7CCC9D3B754C /* shapetable.h */; };
+		EE0FEFE038B028EAF0B584AC /* list.h in Headers */ = {isa = PBXBuildFile; fileRef = FC01DA9B229753C77863936D /* list.h */; };
+		EF2390315D6F1BB0286192DD /* unicity_table.h in Headers */ = {isa = PBXBuildFile; fileRef = E87930F9499FE7D81FC79354 /* unicity_table.h */; };
+		EFAA1705813A059B789EC110 /* imagefind.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A5D8AA75E8817E95EBAD206 /* imagefind.h */; };
+		EFEB2BE8B2E606402B1A1BEC /* publictypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 593F8B1752862BED5E3EBB60 /* publictypes.h */; };
+		EFFF0ECDB914C5292EFC9097 /* ratngs.h in Headers */ = {isa = PBXBuildFile; fileRef = 285F23F7CBD60F8D395551F3 /* ratngs.h */; };
+		F0944EF5808AEE053B627645 /* classifier_base.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ED352370C5DCB40D000AA54 /* classifier_base.h */; };
+		F1B533E99C8B111EEDB53E99 /* tess_lang_mod_edge.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D20D018045E70A7112F06FB /* tess_lang_mod_edge.h */; };
+		F2BB59CF6A5D970F031D4219 /* resource.h in Headers */ = {isa = PBXBuildFile; fileRef = D352A8D02315EFEF84E7CFEE /* resource.h */; };
+		F3992B72F21448882D314408 /* vecfuncs.h in Headers */ = {isa = PBXBuildFile; fileRef = 04110018F9CF954A539956D6 /* vecfuncs.h */; };
+		F48EE71E9BFD0E3F46B54979 /* linefind.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F3C211AB6EF1FF4AF22064 /* linefind.h */; };
+		F4B80C76A0DE9156F67EAEA9 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4226994B3D37EF61E8789F0A /* Pods-dummy.m */; };
+		F60232A64E94DCC80FE3DD87 /* tlog.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD502EFD414A5FF07DA67C3 /* tlog.h */; };
+		F6CD0B7A125F6E6E7536FC2E /* degradeimage.h in Headers */ = {isa = PBXBuildFile; fileRef = CF1FCAA97D1161B22303B00A /* degradeimage.h */; };
+		F841E5E8712BCFA154446DA3 /* blobbox.h in Headers */ = {isa = PBXBuildFile; fileRef = CE45A3F794F54EE8166F4976 /* blobbox.h */; };
+		F8FE070E42A7A67E8A168ADC /* pageres.h in Headers */ = {isa = PBXBuildFile; fileRef = BC4303C521AFDAAFEC8BB576 /* pageres.h */; };
+		FA386DDD77E8B279C150A6B9 /* cube_reco_context.h in Headers */ = {isa = PBXBuildFile; fileRef = F7797BFDBA189732943290D0 /* cube_reco_context.h */; };
+		FA44D7430B8B416D8B0E6770 /* classifier_factory.h in Headers */ = {isa = PBXBuildFile; fileRef = FF80E121ADD7FDDE64C4DF02 /* classifier_factory.h */; };
+		FA4844641D6A5DAABB182D0B /* structures.h in Headers */ = {isa = PBXBuildFile; fileRef = F60185248AACF05D804E811B /* structures.h */; };
+		FAD9E3CAE739F523E4C15B83 /* capi.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F97B368887498C28A6A7CD5 /* capi.h */; };
+		FB077D07AC7441443295CECF /* ccutil.h in Headers */ = {isa = PBXBuildFile; fileRef = 5245DFBF5D3672B9899EDF5F /* ccutil.h */; };
+		FB249B6C1A6577D507057D81 /* render.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F9787A632BD60F9C477655C /* render.h */; };
+		FBAEDB3633A14FB52F2A4957 /* ccstruct.h in Headers */ = {isa = PBXBuildFile; fileRef = B6362DC2DE7280A5E4F6AB75 /* ccstruct.h */; };
+		FC5B842A6874B9BFF97596B1 /* unicharset.h in Headers */ = {isa = PBXBuildFile; fileRef = A500125F0DDE45106DFFAB6F /* unicharset.h */; };
+		FC926DC9CD63E669994E3491 /* errcode.h in Headers */ = {isa = PBXBuildFile; fileRef = 8216444B909C22A9CB8CCB45 /* errcode.h */; };
+		FCC064159D72CD88CE4435E0 /* wordrec.h in Headers */ = {isa = PBXBuildFile; fileRef = 88DA16716FC99E1A4C168B49 /* wordrec.h */; };
+		FD036851A6F924819FDE89BE /* blckerr.h in Headers */ = {isa = PBXBuildFile; fileRef = DF6600BE27A8DD39098809F3 /* blckerr.h */; };
+		FD04B9B19CC4D14C1D6436ED /* freelist.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C158359D664555097AC1091 /* freelist.h */; };
+		FD2E129932C3EBDAF7BBBC0D /* G8RecognizedBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 36805D341F6968433000BCAD /* G8RecognizedBlock.m */; };
+		FEB7F7CA6D418C587EB3219F /* werdit.h in Headers */ = {isa = PBXBuildFile; fileRef = D33FFF3001D3EAC0A121E04A /* werdit.h */; };
+		FF48FF186E3DF517DA087EE9 /* feature_bmp.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E170C0E10937F26C2BCB8A7 /* feature_bmp.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22A2179BF1F7F58A3751D3E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6DB9F9DE775E6FB774730E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 970D8B53A18C4BB6D879F569;
+			remoteInfo = "Pods-TesseractOCRiOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0229131B994CADF30AD415B8 /* basedir.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = basedir.h; path = TesseractOCR/include/tesseract/basedir.h; sourceTree = "<group>"; };
+		04110018F9CF954A539956D6 /* vecfuncs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vecfuncs.h; path = TesseractOCR/include/tesseract/vecfuncs.h; sourceTree = "<group>"; };
+		042C993B7ECD96837F8A3031 /* blobgrid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blobgrid.h; path = TesseractOCR/include/tesseract/blobgrid.h; sourceTree = "<group>"; };
+		0459A6703FB3951AFEDF4900 /* olutil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = olutil.h; path = TesseractOCR/include/tesseract/olutil.h; sourceTree = "<group>"; };
+		049EADE660ECF8503DF34FC5 /* cube_tuning_params.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cube_tuning_params.h; path = TesseractOCR/include/tesseract/cube_tuning_params.h; sourceTree = "<group>"; };
+		0534FE3A2E86C8DA420F39A9 /* oclkernels.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = oclkernels.h; path = TesseractOCR/include/tesseract/oclkernels.h; sourceTree = "<group>"; };
+		08152E063D04BAB91292994A /* tovars.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tovars.h; path = TesseractOCR/include/tesseract/tovars.h; sourceTree = "<group>"; };
+		090431831A32ADEE21602761 /* input_file_buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = input_file_buffer.h; path = TesseractOCR/include/tesseract/input_file_buffer.h; sourceTree = "<group>"; };
+		093C533145A04F6BC39F4E52 /* strcasestr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = strcasestr.h; path = TesseractOCR/include/tesseract/strcasestr.h; sourceTree = "<group>"; };
+		09AF341CA994B63CBE5E76B8 /* clusttool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = clusttool.h; path = TesseractOCR/include/tesseract/clusttool.h; sourceTree = "<group>"; };
+		09D35889707219898BD7EBFA /* opencl_device_selection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = opencl_device_selection.h; path = TesseractOCR/include/tesseract/opencl_device_selection.h; sourceTree = "<group>"; };
+		09D7D6089DBEA27A34AAC599 /* cube_search_object.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cube_search_object.h; path = TesseractOCR/include/tesseract/cube_search_object.h; sourceTree = "<group>"; };
+		0A197B2177D1DBDCF4B2E1DD /* matchdefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = matchdefs.h; path = TesseractOCR/include/tesseract/matchdefs.h; sourceTree = "<group>"; };
+		0AA153B202F034298BF225A7 /* intfeaturemap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = intfeaturemap.h; path = TesseractOCR/include/tesseract/intfeaturemap.h; sourceTree = "<group>"; };
+		0B26352851290B5066AA4A16 /* tessopt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tessopt.h; path = TesseractOCR/include/tesseract/tessopt.h; sourceTree = "<group>"; };
+		0B7752F96D965C12DC96F691 /* drawedg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = drawedg.h; path = TesseractOCR/include/tesseract/drawedg.h; sourceTree = "<group>"; };
+		0C12FD50CF250AAD0F05AB4E /* findseam.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = findseam.h; path = TesseractOCR/include/tesseract/findseam.h; sourceTree = "<group>"; };
+		0C2201617B4B501759C03B80 /* word_unigrams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = word_unigrams.h; path = TesseractOCR/include/tesseract/word_unigrams.h; sourceTree = "<group>"; };
+		0C97DB15341D85D29206CAFF /* tuning_params.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tuning_params.h; path = TesseractOCR/include/tesseract/tuning_params.h; sourceTree = "<group>"; };
+		0D20D018045E70A7112F06FB /* tess_lang_mod_edge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tess_lang_mod_edge.h; path = TesseractOCR/include/tesseract/tess_lang_mod_edge.h; sourceTree = "<group>"; };
+		0D67AC6B933E08A8D319B49D /* G8RecognizedBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = G8RecognizedBlock.h; path = TesseractOCR/G8RecognizedBlock.h; sourceTree = "<group>"; };
+		0DAF36FDDF9E6A9594393FB2 /* fontinfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fontinfo.h; path = TesseractOCR/include/tesseract/fontinfo.h; sourceTree = "<group>"; };
+		0DDB75422AFEEF6672B3DBA9 /* mfoutline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mfoutline.h; path = TesseractOCR/include/tesseract/mfoutline.h; sourceTree = "<group>"; };
+		0E170C0E10937F26C2BCB8A7 /* feature_bmp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = feature_bmp.h; path = TesseractOCR/include/tesseract/feature_bmp.h; sourceTree = "<group>"; };
+		0E2BA6334D93906059D9A83C /* search_object.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = search_object.h; path = TesseractOCR/include/tesseract/search_object.h; sourceTree = "<group>"; };
+		0E3E99341C774C3D26625D9D /* devanagari_processing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = devanagari_processing.h; path = TesseractOCR/include/tesseract/devanagari_processing.h; sourceTree = "<group>"; };
+		0E9ADF5FCDC28EE232085D58 /* G8TesseractParameters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = G8TesseractParameters.m; path = TesseractOCR/G8TesseractParameters.m; sourceTree = "<group>"; };
+		109053263D8A38FCD0745C8B /* mergenf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mergenf.h; path = TesseractOCR/include/tesseract/mergenf.h; sourceTree = "<group>"; };
+		11A5EAEEE9B2422E4C0E0F7F /* cutil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cutil.h; path = TesseractOCR/include/tesseract/cutil.h; sourceTree = "<group>"; };
+		11C885875E858197D85A38BA /* readbarcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = readbarcode.h; path = TesseractOCR/include/leptonica/readbarcode.h; sourceTree = "<group>"; };
+		11FB3D55A8692ED833D040A8 /* chop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = chop.h; path = TesseractOCR/include/tesseract/chop.h; sourceTree = "<group>"; };
+		121E7E00BFF1F7D4B7FC1E5F /* detlinefit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = detlinefit.h; path = TesseractOCR/include/tesseract/detlinefit.h; sourceTree = "<group>"; };
+		13698CC2B9EA52C0F66A78D6 /* UIImage+G8FixOrientation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+G8FixOrientation.m"; path = "TesseractOCR/UIImage+G8FixOrientation.m"; sourceTree = "<group>"; };
+		13853E599808F2A261DAB0EB /* intmatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = intmatcher.h; path = TesseractOCR/include/tesseract/intmatcher.h; sourceTree = "<group>"; };
+		151DD863ADA2A12601ECBE82 /* altlist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = altlist.h; path = TesseractOCR/include/tesseract/altlist.h; sourceTree = "<group>"; };
+		16A35236D8D3B31A89936083 /* seam.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = seam.h; path = TesseractOCR/include/tesseract/seam.h; sourceTree = "<group>"; };
+		179586AA341B07A48CCB96D8 /* oldbasel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = oldbasel.h; path = TesseractOCR/include/tesseract/oldbasel.h; sourceTree = "<group>"; };
+		1A8B94497D260975755786F7 /* rect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rect.h; path = TesseractOCR/include/tesseract/rect.h; sourceTree = "<group>"; };
+		1B81021289EE517AD513AE2B /* params_model.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = params_model.h; path = TesseractOCR/include/tesseract/params_model.h; sourceTree = "<group>"; };
+		1C50ECCDDF1342C8C623E444 /* statistc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = statistc.h; path = TesseractOCR/include/tesseract/statistc.h; sourceTree = "<group>"; };
+		1C9A9E2E3B588765886BE14D /* adaptive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = adaptive.h; path = TesseractOCR/include/tesseract/adaptive.h; sourceTree = "<group>"; };
+		1EF1B4700BC3EF4F126D6562 /* ndminx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ndminx.h; path = TesseractOCR/include/tesseract/ndminx.h; sourceTree = "<group>"; };
+		1F782B70BC8DB7450A05676D /* extract.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = extract.h; path = TesseractOCR/include/tesseract/extract.h; sourceTree = "<group>"; };
+		1F84CBD892F1867318F4F59D /* ocrpara.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ocrpara.h; path = TesseractOCR/include/tesseract/ocrpara.h; sourceTree = "<group>"; };
+		1F97B368887498C28A6A7CD5 /* capi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = capi.h; path = TesseractOCR/include/tesseract/capi.h; sourceTree = "<group>"; };
+		20390AAAD4BB522420180F3C /* output.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = output.h; path = TesseractOCR/include/tesseract/output.h; sourceTree = "<group>"; };
+		20584C5690C31D5725BB8CDB /* gap_map.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gap_map.h; path = TesseractOCR/include/tesseract/gap_map.h; sourceTree = "<group>"; };
+		2069228B8AD86AAB5622513E /* jbclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jbclass.h; path = TesseractOCR/include/leptonica/jbclass.h; sourceTree = "<group>"; };
+		20700974E8AD1FC13D8E2345 /* feature_hybrid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = feature_hybrid.h; path = TesseractOCR/include/tesseract/feature_hybrid.h; sourceTree = "<group>"; };
+		207900DFC177F09222446C44 /* environ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = environ.h; path = TesseractOCR/include/leptonica/environ.h; sourceTree = "<group>"; };
+		209A65B98F746A4A05A043EC /* reject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = reject.h; path = TesseractOCR/include/tesseract/reject.h; sourceTree = "<group>"; };
+		2153236D07B2868452934C00 /* params.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = params.h; path = TesseractOCR/include/tesseract/params.h; sourceTree = "<group>"; };
+		21E4EC691937346099FAC21D /* globals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = globals.h; path = TesseractOCR/include/tesseract/globals.h; sourceTree = "<group>"; };
+		224AF9F3BF5AEAE49E4DAAE1 /* wordseg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wordseg.h; path = TesseractOCR/include/tesseract/wordseg.h; sourceTree = "<group>"; };
+		2275215F7DEBA51232D108ED /* icuerrorcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = icuerrorcode.h; path = TesseractOCR/include/tesseract/icuerrorcode.h; sourceTree = "<group>"; };
+		260E16468753EA2DA52AF2AD /* float2int.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = float2int.h; path = TesseractOCR/include/tesseract/float2int.h; sourceTree = "<group>"; };
+		2634162E865B55137D29F8A9 /* tesseractclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tesseractclass.h; path = TesseractOCR/include/tesseract/tesseractclass.h; sourceTree = "<group>"; };
+		26D9BE8A12D094A8FA488EBC /* tesscallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tesscallback.h; path = TesseractOCR/include/tesseract/tesscallback.h; sourceTree = "<group>"; };
+		285F23F7CBD60F8D395551F3 /* ratngs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ratngs.h; path = TesseractOCR/include/tesseract/ratngs.h; sourceTree = "<group>"; };
+		2BBBA5E89B0ADB891C1AF8DD /* baselinedetect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = baselinedetect.h; path = TesseractOCR/include/tesseract/baselinedetect.h; sourceTree = "<group>"; };
+		2BD502EFD414A5FF07DA67C3 /* tlog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tlog.h; path = TesseractOCR/include/tesseract/tlog.h; sourceTree = "<group>"; };
+		2C471331AA5FE361CA792D77 /* bilateral.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bilateral.h; path = TesseractOCR/include/leptonica/bilateral.h; sourceTree = "<group>"; };
+		2C7D20E18A187F0EC7BB29BB /* tesseract_cube_combiner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tesseract_cube_combiner.h; path = TesseractOCR/include/tesseract/tesseract_cube_combiner.h; sourceTree = "<group>"; };
+		2E2208FC17A15CC788DE9F2F /* pdblock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pdblock.h; path = TesseractOCR/include/tesseract/pdblock.h; sourceTree = "<group>"; };
+		2EC577E9998E92C197927013 /* linlsq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = linlsq.h; path = TesseractOCR/include/tesseract/linlsq.h; sourceTree = "<group>"; };
+		2F4F8ACAB4375EE252A4012A /* fpchop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fpchop.h; path = TesseractOCR/include/tesseract/fpchop.h; sourceTree = "<group>"; };
+		2F88B562A78D73871EF64143 /* classify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = classify.h; path = TesseractOCR/include/tesseract/classify.h; sourceTree = "<group>"; };
+		2F9BBDDBC184C56346562206 /* neuron.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = neuron.h; path = TesseractOCR/include/tesseract/neuron.h; sourceTree = "<group>"; };
+		2FC084F2BBB556D14682B0EB /* paragraphs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = paragraphs.h; path = TesseractOCR/include/tesseract/paragraphs.h; sourceTree = "<group>"; };
+		30C7B4FAED83077BC82C226A /* libPods-TesseractOCRiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TesseractOCRiOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		310762C43FC351F533A49EFB /* ptra.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ptra.h; path = TesseractOCR/include/leptonica/ptra.h; sourceTree = "<group>"; };
+		318A3786B600EDDCA475598A /* blobclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blobclass.h; path = TesseractOCR/include/tesseract/blobclass.h; sourceTree = "<group>"; };
+		322E1BA78CBF599BE1C72FF3 /* colfind.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = colfind.h; path = TesseractOCR/include/tesseract/colfind.h; sourceTree = "<group>"; };
+		32D8EF43E8AA284DED181A4B /* feature_chebyshev.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = feature_chebyshev.h; path = TesseractOCR/include/tesseract/feature_chebyshev.h; sourceTree = "<group>"; };
+		33747E2EDD21845D317C55B6 /* commandlineflags.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = commandlineflags.h; path = TesseractOCR/include/tesseract/commandlineflags.h; sourceTree = "<group>"; };
+		338C450B05D7C1C50A8D3E2F /* colpartitionset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = colpartitionset.h; path = TesseractOCR/include/tesseract/colpartitionset.h; sourceTree = "<group>"; };
+		36805D341F6968433000BCAD /* G8RecognizedBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = G8RecognizedBlock.m; path = TesseractOCR/G8RecognizedBlock.m; sourceTree = "<group>"; };
+		37777A990166976E5821011B /* watershed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = watershed.h; path = TesseractOCR/include/leptonica/watershed.h; sourceTree = "<group>"; };
+		3792567F2682A79F160CE7ED /* werd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = werd.h; path = TesseractOCR/include/tesseract/werd.h; sourceTree = "<group>"; };
+		37EAD0DC9506C195369C4F60 /* cube_line_segmenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cube_line_segmenter.h; path = TesseractOCR/include/tesseract/cube_line_segmenter.h; sourceTree = "<group>"; };
+		3806912BB5BBB7A50A08942F /* shapeclassifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = shapeclassifier.h; path = TesseractOCR/include/tesseract/shapeclassifier.h; sourceTree = "<group>"; };
+		387E83BB01B1FBF4C69C22E3 /* host.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = host.h; path = TesseractOCR/include/tesseract/host.h; sourceTree = "<group>"; };
+		38C67FF7B158DE7E3393D771 /* svmnode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = svmnode.h; path = TesseractOCR/include/tesseract/svmnode.h; sourceTree = "<group>"; };
+		38C7F6C573A654FD1CFB72A5 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		38F72A228DD9E065B5962439 /* mfdefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mfdefs.h; path = TesseractOCR/include/tesseract/mfdefs.h; sourceTree = "<group>"; };
+		3979213AB9AED76AE226A02F /* pgedit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pgedit.h; path = TesseractOCR/include/tesseract/pgedit.h; sourceTree = "<group>"; };
+		3AD2DC968A5ECCC8E4C08AEC /* alignedblob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = alignedblob.h; path = TesseractOCR/include/tesseract/alignedblob.h; sourceTree = "<group>"; };
+		3B06A14D9BBB628B4B8C6D1E /* bits16.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bits16.h; path = TesseractOCR/include/tesseract/bits16.h; sourceTree = "<group>"; };
+		3BAE91F7A1ED7B445BF59090 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		3BDD8DF0F207F9DF87D1D030 /* normmatch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = normmatch.h; path = TesseractOCR/include/tesseract/normmatch.h; sourceTree = "<group>"; };
+		3C0987E6E92D0D6F4F640D8F /* measure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = measure.h; path = TesseractOCR/include/tesseract/measure.h; sourceTree = "<group>"; };
+		3C158359D664555097AC1091 /* freelist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = freelist.h; path = TesseractOCR/include/tesseract/freelist.h; sourceTree = "<group>"; };
+		3C4357938E276D374428A21A /* globaloc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = globaloc.h; path = TesseractOCR/include/tesseract/globaloc.h; sourceTree = "<group>"; };
+		3D93C2BD1FA91341A6F6A55D /* strngs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = strngs.h; path = TesseractOCR/include/tesseract/strngs.h; sourceTree = "<group>"; };
+		3E4994A3A8109D056A7900AA /* universalambigs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = universalambigs.h; path = TesseractOCR/include/tesseract/universalambigs.h; sourceTree = "<group>"; };
+		3ED352370C5DCB40D000AA54 /* classifier_base.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = classifier_base.h; path = TesseractOCR/include/tesseract/classifier_base.h; sourceTree = "<group>"; };
+		3F239226CE788554C039AC81 /* tessdatamanager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tessdatamanager.h; path = TesseractOCR/include/tesseract/tessdatamanager.h; sourceTree = "<group>"; };
+		3F9787A632BD60F9C477655C /* render.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = render.h; path = TesseractOCR/include/tesseract/render.h; sourceTree = "<group>"; };
+		3F9AAFF8E005C7BF71213521 /* recog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = recog.h; path = TesseractOCR/include/leptonica/recog.h; sourceTree = "<group>"; };
+		4005ADAA830344BB17426D44 /* queue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = queue.h; path = TesseractOCR/include/leptonica/queue.h; sourceTree = "<group>"; };
+		402726867289BF79D685E401 /* chopper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = chopper.h; path = TesseractOCR/include/tesseract/chopper.h; sourceTree = "<group>"; };
+		407C438831FD17C25F7A40FE /* gettimeofday.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gettimeofday.h; path = TesseractOCR/include/tesseract/gettimeofday.h; sourceTree = "<group>"; };
+		40B7768F9AEE9D0BE13C33B4 /* blread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blread.h; path = TesseractOCR/include/tesseract/blread.h; sourceTree = "<group>"; };
+		40D68DDF3D27C88D2CA14E9C /* paramsd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = paramsd.h; path = TesseractOCR/include/tesseract/paramsd.h; sourceTree = "<group>"; };
+		4187FDE77CFF803038FA247D /* underlin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = underlin.h; path = TesseractOCR/include/tesseract/underlin.h; sourceTree = "<group>"; };
+		41EABC7D7EC3D7DEFF5D75B1 /* intfx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = intfx.h; path = TesseractOCR/include/tesseract/intfx.h; sourceTree = "<group>"; };
+		4226994B3D37EF61E8789F0A /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		43585DB0BD3C2805AB2A2DB7 /* char_samp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = char_samp.h; path = TesseractOCR/include/tesseract/char_samp.h; sourceTree = "<group>"; };
+		447ACDB93AB02CB63A24E5B0 /* quadlsq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = quadlsq.h; path = TesseractOCR/include/tesseract/quadlsq.h; sourceTree = "<group>"; };
+		458AEA2589687B33B2E84FDB /* ocrblock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ocrblock.h; path = TesseractOCR/include/tesseract/ocrblock.h; sourceTree = "<group>"; };
+		465116A3608E6CCC9F9D28D6 /* char_samp_set.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = char_samp_set.h; path = TesseractOCR/include/tesseract/char_samp_set.h; sourceTree = "<group>"; };
+		47C8110185C9444E520422D5 /* colpartitiongrid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = colpartitiongrid.h; path = TesseractOCR/include/tesseract/colpartitiongrid.h; sourceTree = "<group>"; };
+		47CE7D1B49D61228BD6C06F0 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		483350C5248463D1791C3374 /* baseapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = baseapi.h; path = TesseractOCR/include/tesseract/baseapi.h; sourceTree = "<group>"; };
+		4836DAA20276E220462D46AD /* lang_model.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lang_model.h; path = TesseractOCR/include/tesseract/lang_model.h; sourceTree = "<group>"; };
+		4A6273B53490D05EFC3CE231 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		4AAEE2F5DAF799FEBA1C1A39 /* scrollview.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scrollview.h; path = TesseractOCR/include/tesseract/scrollview.h; sourceTree = "<group>"; };
+		4ADAC155E402E65600F61D15 /* cached_file.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cached_file.h; path = TesseractOCR/include/tesseract/cached_file.h; sourceTree = "<group>"; };
+		4B8D24C4F513486940685696 /* points.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = points.h; path = TesseractOCR/include/tesseract/points.h; sourceTree = "<group>"; };
+		4C4CF6EE7BE23D701A092390 /* renderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = renderer.h; path = TesseractOCR/include/tesseract/renderer.h; sourceTree = "<group>"; };
+		4CFCC0317E8618506164C5CD /* version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = version.h; path = TesseractOCR/include/tesseract/version.h; sourceTree = "<group>"; };
+		4D1CCC75DE5475D0F9C118E2 /* freetype.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = freetype.h; path = TesseractOCR/include/leptonica/freetype.h; sourceTree = "<group>"; };
+		4D8757521DC38950CC8DCA86 /* normfeat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = normfeat.h; path = TesseractOCR/include/tesseract/normfeat.h; sourceTree = "<group>"; };
+		4DBB8499E55E261FD84F880B /* fpoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fpoint.h; path = TesseractOCR/include/tesseract/fpoint.h; sourceTree = "<group>"; };
+		4DD13F49BBF3580780F8D88A /* stack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stack.h; path = TesseractOCR/include/leptonica/stack.h; sourceTree = "<group>"; };
+		4DD24F80EE37990FB25DF347 /* mutableiterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mutableiterator.h; path = TesseractOCR/include/tesseract/mutableiterator.h; sourceTree = "<group>"; };
+		4DE93FEC0F9B7E332567BEF3 /* Pods-TesseractOCRiOS-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TesseractOCRiOS-Private.xcconfig"; sourceTree = "<group>"; };
+		4E0B7A5E3FFD06ED3DDF941B /* word_size_model.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = word_size_model.h; path = TesseractOCR/include/tesseract/word_size_model.h; sourceTree = "<group>"; };
+		4E38636C97C3C558299277E1 /* arrayaccess.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = arrayaccess.h; path = TesseractOCR/include/leptonica/arrayaccess.h; sourceTree = "<group>"; };
+		4EABDA78E29D04E891DF0F95 /* callcpp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = callcpp.h; path = TesseractOCR/include/tesseract/callcpp.h; sourceTree = "<group>"; };
+		5245DFBF5D3672B9899EDF5F /* ccutil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ccutil.h; path = TesseractOCR/include/tesseract/ccutil.h; sourceTree = "<group>"; };
+		52589A0F1DA83E30CE0D3B71 /* G8TesseractDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = G8TesseractDelegate.h; path = TesseractOCR/G8TesseractDelegate.h; sourceTree = "<group>"; };
+		528373516043A008A8218C4F /* oldlist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = oldlist.h; path = TesseractOCR/include/tesseract/oldlist.h; sourceTree = "<group>"; };
+		52CBB75F78BFE6B81DA0FB31 /* edgloop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = edgloop.h; path = TesseractOCR/include/tesseract/edgloop.h; sourceTree = "<group>"; };
+		53DCEFB5828C0D92B573C6B2 /* indexmapbidi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = indexmapbidi.h; path = TesseractOCR/include/tesseract/indexmapbidi.h; sourceTree = "<group>"; };
+		549B6386C2F98DCC54ECFD73 /* normstrngs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = normstrngs.h; path = TesseractOCR/include/tesseract/normstrngs.h; sourceTree = "<group>"; };
+		55397FCF3E972E6013D11F41 /* tablefind.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tablefind.h; path = TesseractOCR/include/tesseract/tablefind.h; sourceTree = "<group>"; };
+		575DC1F4F2782A97FA14D94D /* platform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = platform.h; path = TesseractOCR/include/tesseract/platform.h; sourceTree = "<group>"; };
+		576689CF970CFE06CC2C6DA8 /* drawtord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = drawtord.h; path = TesseractOCR/include/tesseract/drawtord.h; sourceTree = "<group>"; };
+		57FBF8303033EC8214BFF807 /* boxchar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = boxchar.h; path = TesseractOCR/include/tesseract/boxchar.h; sourceTree = "<group>"; };
+		5896CEB7A3609A4B5348339A /* scanutils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scanutils.h; path = TesseractOCR/include/tesseract/scanutils.h; sourceTree = "<group>"; };
+		58E24CD1F1F97B75526BA0D1 /* hashfn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hashfn.h; path = TesseractOCR/include/tesseract/hashfn.h; sourceTree = "<group>"; };
+		58EB144B6C157E5A208A2D10 /* crakedge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crakedge.h; path = TesseractOCR/include/tesseract/crakedge.h; sourceTree = "<group>"; };
+		593F8B1752862BED5E3EBB60 /* publictypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = publictypes.h; path = TesseractOCR/include/tesseract/publictypes.h; sourceTree = "<group>"; };
+		5A29418F5E595503873A7E0B /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		5A5D8AA75E8817E95EBAD206 /* imagefind.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = imagefind.h; path = TesseractOCR/include/tesseract/imagefind.h; sourceTree = "<group>"; };
+		5D99204FC10C40BB28EF166F /* liblept.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblept.a; path = TesseractOCR/lib/liblept.a; sourceTree = "<group>"; };
+		5E1FE20A0BB9C6C6BF5926C6 /* G8Tesseract.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = G8Tesseract.h; path = TesseractOCR/G8Tesseract.h; sourceTree = "<group>"; };
+		5E26492A881D2DAF97E06B4D /* word_list_lang_model.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = word_list_lang_model.h; path = TesseractOCR/include/tesseract/word_list_lang_model.h; sourceTree = "<group>"; };
+		5F34157F9CD2533015B9C0F8 /* dppoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dppoint.h; path = TesseractOCR/include/tesseract/dppoint.h; sourceTree = "<group>"; };
+		60E5205A09D050B5930F5753 /* pitsync1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pitsync1.h; path = TesseractOCR/include/tesseract/pitsync1.h; sourceTree = "<group>"; };
+		61E335A1BE02632C1F3E3D31 /* edgblob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = edgblob.h; path = TesseractOCR/include/tesseract/edgblob.h; sourceTree = "<group>"; };
+		63F09E1D2A584CB3AC36683C /* fixspace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fixspace.h; path = TesseractOCR/include/tesseract/fixspace.h; sourceTree = "<group>"; };
+		650D1242188E852E35136A8B /* strtok_r.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = strtok_r.h; path = TesseractOCR/include/tesseract/strtok_r.h; sourceTree = "<group>"; };
+		65A0810F5AAD8F11AD2690B2 /* thresholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = thresholder.h; path = TesseractOCR/include/tesseract/thresholder.h; sourceTree = "<group>"; };
+		65A2032F6D5671FD4BA698CD /* efio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = efio.h; path = TesseractOCR/include/tesseract/efio.h; sourceTree = "<group>"; };
+		67679FE6732C29875830A37A /* feature_base.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = feature_base.h; path = TesseractOCR/include/tesseract/feature_base.h; sourceTree = "<group>"; };
+		67E5F78E0CAED6ADAEBB55D9 /* G8RecognitionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = G8RecognitionOperation.h; path = TesseractOCR/G8RecognitionOperation.h; sourceTree = "<group>"; };
+		6833A8D5858AB1916B08ADD4 /* conv_net_classifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = conv_net_classifier.h; path = TesseractOCR/include/tesseract/conv_net_classifier.h; sourceTree = "<group>"; };
+		686014FCAD5ADE1C95CA97C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		688BF768A776B257643470EC /* intfeaturedist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = intfeaturedist.h; path = TesseractOCR/include/tesseract/intfeaturedist.h; sourceTree = "<group>"; };
+		69A588C52A369B139421C89B /* Pods-TesseractOCRiOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TesseractOCRiOS-prefix.pch"; sourceTree = "<group>"; };
+		69D544F5148B1B40E641D9AE /* bmp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bmp.h; path = TesseractOCR/include/leptonica/bmp.h; sourceTree = "<group>"; };
+		6A973C6EC8500E0809E9715C /* sortflts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sortflts.h; path = TesseractOCR/include/tesseract/sortflts.h; sourceTree = "<group>"; };
+		6B7A1272DB99586B4C95BF46 /* unichar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unichar.h; path = TesseractOCR/include/tesseract/unichar.h; sourceTree = "<group>"; };
+		6BB573ACBC48C81FA5E755C3 /* blobs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blobs.h; path = TesseractOCR/include/tesseract/blobs.h; sourceTree = "<group>"; };
+		6C81A70246B2DB48BE87037D /* associate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = associate.h; path = TesseractOCR/include/tesseract/associate.h; sourceTree = "<group>"; };
+		6CD64246722D46BD958C70F4 /* ocrclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ocrclass.h; path = TesseractOCR/include/tesseract/ocrclass.h; sourceTree = "<group>"; };
+		6DB1DD7F3752DD95DC3BF34F /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6DB4E45EF08E88B186A40F68 /* tessedit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tessedit.h; path = TesseractOCR/include/tesseract/tessedit.h; sourceTree = "<group>"; };
+		6DC8AEC93EEFCE171FD88B06 /* kdtree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = kdtree.h; path = TesseractOCR/include/tesseract/kdtree.h; sourceTree = "<group>"; };
+		6EAAB031913754BB1188F28A /* tessvars.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tessvars.h; path = TesseractOCR/include/tesseract/tessvars.h; sourceTree = "<group>"; };
+		6F29817A474CBAF5C7DF5C51 /* search_node.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = search_node.h; path = TesseractOCR/include/tesseract/search_node.h; sourceTree = "<group>"; };
+		7099BC7D92F4F5060D2DF90A /* Pods-TesseractOCRiOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TesseractOCRiOS.xcconfig"; sourceTree = "<group>"; };
+		71B116A94C5AC27F8E585A94 /* topitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = topitch.h; path = TesseractOCR/include/tesseract/topitch.h; sourceTree = "<group>"; };
+		71BDAB23E13E3374C028C58B /* normalis.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = normalis.h; path = TesseractOCR/include/tesseract/normalis.h; sourceTree = "<group>"; };
+		73A6C6438AF6A17B49485C21 /* trainingsampleset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = trainingsampleset.h; path = TesseractOCR/include/tesseract/trainingsampleset.h; sourceTree = "<group>"; };
+		7528CFBCC6148347E819494F /* extern.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = extern.h; path = TesseractOCR/include/tesseract/extern.h; sourceTree = "<group>"; };
+		762E512C57187122F02D900D /* dawg_cache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dawg_cache.h; path = TesseractOCR/include/tesseract/dawg_cache.h; sourceTree = "<group>"; };
+		767726535D2402BDC93F6B1F /* paragraphs_internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = paragraphs_internal.h; path = TesseractOCR/include/tesseract/paragraphs_internal.h; sourceTree = "<group>"; };
+		772606BA656CEDE314265F85 /* commontraining.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = commontraining.h; path = TesseractOCR/include/tesseract/commontraining.h; sourceTree = "<group>"; };
+		7A4E4D8EACBCF7FA2EEDFF05 /* Pods-TesseractOCRiOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TesseractOCRiOS-dummy.m"; sourceTree = "<group>"; };
+		7A7B6F3B8B2B1C08763D763B /* G8TesseractParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = G8TesseractParameters.h; path = TesseractOCR/G8TesseractParameters.h; sourceTree = "<group>"; };
+		7B461FC0EAF9D8F38F04AFA9 /* intproto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = intproto.h; path = TesseractOCR/include/tesseract/intproto.h; sourceTree = "<group>"; };
+		7C1A1930163CC77028C0F238 /* dict.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dict.h; path = TesseractOCR/include/tesseract/dict.h; sourceTree = "<group>"; };
+		7CE41CEF7EC37EE34291CA84 /* pix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pix.h; path = TesseractOCR/include/leptonica/pix.h; sourceTree = "<group>"; };
+		7CF14E42B6E90CD0C24AE846 /* cluster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cluster.h; path = TesseractOCR/include/tesseract/cluster.h; sourceTree = "<group>"; };
+		7D7BA5EA1C7838E01F7D9D73 /* beam_search.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = beam_search.h; path = TesseractOCR/include/tesseract/beam_search.h; sourceTree = "<group>"; };
+		7D9243690FDB9FCCC2BC1D1B /* osdetect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = osdetect.h; path = TesseractOCR/include/tesseract/osdetect.h; sourceTree = "<group>"; };
+		7E97C061A80F9C7589EEF9BD /* tabfind.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tabfind.h; path = TesseractOCR/include/tesseract/tabfind.h; sourceTree = "<group>"; };
+		7FF6A5AA8B5129376AD3BF44 /* kdpair.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = kdpair.h; path = TesseractOCR/include/tesseract/kdpair.h; sourceTree = "<group>"; };
+		7FFE286F703BD449CDB6C281 /* memry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = memry.h; path = TesseractOCR/include/tesseract/memry.h; sourceTree = "<group>"; };
+		814E3B7AAA9548850A6035F4 /* ipoints.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ipoints.h; path = TesseractOCR/include/tesseract/ipoints.h; sourceTree = "<group>"; };
+		82016A2A227DC89B466589B5 /* mod128.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mod128.h; path = TesseractOCR/include/tesseract/mod128.h; sourceTree = "<group>"; };
+		8216444B909C22A9CB8CCB45 /* errcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = errcode.h; path = TesseractOCR/include/tesseract/errcode.h; sourceTree = "<group>"; };
+		836A5113A9FABA7972F76466 /* dawg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dawg.h; path = TesseractOCR/include/tesseract/dawg.h; sourceTree = "<group>"; };
+		848FABFB2CF8B6FD2C5025E2 /* outfeat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = outfeat.h; path = TesseractOCR/include/tesseract/outfeat.h; sourceTree = "<group>"; };
+		863FF752EAA06517B862A076 /* fxdefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fxdefs.h; path = TesseractOCR/include/tesseract/fxdefs.h; sourceTree = "<group>"; };
+		86718BBB6E4DEC4BC5F58BF5 /* array.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = array.h; path = TesseractOCR/include/leptonica/array.h; sourceTree = "<group>"; };
+		87243AB4F8225AB7274B5DCD /* morph.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = morph.h; path = TesseractOCR/include/leptonica/morph.h; sourceTree = "<group>"; };
+		874A407043F93603D04BB161 /* mastertrainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mastertrainer.h; path = TesseractOCR/include/tesseract/mastertrainer.h; sourceTree = "<group>"; };
+		8825E71F63EB2844E829B841 /* xform2d.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xform2d.h; path = TesseractOCR/include/tesseract/xform2d.h; sourceTree = "<group>"; };
+		88B25C1C52EB0BCE626DE6F9 /* genblob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = genblob.h; path = TesseractOCR/include/tesseract/genblob.h; sourceTree = "<group>"; };
+		88B980312507120ECE818B0D /* params_training_featdef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = params_training_featdef.h; path = TesseractOCR/include/tesseract/params_training_featdef.h; sourceTree = "<group>"; };
+		88DA16716FC99E1A4C168B49 /* wordrec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wordrec.h; path = TesseractOCR/include/tesseract/wordrec.h; sourceTree = "<group>"; };
+		899278A221FA76531D1C46B1 /* lsterr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lsterr.h; path = TesseractOCR/include/tesseract/lsterr.h; sourceTree = "<group>"; };
+		8A526EE86BF6F7733DF2675E /* ccnontextdetect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ccnontextdetect.h; path = TesseractOCR/include/tesseract/ccnontextdetect.h; sourceTree = "<group>"; };
+		8A5465872A61D3E8CF7A89C7 /* trie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = trie.h; path = TesseractOCR/include/tesseract/trie.h; sourceTree = "<group>"; };
+		8C38F65E6B6EF7190B25196C /* neural_net.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = neural_net.h; path = TesseractOCR/include/tesseract/neural_net.h; sourceTree = "<group>"; };
+		8CD64721A659DDFD054CA553 /* G8Tesseract.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = G8Tesseract.mm; path = TesseractOCR/G8Tesseract.mm; sourceTree = "<group>"; };
+		8F512FF232A1DFAF478A6FE5 /* ccbord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ccbord.h; path = TesseractOCR/include/leptonica/ccbord.h; sourceTree = "<group>"; };
+		8FB9D39763C3557298D4B9C2 /* split.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = split.h; path = TesseractOCR/include/tesseract/split.h; sourceTree = "<group>"; };
+		8FD426401B3D0EB33BCEC496 /* dewarp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dewarp.h; path = TesseractOCR/include/leptonica/dewarp.h; sourceTree = "<group>"; };
+		8FF3EB0C639DFC6AD8E054EF /* imageio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = imageio.h; path = TesseractOCR/include/leptonica/imageio.h; sourceTree = "<group>"; };
+		90A21CA0642CC27D752978B7 /* pango_font_info.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pango_font_info.h; path = TesseractOCR/include/tesseract/pango_font_info.h; sourceTree = "<group>"; };
+		913E1070EE8FF34855463D61 /* cutil_class.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cutil_class.h; path = TesseractOCR/include/tesseract/cutil_class.h; sourceTree = "<group>"; };
+		9249DAE57BBEF84DA1CF0326 /* scanedg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scanedg.h; path = TesseractOCR/include/tesseract/scanedg.h; sourceTree = "<group>"; };
+		93A9DDDBE9353DB85217BAFE /* tordmain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tordmain.h; path = TesseractOCR/include/tesseract/tordmain.h; sourceTree = "<group>"; };
+		941F3778340EB3B3E148069F /* picofeat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = picofeat.h; path = TesseractOCR/include/tesseract/picofeat.h; sourceTree = "<group>"; };
+		9491CEE40161D64F3CC667F8 /* UIImage+G8Filters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+G8Filters.m"; path = "TesseractOCR/UIImage+G8Filters.m"; sourceTree = "<group>"; };
+		955A1DD27C0DE0BB9F0C9F86 /* allheaders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = allheaders.h; path = TesseractOCR/include/leptonica/allheaders.h; sourceTree = "<group>"; };
+		9617EF94E3A56299C1F87A6A /* hybrid_neural_net_classifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hybrid_neural_net_classifier.h; path = TesseractOCR/include/tesseract/hybrid_neural_net_classifier.h; sourceTree = "<group>"; };
+		9645F1F15E45047A7A95A34A /* leptwin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = leptwin.h; path = TesseractOCR/include/leptonica/leptwin.h; sourceTree = "<group>"; };
+		965CA0ADCB7D27384E6DA3F6 /* polyaprx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = polyaprx.h; path = TesseractOCR/include/tesseract/polyaprx.h; sourceTree = "<group>"; };
+		9A2DD5E9D843BF8CD12D9054 /* bitvector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bitvector.h; path = TesseractOCR/include/tesseract/bitvector.h; sourceTree = "<group>"; };
+		9BC45397E7236937834BE995 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		9C6DFEB0F399159F9AAF7D41 /* strokewidth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = strokewidth.h; path = TesseractOCR/include/tesseract/strokewidth.h; sourceTree = "<group>"; };
+		9DBDA1DF20AF7CCC9D3B754C /* shapetable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = shapetable.h; path = TesseractOCR/include/tesseract/shapetable.h; sourceTree = "<group>"; };
+		9F4A34DD900C9DA757E9DEBD /* word_altlist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = word_altlist.h; path = TesseractOCR/include/tesseract/word_altlist.h; sourceTree = "<group>"; };
+		9F4EF83FF1A5D5D2DEDF9C58 /* unicodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unicodes.h; path = TesseractOCR/include/tesseract/unicodes.h; sourceTree = "<group>"; };
+		9F624FCDFC294D44762D51D3 /* tess_lang_model.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tess_lang_model.h; path = TesseractOCR/include/tesseract/tess_lang_model.h; sourceTree = "<group>"; };
+		A0F34AD617455AFFEFEEB864 /* config_auto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config_auto.h; path = TesseractOCR/include/leptonica/config_auto.h; sourceTree = "<group>"; };
+		A1370BA43B26956C3C95DA48 /* endianness.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = endianness.h; path = TesseractOCR/include/leptonica/endianness.h; sourceTree = "<group>"; };
+		A2BB169441EF745AB20C935A /* char_bigrams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = char_bigrams.h; path = TesseractOCR/include/tesseract/char_bigrams.h; sourceTree = "<group>"; };
+		A44F5F9CA5C599716C457DA9 /* flexfx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = flexfx.h; path = TesseractOCR/include/tesseract/flexfx.h; sourceTree = "<group>"; };
+		A457860D6A4D20C855D86183 /* lm_pain_points.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lm_pain_points.h; path = TesseractOCR/include/tesseract/lm_pain_points.h; sourceTree = "<group>"; };
+		A500125F0DDE45106DFFAB6F /* unicharset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unicharset.h; path = TesseractOCR/include/tesseract/unicharset.h; sourceTree = "<group>"; };
+		A6193986CAEC7BE4B4148CB1 /* quspline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = quspline.h; path = TesseractOCR/include/tesseract/quspline.h; sourceTree = "<group>"; };
+		A8283044E899A1DB096A658C /* tessbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tessbox.h; path = TesseractOCR/include/tesseract/tessbox.h; sourceTree = "<group>"; };
+		A97A3F82AEA9A8488B8AFBC9 /* doubleptr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = doubleptr.h; path = TesseractOCR/include/tesseract/doubleptr.h; sourceTree = "<group>"; };
+		AA4AFCD82B8858240AC03AB3 /* ocrfeatures.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ocrfeatures.h; path = TesseractOCR/include/tesseract/ocrfeatures.h; sourceTree = "<group>"; };
+		AAC4517D053B1325A5A65488 /* tessclassifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tessclassifier.h; path = TesseractOCR/include/tesseract/tessclassifier.h; sourceTree = "<group>"; };
+		AB1B7DCAD734AA2C4ED78B0E /* lm_state.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lm_state.h; path = TesseractOCR/include/tesseract/lm_state.h; sourceTree = "<group>"; };
+		AD1C70EB286D715A1A67B1C3 /* danerror.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = danerror.h; path = TesseractOCR/include/tesseract/danerror.h; sourceTree = "<group>"; };
+		ADA3E5882AB7AEC61C7C6D0A /* TesseractOCR.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TesseractOCR.h; path = TesseractOCR/TesseractOCR.h; sourceTree = "<group>"; };
+		AE2916D53694EB91C42DAE48 /* intfeaturespace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = intfeaturespace.h; path = TesseractOCR/include/tesseract/intfeaturespace.h; sourceTree = "<group>"; };
+		AE801093453B79ADDE24BFDC /* mathfix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mathfix.h; path = TesseractOCR/include/tesseract/mathfix.h; sourceTree = "<group>"; };
+		AF0BF1229B788F4FA7119AD5 /* protos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = protos.h; path = TesseractOCR/include/tesseract/protos.h; sourceTree = "<group>"; };
+		B001A883951BE7405FCAB583 /* otsuthr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = otsuthr.h; path = TesseractOCR/include/tesseract/otsuthr.h; sourceTree = "<group>"; };
+		B13EA522BA52AF61D321DB5C /* qrsequence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = qrsequence.h; path = TesseractOCR/include/tesseract/qrsequence.h; sourceTree = "<group>"; };
+		B17E2DF43539E408C12D6B7D /* char_altlist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = char_altlist.h; path = TesseractOCR/include/tesseract/char_altlist.h; sourceTree = "<group>"; };
+		B28A87C1157E566651DE010E /* fileerr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fileerr.h; path = TesseractOCR/include/tesseract/fileerr.h; sourceTree = "<group>"; };
+		B374C4150D88C34D11585706 /* stopper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stopper.h; path = TesseractOCR/include/tesseract/stopper.h; sourceTree = "<group>"; };
+		B403F2E3E0AE030930D0C7F8 /* bmf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bmf.h; path = TesseractOCR/include/leptonica/bmf.h; sourceTree = "<group>"; };
+		B546755DC148E1787C55BE5E /* blamer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blamer.h; path = TesseractOCR/include/tesseract/blamer.h; sourceTree = "<group>"; };
+		B6362DC2DE7280A5E4F6AB75 /* ccstruct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ccstruct.h; path = TesseractOCR/include/tesseract/ccstruct.h; sourceTree = "<group>"; };
+		B93E8DF641312448DF9C8C2F /* svutil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = svutil.h; path = TesseractOCR/include/tesseract/svutil.h; sourceTree = "<group>"; };
+		BAC7529019E681B97A05ABB2 /* rejctmap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rejctmap.h; path = TesseractOCR/include/tesseract/rejctmap.h; sourceTree = "<group>"; };
+		BBC5AA64A730C06DC7313BDC /* pageiterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pageiterator.h; path = TesseractOCR/include/tesseract/pageiterator.h; sourceTree = "<group>"; };
+		BC11C0E2CDD7522094FDA504 /* cube_line_object.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cube_line_object.h; path = TesseractOCR/include/tesseract/cube_line_object.h; sourceTree = "<group>"; };
+		BC4303C521AFDAAFEC8BB576 /* pageres.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pageres.h; path = TesseractOCR/include/tesseract/pageres.h; sourceTree = "<group>"; };
+		BCF84464B1A71682EE05A3F5 /* UIImage+G8Filters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+G8Filters.h"; path = "TesseractOCR/UIImage+G8Filters.h"; sourceTree = "<group>"; };
+		BD1C1880A98CEF6B06AD246B /* listio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = listio.h; path = TesseractOCR/include/tesseract/listio.h; sourceTree = "<group>"; };
+		BD2D89D811418AFB7E2C2F7F /* cube_utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cube_utils.h; path = TesseractOCR/include/tesseract/cube_utils.h; sourceTree = "<group>"; };
+		BDD374607E6F0FB0C6FBD4E1 /* libtesseract_all.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libtesseract_all.a; path = TesseractOCR/lib/libtesseract_all.a; sourceTree = "<group>"; };
+		BEF42A9ECEEC0B46C0B4D7C5 /* secname.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = secname.h; path = TesseractOCR/include/tesseract/secname.h; sourceTree = "<group>"; };
+		C0299C61978CFA5768B44AD3 /* alltypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = alltypes.h; path = TesseractOCR/include/leptonica/alltypes.h; sourceTree = "<group>"; };
+		C0818542EFDBB9C6A930CE28 /* drawfx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = drawfx.h; path = TesseractOCR/include/tesseract/drawfx.h; sourceTree = "<group>"; };
+		C1E05EF0FEB135FD0E3E9A07 /* UIImage+G8FixOrientation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+G8FixOrientation.h"; path = "TesseractOCR/UIImage+G8FixOrientation.h"; sourceTree = "<group>"; };
+		C357423E5ACF84EDBCD1FA68 /* ligature_table.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ligature_table.h; path = TesseractOCR/include/tesseract/ligature_table.h; sourceTree = "<group>"; };
+		C371A5DABA219805210E1ED4 /* regutils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = regutils.h; path = TesseractOCR/include/leptonica/regutils.h; sourceTree = "<group>"; };
+		C39069D90267BA9B70F57006 /* elst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = elst.h; path = TesseractOCR/include/tesseract/elst.h; sourceTree = "<group>"; };
+		C400CBFBD0A03C2E8CBA3C09 /* util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = util.h; path = TesseractOCR/include/tesseract/util.h; sourceTree = "<group>"; };
+		C4408707910CBA106D92B809 /* tprintf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tprintf.h; path = TesseractOCR/include/tesseract/tprintf.h; sourceTree = "<group>"; };
+		C4987C4F2230CF42B02C55FF /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C56437F0D3E0C70A079A1003 /* colpartition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = colpartition.h; path = TesseractOCR/include/tesseract/colpartition.h; sourceTree = "<group>"; };
+		C5B235668F4A996D474270B3 /* stepblob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stepblob.h; path = TesseractOCR/include/tesseract/stepblob.h; sourceTree = "<group>"; };
+		C5E0DB97595A8A2324095209 /* elst2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = elst2.h; path = TesseractOCR/include/tesseract/elst2.h; sourceTree = "<group>"; };
+		C6F3C211AB6EF1FF4AF22064 /* linefind.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = linefind.h; path = TesseractOCR/include/tesseract/linefind.h; sourceTree = "<group>"; };
+		C93C671D1CC3AFD9E0823AFA /* lm_consistency.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lm_consistency.h; path = TesseractOCR/include/tesseract/lm_consistency.h; sourceTree = "<group>"; };
+		CA549C3803F186DA34980E4F /* outlines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = outlines.h; path = TesseractOCR/include/tesseract/outlines.h; sourceTree = "<group>"; };
+		CB61EBD75654805A0110A613 /* boxword.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = boxword.h; path = TesseractOCR/include/tesseract/boxword.h; sourceTree = "<group>"; };
+		CB793B19EA41DCE77F54D6A8 /* cutoffs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cutoffs.h; path = TesseractOCR/include/tesseract/cutoffs.h; sourceTree = "<group>"; };
+		CC1293217D886092C5543673 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC72B0B2E7C8AF63F1E968A9 /* bmp_8.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bmp_8.h; path = TesseractOCR/include/tesseract/bmp_8.h; sourceTree = "<group>"; };
+		CD86D4B4E57B1C727639B2AF /* plotedges.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = plotedges.h; path = TesseractOCR/include/tesseract/plotedges.h; sourceTree = "<group>"; };
+		CE45A3F794F54EE8166F4976 /* blobbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blobbox.h; path = TesseractOCR/include/tesseract/blobbox.h; sourceTree = "<group>"; };
+		CED84393D83F8ADFEB1367F9 /* bitvec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bitvec.h; path = TesseractOCR/include/tesseract/bitvec.h; sourceTree = "<group>"; };
+		CEE0177948712BB4636A6487 /* textlineprojection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = textlineprojection.h; path = TesseractOCR/include/tesseract/textlineprojection.h; sourceTree = "<group>"; };
+		CF1FCAA97D1161B22303B00A /* degradeimage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = degradeimage.h; path = TesseractOCR/include/tesseract/degradeimage.h; sourceTree = "<group>"; };
+		D083A21A42B362BCD764F54D /* stderr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stderr.h; path = TesseractOCR/include/tesseract/stderr.h; sourceTree = "<group>"; };
+		D0BFEFA02D2EC3A40AE641D5 /* mfx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mfx.h; path = TesseractOCR/include/tesseract/mfx.h; sourceTree = "<group>"; };
+		D0E8B1C237AD4F3077127404 /* search_column.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = search_column.h; path = TesseractOCR/include/tesseract/search_column.h; sourceTree = "<group>"; };
+		D237AF1F21A4B05F1DB0260F /* errorcounter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = errorcounter.h; path = TesseractOCR/include/tesseract/errorcounter.h; sourceTree = "<group>"; };
+		D26DF75143192CABC105C47F /* emalloc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = emalloc.h; path = TesseractOCR/include/tesseract/emalloc.h; sourceTree = "<group>"; };
+		D27411B3D6524BBA316592FB /* helpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = helpers.h; path = TesseractOCR/include/tesseract/helpers.h; sourceTree = "<group>"; };
+		D33FFF3001D3EAC0A121E04A /* werdit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = werdit.h; path = TesseractOCR/include/tesseract/werdit.h; sourceTree = "<group>"; };
+		D352A8D02315EFEF84E7CFEE /* resource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = resource.h; path = TesseractOCR/include/tesseract/resource.h; sourceTree = "<group>"; };
+		D432085913A35B94A4794BD3 /* const.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = const.h; path = TesseractOCR/include/tesseract/const.h; sourceTree = "<group>"; };
+		D458170A3686D11F06AB1D8C /* object_cache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = object_cache.h; path = TesseractOCR/include/tesseract/object_cache.h; sourceTree = "<group>"; };
+		D4AF8CD33B35A89EAAEBEC12 /* lang_mod_edge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lang_mod_edge.h; path = TesseractOCR/include/tesseract/lang_mod_edge.h; sourceTree = "<group>"; };
+		D58516DB816F048AF2B0FC14 /* sampleiterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sampleiterator.h; path = TesseractOCR/include/tesseract/sampleiterator.h; sourceTree = "<group>"; };
+		D6A9B3AFA6A90E21B9D82848 /* genericvector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = genericvector.h; path = TesseractOCR/include/tesseract/genericvector.h; sourceTree = "<group>"; };
+		D6F8DA1B60D28D469851F14B /* ocrrow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ocrrow.h; path = TesseractOCR/include/tesseract/ocrrow.h; sourceTree = "<group>"; };
+		D7577A863F7C06AFF1C69E53 /* resultiterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = resultiterator.h; path = TesseractOCR/include/tesseract/resultiterator.h; sourceTree = "<group>"; };
+		D812F281637788B4C51814CD /* makerow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = makerow.h; path = TesseractOCR/include/tesseract/makerow.h; sourceTree = "<group>"; };
+		D8E52ABDA70CE4168820BE0B /* language_model.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = language_model.h; path = TesseractOCR/include/tesseract/language_model.h; sourceTree = "<group>"; };
+		D9243C6F1D8A7D225C96F900 /* fileio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fileio.h; path = TesseractOCR/include/tesseract/fileio.h; sourceTree = "<group>"; };
+		D95C4AA047CA0BD1C46CF7F8 /* quadratc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = quadratc.h; path = TesseractOCR/include/tesseract/quadratc.h; sourceTree = "<group>"; };
+		D97D1209C4BF9E4C8F9467E9 /* control.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = control.h; path = TesseractOCR/include/tesseract/control.h; sourceTree = "<group>"; };
+		D9DD4109850E7D62479EDE52 /* workingpartset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = workingpartset.h; path = TesseractOCR/include/tesseract/workingpartset.h; sourceTree = "<group>"; };
+		D9F18C037C15E26D5BEFA789 /* config_auto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config_auto.h; path = TesseractOCR/include/tesseract/config_auto.h; sourceTree = "<group>"; };
+		DA10C0599643F0BD7DBBF053 /* stringrenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stringrenderer.h; path = TesseractOCR/include/tesseract/stringrenderer.h; sourceTree = "<group>"; };
+		DA61C0AEF15E45E5731D8CDB /* hpdsizes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hpdsizes.h; path = TesseractOCR/include/tesseract/hpdsizes.h; sourceTree = "<group>"; };
+		DB4DAFB1B36EDE640671BEF4 /* gradechop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gradechop.h; path = TesseractOCR/include/tesseract/gradechop.h; sourceTree = "<group>"; };
+		DC746F7948168492A6F62D09 /* tablerecog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tablerecog.h; path = TesseractOCR/include/tesseract/tablerecog.h; sourceTree = "<group>"; };
+		DD2ADCE33BEAD3C8345D6987 /* cube_const.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cube_const.h; path = TesseractOCR/include/tesseract/cube_const.h; sourceTree = "<group>"; };
+		DE1C47BBC06612AE278665E7 /* featdefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = featdefs.h; path = TesseractOCR/include/tesseract/featdefs.h; sourceTree = "<group>"; };
+		DEAD40C24F9E76500F1C9F24 /* docqual.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = docqual.h; path = TesseractOCR/include/tesseract/docqual.h; sourceTree = "<group>"; };
+		DF340825AEAB78DF974DBF04 /* clst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = clst.h; path = TesseractOCR/include/tesseract/clst.h; sourceTree = "<group>"; };
+		DF6600BE27A8DD39098809F3 /* blckerr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blckerr.h; path = TesseractOCR/include/tesseract/blckerr.h; sourceTree = "<group>"; };
+		DF94445B4144D9754DB92B30 /* openclwrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = openclwrapper.h; path = TesseractOCR/include/tesseract/openclwrapper.h; sourceTree = "<group>"; };
+		E09BF6B411EC2A667FD0E5A1 /* cube_object.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cube_object.h; path = TesseractOCR/include/tesseract/cube_object.h; sourceTree = "<group>"; };
+		E0A6D83C43F783423CE89226 /* G8Constants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = G8Constants.h; path = TesseractOCR/G8Constants.h; sourceTree = "<group>"; };
+		E4B5636858342858773BB903 /* cjkpitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cjkpitch.h; path = TesseractOCR/include/tesseract/cjkpitch.h; sourceTree = "<group>"; };
+		E59356F5666CDBD73D6DF084 /* textord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = textord.h; path = TesseractOCR/include/tesseract/textord.h; sourceTree = "<group>"; };
+		E5B066CFC74B6364E8A48A77 /* boxread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = boxread.h; path = TesseractOCR/include/tesseract/boxread.h; sourceTree = "<group>"; };
+		E74E645994FEA7068FB9F3CD /* tabvector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tabvector.h; path = TesseractOCR/include/tesseract/tabvector.h; sourceTree = "<group>"; };
+		E79CA96DD8F693149FB659D6 /* pithsync.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pithsync.h; path = TesseractOCR/include/tesseract/pithsync.h; sourceTree = "<group>"; };
+		E87930F9499FE7D81FC79354 /* unicity_table.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unicity_table.h; path = TesseractOCR/include/tesseract/unicity_table.h; sourceTree = "<group>"; };
+		E97FA5B247A674F0A2506BE0 /* trainingsample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = trainingsample.h; path = TesseractOCR/include/tesseract/trainingsample.h; sourceTree = "<group>"; };
+		ED0D6B8E5FF0F9B844532631 /* nwmain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = nwmain.h; path = TesseractOCR/include/tesseract/nwmain.h; sourceTree = "<group>"; };
+		ED8C803F456C87A2318648D5 /* char_samp_enum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = char_samp_enum.h; path = TesseractOCR/include/tesseract/char_samp_enum.h; sourceTree = "<group>"; };
+		EE98E529A8A50F55F4B6FDDF /* con_comp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = con_comp.h; path = TesseractOCR/include/tesseract/con_comp.h; sourceTree = "<group>"; };
+		EEE39D3066276CA7072836D0 /* genericheap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = genericheap.h; path = TesseractOCR/include/tesseract/genericheap.h; sourceTree = "<group>"; };
+		EFF2DD6F41EF8D27CDAF0D82 /* makechop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = makechop.h; path = TesseractOCR/include/tesseract/makechop.h; sourceTree = "<group>"; };
+		F01EAD7B206F002E2C43A206 /* gplot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gplot.h; path = TesseractOCR/include/leptonica/gplot.h; sourceTree = "<group>"; };
+		F04117A801C29A55BA02B377 /* bbgrid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bbgrid.h; path = TesseractOCR/include/tesseract/bbgrid.h; sourceTree = "<group>"; };
+		F0DBE067EF16D07E43B91460 /* equationdetect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = equationdetect.h; path = TesseractOCR/include/tesseract/equationdetect.h; sourceTree = "<group>"; };
+		F0E2A31601B5260E6865260A /* mf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mf.h; path = TesseractOCR/include/tesseract/mf.h; sourceTree = "<group>"; };
+		F18F32A407BC68F61B7D73CE /* blkocc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blkocc.h; path = TesseractOCR/include/tesseract/blkocc.h; sourceTree = "<group>"; };
+		F1B8E09982B7CEBE8DDEA25E /* polyblk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = polyblk.h; path = TesseractOCR/include/tesseract/polyblk.h; sourceTree = "<group>"; };
+		F298D8739C7BBC2074825253 /* G8RecognitionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = G8RecognitionOperation.m; path = TesseractOCR/G8RecognitionOperation.m; sourceTree = "<group>"; };
+		F5485FD2ECBC434AD924C4C5 /* heap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = heap.h; path = TesseractOCR/include/leptonica/heap.h; sourceTree = "<group>"; };
+		F54A762927EF72DC067DFBCD /* char_set.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = char_set.h; path = TesseractOCR/include/tesseract/char_set.h; sourceTree = "<group>"; };
+		F57444C31D8D20DD047CF175 /* equationdetectbase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = equationdetectbase.h; path = TesseractOCR/include/tesseract/equationdetectbase.h; sourceTree = "<group>"; };
+		F60185248AACF05D804E811B /* structures.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = structures.h; path = TesseractOCR/include/tesseract/structures.h; sourceTree = "<group>"; };
+		F6B9C3B103E862E655F07281 /* ltrresultiterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ltrresultiterator.h; path = TesseractOCR/include/tesseract/ltrresultiterator.h; sourceTree = "<group>"; };
+		F7797BFDBA189732943290D0 /* cube_reco_context.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cube_reco_context.h; path = TesseractOCR/include/tesseract/cube_reco_context.h; sourceTree = "<group>"; };
+		F8DA4A58CA4C135D4E375DA0 /* serialis.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = serialis.h; path = TesseractOCR/include/tesseract/serialis.h; sourceTree = "<group>"; };
+		F8F8127AAF351F60176E1C89 /* bbuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bbuffer.h; path = TesseractOCR/include/leptonica/bbuffer.h; sourceTree = "<group>"; };
+		F95F4CEE85E732B377C46A4F /* coutln.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = coutln.h; path = TesseractOCR/include/tesseract/coutln.h; sourceTree = "<group>"; };
+		F9607AF4E8A15278A53D072E /* string_32.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = string_32.h; path = TesseractOCR/include/tesseract/string_32.h; sourceTree = "<group>"; };
+		F990BDD4893CD74E313E88E9 /* apitypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = apitypes.h; path = TesseractOCR/include/tesseract/apitypes.h; sourceTree = "<group>"; };
+		FA64DA8AD67A9F0BB5B620AC /* cubeclassifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cubeclassifier.h; path = TesseractOCR/include/tesseract/cubeclassifier.h; sourceTree = "<group>"; };
+		FA8422AF8E76F333C839DDB3 /* unicharmap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unicharmap.h; path = TesseractOCR/include/tesseract/unicharmap.h; sourceTree = "<group>"; };
+		FC01DA9B229753C77863936D /* list.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = list.h; path = TesseractOCR/include/leptonica/list.h; sourceTree = "<group>"; };
+		FC2389FBB2B7A462BAF4A322 /* matrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = matrix.h; path = TesseractOCR/include/tesseract/matrix.h; sourceTree = "<group>"; };
+		FED1C68C568EB3C39065A38E /* ambigs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ambigs.h; path = TesseractOCR/include/tesseract/ambigs.h; sourceTree = "<group>"; };
+		FF58A5DD0DEFD3E3EA3EBDAE /* sudoku.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sudoku.h; path = TesseractOCR/include/leptonica/sudoku.h; sourceTree = "<group>"; };
+		FF80E121ADD7FDDE64C4DF02 /* classifier_factory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = classifier_factory.h; path = TesseractOCR/include/tesseract/classifier_factory.h; sourceTree = "<group>"; };
+		FF9BFE23191D53CDCDDC413E /* sorthelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sorthelper.h; path = TesseractOCR/include/tesseract/sorthelper.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CD627374DC13B54739BF1B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617E540E6A7AE24B1580680A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA69E16A5CCC1667BDE3DEBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3418631CCBF7E10B2A7B0AF /* Foundation.framework in Frameworks */,
+				33AD72313B00960E8163F6E2 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27C6F8085173B6B35C5EBB32 = {
+			isa = PBXGroup;
+			children = (
+				C4987C4F2230CF42B02C55FF /* Podfile */,
+				8304AC9D232B1E28218E9E3F /* Frameworks */,
+				4D56D19B17874D535064E2E0 /* Pods */,
+				F64773747D3BE103AA9D67E9 /* Products */,
+				60CD6DDEBE261FDF92687506 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		4D56D19B17874D535064E2E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9B1CDF968504F3FF339EC49 /* TesseractOCRiOS */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		60CD6DDEBE261FDF92687506 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC10FE5A37C6C9CCDFC9E3F7 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6974AD73289528E32AD81E72 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7099BC7D92F4F5060D2DF90A /* Pods-TesseractOCRiOS.xcconfig */,
+				4DE93FEC0F9B7E332567BEF3 /* Pods-TesseractOCRiOS-Private.xcconfig */,
+				7A4E4D8EACBCF7FA2EEDFF05 /* Pods-TesseractOCRiOS-dummy.m */,
+				69A588C52A369B139421C89B /* Pods-TesseractOCRiOS-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-TesseractOCRiOS";
+			sourceTree = "<group>";
+		};
+		8304AC9D232B1E28218E9E3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5289757D9EFE8E5FC2A5837 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC10FE5A37C6C9CCDFC9E3F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DB1DD7F3752DD95DC3BF34F /* Pods-acknowledgements.markdown */,
+				38C7F6C573A654FD1CFB72A5 /* Pods-acknowledgements.plist */,
+				4226994B3D37EF61E8789F0A /* Pods-dummy.m */,
+				47CE7D1B49D61228BD6C06F0 /* Pods-environment.h */,
+				5A29418F5E595503873A7E0B /* Pods-resources.sh */,
+				3BAE91F7A1ED7B445BF59090 /* Pods.debug.xcconfig */,
+				4A6273B53490D05EFC3CE231 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		D9B1CDF968504F3FF339EC49 /* TesseractOCRiOS */ = {
+			isa = PBXGroup;
+			children = (
+				E0A6D83C43F783423CE89226 /* G8Constants.h */,
+				67E5F78E0CAED6ADAEBB55D9 /* G8RecognitionOperation.h */,
+				F298D8739C7BBC2074825253 /* G8RecognitionOperation.m */,
+				0D67AC6B933E08A8D319B49D /* G8RecognizedBlock.h */,
+				36805D341F6968433000BCAD /* G8RecognizedBlock.m */,
+				5E1FE20A0BB9C6C6BF5926C6 /* G8Tesseract.h */,
+				8CD64721A659DDFD054CA553 /* G8Tesseract.mm */,
+				52589A0F1DA83E30CE0D3B71 /* G8TesseractDelegate.h */,
+				7A7B6F3B8B2B1C08763D763B /* G8TesseractParameters.h */,
+				0E9ADF5FCDC28EE232085D58 /* G8TesseractParameters.m */,
+				ADA3E5882AB7AEC61C7C6D0A /* TesseractOCR.h */,
+				BCF84464B1A71682EE05A3F5 /* UIImage+G8Filters.h */,
+				9491CEE40161D64F3CC667F8 /* UIImage+G8Filters.m */,
+				C1E05EF0FEB135FD0E3E9A07 /* UIImage+G8FixOrientation.h */,
+				13698CC2B9EA52C0F66A78D6 /* UIImage+G8FixOrientation.m */,
+				1C9A9E2E3B588765886BE14D /* adaptive.h */,
+				3AD2DC968A5ECCC8E4C08AEC /* alignedblob.h */,
+				955A1DD27C0DE0BB9F0C9F86 /* allheaders.h */,
+				C0299C61978CFA5768B44AD3 /* alltypes.h */,
+				151DD863ADA2A12601ECBE82 /* altlist.h */,
+				FED1C68C568EB3C39065A38E /* ambigs.h */,
+				F990BDD4893CD74E313E88E9 /* apitypes.h */,
+				86718BBB6E4DEC4BC5F58BF5 /* array.h */,
+				4E38636C97C3C558299277E1 /* arrayaccess.h */,
+				6C81A70246B2DB48BE87037D /* associate.h */,
+				483350C5248463D1791C3374 /* baseapi.h */,
+				0229131B994CADF30AD415B8 /* basedir.h */,
+				2BBBA5E89B0ADB891C1AF8DD /* baselinedetect.h */,
+				F04117A801C29A55BA02B377 /* bbgrid.h */,
+				F8F8127AAF351F60176E1C89 /* bbuffer.h */,
+				7D7BA5EA1C7838E01F7D9D73 /* beam_search.h */,
+				2C471331AA5FE361CA792D77 /* bilateral.h */,
+				3B06A14D9BBB628B4B8C6D1E /* bits16.h */,
+				CED84393D83F8ADFEB1367F9 /* bitvec.h */,
+				9A2DD5E9D843BF8CD12D9054 /* bitvector.h */,
+				B546755DC148E1787C55BE5E /* blamer.h */,
+				DF6600BE27A8DD39098809F3 /* blckerr.h */,
+				F18F32A407BC68F61B7D73CE /* blkocc.h */,
+				CE45A3F794F54EE8166F4976 /* blobbox.h */,
+				318A3786B600EDDCA475598A /* blobclass.h */,
+				042C993B7ECD96837F8A3031 /* blobgrid.h */,
+				6BB573ACBC48C81FA5E755C3 /* blobs.h */,
+				40B7768F9AEE9D0BE13C33B4 /* blread.h */,
+				B403F2E3E0AE030930D0C7F8 /* bmf.h */,
+				69D544F5148B1B40E641D9AE /* bmp.h */,
+				CC72B0B2E7C8AF63F1E968A9 /* bmp_8.h */,
+				57FBF8303033EC8214BFF807 /* boxchar.h */,
+				E5B066CFC74B6364E8A48A77 /* boxread.h */,
+				CB61EBD75654805A0110A613 /* boxword.h */,
+				4ADAC155E402E65600F61D15 /* cached_file.h */,
+				4EABDA78E29D04E891DF0F95 /* callcpp.h */,
+				1F97B368887498C28A6A7CD5 /* capi.h */,
+				8F512FF232A1DFAF478A6FE5 /* ccbord.h */,
+				8A526EE86BF6F7733DF2675E /* ccnontextdetect.h */,
+				B6362DC2DE7280A5E4F6AB75 /* ccstruct.h */,
+				5245DFBF5D3672B9899EDF5F /* ccutil.h */,
+				B17E2DF43539E408C12D6B7D /* char_altlist.h */,
+				A2BB169441EF745AB20C935A /* char_bigrams.h */,
+				43585DB0BD3C2805AB2A2DB7 /* char_samp.h */,
+				ED8C803F456C87A2318648D5 /* char_samp_enum.h */,
+				465116A3608E6CCC9F9D28D6 /* char_samp_set.h */,
+				F54A762927EF72DC067DFBCD /* char_set.h */,
+				11FB3D55A8692ED833D040A8 /* chop.h */,
+				402726867289BF79D685E401 /* chopper.h */,
+				E4B5636858342858773BB903 /* cjkpitch.h */,
+				3ED352370C5DCB40D000AA54 /* classifier_base.h */,
+				FF80E121ADD7FDDE64C4DF02 /* classifier_factory.h */,
+				2F88B562A78D73871EF64143 /* classify.h */,
+				DF340825AEAB78DF974DBF04 /* clst.h */,
+				7CF14E42B6E90CD0C24AE846 /* cluster.h */,
+				09AF341CA994B63CBE5E76B8 /* clusttool.h */,
+				322E1BA78CBF599BE1C72FF3 /* colfind.h */,
+				C56437F0D3E0C70A079A1003 /* colpartition.h */,
+				47C8110185C9444E520422D5 /* colpartitiongrid.h */,
+				338C450B05D7C1C50A8D3E2F /* colpartitionset.h */,
+				33747E2EDD21845D317C55B6 /* commandlineflags.h */,
+				772606BA656CEDE314265F85 /* commontraining.h */,
+				EE98E529A8A50F55F4B6FDDF /* con_comp.h */,
+				A0F34AD617455AFFEFEEB864 /* config_auto.h */,
+				D9F18C037C15E26D5BEFA789 /* config_auto.h */,
+				D432085913A35B94A4794BD3 /* const.h */,
+				D97D1209C4BF9E4C8F9467E9 /* control.h */,
+				6833A8D5858AB1916B08ADD4 /* conv_net_classifier.h */,
+				F95F4CEE85E732B377C46A4F /* coutln.h */,
+				58EB144B6C157E5A208A2D10 /* crakedge.h */,
+				DD2ADCE33BEAD3C8345D6987 /* cube_const.h */,
+				BC11C0E2CDD7522094FDA504 /* cube_line_object.h */,
+				37EAD0DC9506C195369C4F60 /* cube_line_segmenter.h */,
+				E09BF6B411EC2A667FD0E5A1 /* cube_object.h */,
+				F7797BFDBA189732943290D0 /* cube_reco_context.h */,
+				09D7D6089DBEA27A34AAC599 /* cube_search_object.h */,
+				049EADE660ECF8503DF34FC5 /* cube_tuning_params.h */,
+				BD2D89D811418AFB7E2C2F7F /* cube_utils.h */,
+				FA64DA8AD67A9F0BB5B620AC /* cubeclassifier.h */,
+				11A5EAEEE9B2422E4C0E0F7F /* cutil.h */,
+				913E1070EE8FF34855463D61 /* cutil_class.h */,
+				CB793B19EA41DCE77F54D6A8 /* cutoffs.h */,
+				AD1C70EB286D715A1A67B1C3 /* danerror.h */,
+				836A5113A9FABA7972F76466 /* dawg.h */,
+				762E512C57187122F02D900D /* dawg_cache.h */,
+				CF1FCAA97D1161B22303B00A /* degradeimage.h */,
+				121E7E00BFF1F7D4B7FC1E5F /* detlinefit.h */,
+				0E3E99341C774C3D26625D9D /* devanagari_processing.h */,
+				8FD426401B3D0EB33BCEC496 /* dewarp.h */,
+				7C1A1930163CC77028C0F238 /* dict.h */,
+				DEAD40C24F9E76500F1C9F24 /* docqual.h */,
+				A97A3F82AEA9A8488B8AFBC9 /* doubleptr.h */,
+				5F34157F9CD2533015B9C0F8 /* dppoint.h */,
+				0B7752F96D965C12DC96F691 /* drawedg.h */,
+				C0818542EFDBB9C6A930CE28 /* drawfx.h */,
+				576689CF970CFE06CC2C6DA8 /* drawtord.h */,
+				61E335A1BE02632C1F3E3D31 /* edgblob.h */,
+				52CBB75F78BFE6B81DA0FB31 /* edgloop.h */,
+				65A2032F6D5671FD4BA698CD /* efio.h */,
+				C39069D90267BA9B70F57006 /* elst.h */,
+				C5E0DB97595A8A2324095209 /* elst2.h */,
+				D26DF75143192CABC105C47F /* emalloc.h */,
+				A1370BA43B26956C3C95DA48 /* endianness.h */,
+				207900DFC177F09222446C44 /* environ.h */,
+				F0DBE067EF16D07E43B91460 /* equationdetect.h */,
+				F57444C31D8D20DD047CF175 /* equationdetectbase.h */,
+				8216444B909C22A9CB8CCB45 /* errcode.h */,
+				D237AF1F21A4B05F1DB0260F /* errorcounter.h */,
+				7528CFBCC6148347E819494F /* extern.h */,
+				1F782B70BC8DB7450A05676D /* extract.h */,
+				DE1C47BBC06612AE278665E7 /* featdefs.h */,
+				67679FE6732C29875830A37A /* feature_base.h */,
+				0E170C0E10937F26C2BCB8A7 /* feature_bmp.h */,
+				32D8EF43E8AA284DED181A4B /* feature_chebyshev.h */,
+				20700974E8AD1FC13D8E2345 /* feature_hybrid.h */,
+				B28A87C1157E566651DE010E /* fileerr.h */,
+				D9243C6F1D8A7D225C96F900 /* fileio.h */,
+				0C12FD50CF250AAD0F05AB4E /* findseam.h */,
+				63F09E1D2A584CB3AC36683C /* fixspace.h */,
+				A44F5F9CA5C599716C457DA9 /* flexfx.h */,
+				260E16468753EA2DA52AF2AD /* float2int.h */,
+				0DAF36FDDF9E6A9594393FB2 /* fontinfo.h */,
+				2F4F8ACAB4375EE252A4012A /* fpchop.h */,
+				4DBB8499E55E261FD84F880B /* fpoint.h */,
+				3C158359D664555097AC1091 /* freelist.h */,
+				4D1CCC75DE5475D0F9C118E2 /* freetype.h */,
+				863FF752EAA06517B862A076 /* fxdefs.h */,
+				20584C5690C31D5725BB8CDB /* gap_map.h */,
+				88B25C1C52EB0BCE626DE6F9 /* genblob.h */,
+				EEE39D3066276CA7072836D0 /* genericheap.h */,
+				D6A9B3AFA6A90E21B9D82848 /* genericvector.h */,
+				407C438831FD17C25F7A40FE /* gettimeofday.h */,
+				3C4357938E276D374428A21A /* globaloc.h */,
+				21E4EC691937346099FAC21D /* globals.h */,
+				F01EAD7B206F002E2C43A206 /* gplot.h */,
+				DB4DAFB1B36EDE640671BEF4 /* gradechop.h */,
+				58E24CD1F1F97B75526BA0D1 /* hashfn.h */,
+				F5485FD2ECBC434AD924C4C5 /* heap.h */,
+				D27411B3D6524BBA316592FB /* helpers.h */,
+				387E83BB01B1FBF4C69C22E3 /* host.h */,
+				DA61C0AEF15E45E5731D8CDB /* hpdsizes.h */,
+				9617EF94E3A56299C1F87A6A /* hybrid_neural_net_classifier.h */,
+				2275215F7DEBA51232D108ED /* icuerrorcode.h */,
+				5A5D8AA75E8817E95EBAD206 /* imagefind.h */,
+				8FF3EB0C639DFC6AD8E054EF /* imageio.h */,
+				53DCEFB5828C0D92B573C6B2 /* indexmapbidi.h */,
+				090431831A32ADEE21602761 /* input_file_buffer.h */,
+				688BF768A776B257643470EC /* intfeaturedist.h */,
+				0AA153B202F034298BF225A7 /* intfeaturemap.h */,
+				AE2916D53694EB91C42DAE48 /* intfeaturespace.h */,
+				41EABC7D7EC3D7DEFF5D75B1 /* intfx.h */,
+				13853E599808F2A261DAB0EB /* intmatcher.h */,
+				7B461FC0EAF9D8F38F04AFA9 /* intproto.h */,
+				814E3B7AAA9548850A6035F4 /* ipoints.h */,
+				2069228B8AD86AAB5622513E /* jbclass.h */,
+				7FF6A5AA8B5129376AD3BF44 /* kdpair.h */,
+				6DC8AEC93EEFCE171FD88B06 /* kdtree.h */,
+				D4AF8CD33B35A89EAAEBEC12 /* lang_mod_edge.h */,
+				4836DAA20276E220462D46AD /* lang_model.h */,
+				D8E52ABDA70CE4168820BE0B /* language_model.h */,
+				9645F1F15E45047A7A95A34A /* leptwin.h */,
+				C357423E5ACF84EDBCD1FA68 /* ligature_table.h */,
+				C6F3C211AB6EF1FF4AF22064 /* linefind.h */,
+				2EC577E9998E92C197927013 /* linlsq.h */,
+				FC01DA9B229753C77863936D /* list.h */,
+				BD1C1880A98CEF6B06AD246B /* listio.h */,
+				C93C671D1CC3AFD9E0823AFA /* lm_consistency.h */,
+				A457860D6A4D20C855D86183 /* lm_pain_points.h */,
+				AB1B7DCAD734AA2C4ED78B0E /* lm_state.h */,
+				899278A221FA76531D1C46B1 /* lsterr.h */,
+				F6B9C3B103E862E655F07281 /* ltrresultiterator.h */,
+				EFF2DD6F41EF8D27CDAF0D82 /* makechop.h */,
+				D812F281637788B4C51814CD /* makerow.h */,
+				874A407043F93603D04BB161 /* mastertrainer.h */,
+				0A197B2177D1DBDCF4B2E1DD /* matchdefs.h */,
+				AE801093453B79ADDE24BFDC /* mathfix.h */,
+				FC2389FBB2B7A462BAF4A322 /* matrix.h */,
+				3C0987E6E92D0D6F4F640D8F /* measure.h */,
+				7FFE286F703BD449CDB6C281 /* memry.h */,
+				109053263D8A38FCD0745C8B /* mergenf.h */,
+				F0E2A31601B5260E6865260A /* mf.h */,
+				38F72A228DD9E065B5962439 /* mfdefs.h */,
+				0DDB75422AFEEF6672B3DBA9 /* mfoutline.h */,
+				D0BFEFA02D2EC3A40AE641D5 /* mfx.h */,
+				82016A2A227DC89B466589B5 /* mod128.h */,
+				87243AB4F8225AB7274B5DCD /* morph.h */,
+				4DD24F80EE37990FB25DF347 /* mutableiterator.h */,
+				1EF1B4700BC3EF4F126D6562 /* ndminx.h */,
+				8C38F65E6B6EF7190B25196C /* neural_net.h */,
+				2F9BBDDBC184C56346562206 /* neuron.h */,
+				71BDAB23E13E3374C028C58B /* normalis.h */,
+				4D8757521DC38950CC8DCA86 /* normfeat.h */,
+				3BDD8DF0F207F9DF87D1D030 /* normmatch.h */,
+				549B6386C2F98DCC54ECFD73 /* normstrngs.h */,
+				ED0D6B8E5FF0F9B844532631 /* nwmain.h */,
+				D458170A3686D11F06AB1D8C /* object_cache.h */,
+				0534FE3A2E86C8DA420F39A9 /* oclkernels.h */,
+				458AEA2589687B33B2E84FDB /* ocrblock.h */,
+				6CD64246722D46BD958C70F4 /* ocrclass.h */,
+				AA4AFCD82B8858240AC03AB3 /* ocrfeatures.h */,
+				1F84CBD892F1867318F4F59D /* ocrpara.h */,
+				D6F8DA1B60D28D469851F14B /* ocrrow.h */,
+				179586AA341B07A48CCB96D8 /* oldbasel.h */,
+				528373516043A008A8218C4F /* oldlist.h */,
+				0459A6703FB3951AFEDF4900 /* olutil.h */,
+				09D35889707219898BD7EBFA /* opencl_device_selection.h */,
+				DF94445B4144D9754DB92B30 /* openclwrapper.h */,
+				7D9243690FDB9FCCC2BC1D1B /* osdetect.h */,
+				B001A883951BE7405FCAB583 /* otsuthr.h */,
+				848FABFB2CF8B6FD2C5025E2 /* outfeat.h */,
+				CA549C3803F186DA34980E4F /* outlines.h */,
+				20390AAAD4BB522420180F3C /* output.h */,
+				BBC5AA64A730C06DC7313BDC /* pageiterator.h */,
+				BC4303C521AFDAAFEC8BB576 /* pageres.h */,
+				90A21CA0642CC27D752978B7 /* pango_font_info.h */,
+				2FC084F2BBB556D14682B0EB /* paragraphs.h */,
+				767726535D2402BDC93F6B1F /* paragraphs_internal.h */,
+				2153236D07B2868452934C00 /* params.h */,
+				1B81021289EE517AD513AE2B /* params_model.h */,
+				88B980312507120ECE818B0D /* params_training_featdef.h */,
+				40D68DDF3D27C88D2CA14E9C /* paramsd.h */,
+				2E2208FC17A15CC788DE9F2F /* pdblock.h */,
+				3979213AB9AED76AE226A02F /* pgedit.h */,
+				941F3778340EB3B3E148069F /* picofeat.h */,
+				E79CA96DD8F693149FB659D6 /* pithsync.h */,
+				60E5205A09D050B5930F5753 /* pitsync1.h */,
+				7CE41CEF7EC37EE34291CA84 /* pix.h */,
+				575DC1F4F2782A97FA14D94D /* platform.h */,
+				CD86D4B4E57B1C727639B2AF /* plotedges.h */,
+				4B8D24C4F513486940685696 /* points.h */,
+				965CA0ADCB7D27384E6DA3F6 /* polyaprx.h */,
+				F1B8E09982B7CEBE8DDEA25E /* polyblk.h */,
+				AF0BF1229B788F4FA7119AD5 /* protos.h */,
+				310762C43FC351F533A49EFB /* ptra.h */,
+				593F8B1752862BED5E3EBB60 /* publictypes.h */,
+				B13EA522BA52AF61D321DB5C /* qrsequence.h */,
+				447ACDB93AB02CB63A24E5B0 /* quadlsq.h */,
+				D95C4AA047CA0BD1C46CF7F8 /* quadratc.h */,
+				4005ADAA830344BB17426D44 /* queue.h */,
+				A6193986CAEC7BE4B4148CB1 /* quspline.h */,
+				285F23F7CBD60F8D395551F3 /* ratngs.h */,
+				11C885875E858197D85A38BA /* readbarcode.h */,
+				3F9AAFF8E005C7BF71213521 /* recog.h */,
+				1A8B94497D260975755786F7 /* rect.h */,
+				C371A5DABA219805210E1ED4 /* regutils.h */,
+				BAC7529019E681B97A05ABB2 /* rejctmap.h */,
+				209A65B98F746A4A05A043EC /* reject.h */,
+				3F9787A632BD60F9C477655C /* render.h */,
+				4C4CF6EE7BE23D701A092390 /* renderer.h */,
+				D352A8D02315EFEF84E7CFEE /* resource.h */,
+				D7577A863F7C06AFF1C69E53 /* resultiterator.h */,
+				D58516DB816F048AF2B0FC14 /* sampleiterator.h */,
+				9249DAE57BBEF84DA1CF0326 /* scanedg.h */,
+				5896CEB7A3609A4B5348339A /* scanutils.h */,
+				4AAEE2F5DAF799FEBA1C1A39 /* scrollview.h */,
+				16A35236D8D3B31A89936083 /* seam.h */,
+				D0E8B1C237AD4F3077127404 /* search_column.h */,
+				6F29817A474CBAF5C7DF5C51 /* search_node.h */,
+				0E2BA6334D93906059D9A83C /* search_object.h */,
+				BEF42A9ECEEC0B46C0B4D7C5 /* secname.h */,
+				F8DA4A58CA4C135D4E375DA0 /* serialis.h */,
+				3806912BB5BBB7A50A08942F /* shapeclassifier.h */,
+				9DBDA1DF20AF7CCC9D3B754C /* shapetable.h */,
+				6A973C6EC8500E0809E9715C /* sortflts.h */,
+				FF9BFE23191D53CDCDDC413E /* sorthelper.h */,
+				8FB9D39763C3557298D4B9C2 /* split.h */,
+				4DD13F49BBF3580780F8D88A /* stack.h */,
+				1C50ECCDDF1342C8C623E444 /* statistc.h */,
+				D083A21A42B362BCD764F54D /* stderr.h */,
+				C5B235668F4A996D474270B3 /* stepblob.h */,
+				B374C4150D88C34D11585706 /* stopper.h */,
+				093C533145A04F6BC39F4E52 /* strcasestr.h */,
+				F9607AF4E8A15278A53D072E /* string_32.h */,
+				DA10C0599643F0BD7DBBF053 /* stringrenderer.h */,
+				3D93C2BD1FA91341A6F6A55D /* strngs.h */,
+				9C6DFEB0F399159F9AAF7D41 /* strokewidth.h */,
+				650D1242188E852E35136A8B /* strtok_r.h */,
+				F60185248AACF05D804E811B /* structures.h */,
+				FF58A5DD0DEFD3E3EA3EBDAE /* sudoku.h */,
+				38C67FF7B158DE7E3393D771 /* svmnode.h */,
+				B93E8DF641312448DF9C8C2F /* svutil.h */,
+				7E97C061A80F9C7589EEF9BD /* tabfind.h */,
+				55397FCF3E972E6013D11F41 /* tablefind.h */,
+				DC746F7948168492A6F62D09 /* tablerecog.h */,
+				E74E645994FEA7068FB9F3CD /* tabvector.h */,
+				0D20D018045E70A7112F06FB /* tess_lang_mod_edge.h */,
+				9F624FCDFC294D44762D51D3 /* tess_lang_model.h */,
+				A8283044E899A1DB096A658C /* tessbox.h */,
+				26D9BE8A12D094A8FA488EBC /* tesscallback.h */,
+				AAC4517D053B1325A5A65488 /* tessclassifier.h */,
+				3F239226CE788554C039AC81 /* tessdatamanager.h */,
+				6DB4E45EF08E88B186A40F68 /* tessedit.h */,
+				2C7D20E18A187F0EC7BB29BB /* tesseract_cube_combiner.h */,
+				2634162E865B55137D29F8A9 /* tesseractclass.h */,
+				0B26352851290B5066AA4A16 /* tessopt.h */,
+				6EAAB031913754BB1188F28A /* tessvars.h */,
+				CEE0177948712BB4636A6487 /* textlineprojection.h */,
+				E59356F5666CDBD73D6DF084 /* textord.h */,
+				65A0810F5AAD8F11AD2690B2 /* thresholder.h */,
+				2BD502EFD414A5FF07DA67C3 /* tlog.h */,
+				71B116A94C5AC27F8E585A94 /* topitch.h */,
+				93A9DDDBE9353DB85217BAFE /* tordmain.h */,
+				08152E063D04BAB91292994A /* tovars.h */,
+				C4408707910CBA106D92B809 /* tprintf.h */,
+				E97FA5B247A674F0A2506BE0 /* trainingsample.h */,
+				73A6C6438AF6A17B49485C21 /* trainingsampleset.h */,
+				8A5465872A61D3E8CF7A89C7 /* trie.h */,
+				0C97DB15341D85D29206CAFF /* tuning_params.h */,
+				4187FDE77CFF803038FA247D /* underlin.h */,
+				6B7A1272DB99586B4C95BF46 /* unichar.h */,
+				FA8422AF8E76F333C839DDB3 /* unicharmap.h */,
+				A500125F0DDE45106DFFAB6F /* unicharset.h */,
+				E87930F9499FE7D81FC79354 /* unicity_table.h */,
+				9F4EF83FF1A5D5D2DEDF9C58 /* unicodes.h */,
+				3E4994A3A8109D056A7900AA /* universalambigs.h */,
+				C400CBFBD0A03C2E8CBA3C09 /* util.h */,
+				04110018F9CF954A539956D6 /* vecfuncs.h */,
+				4CFCC0317E8618506164C5CD /* version.h */,
+				37777A990166976E5821011B /* watershed.h */,
+				3792567F2682A79F160CE7ED /* werd.h */,
+				D33FFF3001D3EAC0A121E04A /* werdit.h */,
+				9F4A34DD900C9DA757E9DEBD /* word_altlist.h */,
+				5E26492A881D2DAF97E06B4D /* word_list_lang_model.h */,
+				4E0B7A5E3FFD06ED3DDF941B /* word_size_model.h */,
+				0C2201617B4B501759C03B80 /* word_unigrams.h */,
+				88DA16716FC99E1A4C168B49 /* wordrec.h */,
+				224AF9F3BF5AEAE49E4DAAE1 /* wordseg.h */,
+				D9DD4109850E7D62479EDE52 /* workingpartset.h */,
+				8825E71F63EB2844E829B841 /* xform2d.h */,
+				DD46AEC7F16C344EF5758736 /* Frameworks */,
+				6974AD73289528E32AD81E72 /* Support Files */,
+			);
+			path = TesseractOCRiOS;
+			sourceTree = "<group>";
+		};
+		DD46AEC7F16C344EF5758736 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D99204FC10C40BB28EF166F /* liblept.a */,
+				BDD374607E6F0FB0C6FBD4E1 /* libtesseract_all.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5289757D9EFE8E5FC2A5837 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				686014FCAD5ADE1C95CA97C8 /* Foundation.framework */,
+				9BC45397E7236937834BE995 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F64773747D3BE103AA9D67E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC1293217D886092C5543673 /* libPods.a */,
+				30C7B4FAED83077BC82C226A /* libPods-TesseractOCRiOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9B43BFF8FCAC791403406517 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C1208DC8DE96B0A0017DD9 /* G8Constants.h in Headers */,
+				9EE8F2159B2E5E42479A3AB3 /* G8RecognitionOperation.h in Headers */,
+				CF17FFE05D44A01400635B09 /* G8RecognizedBlock.h in Headers */,
+				46BDEABF421C71AAFCBBB6B7 /* G8Tesseract.h in Headers */,
+				81949DA4573F847ADDCE533A /* G8TesseractDelegate.h in Headers */,
+				E0DFBF82AE493451D75A6FEF /* G8TesseractParameters.h in Headers */,
+				E9CC51F2E4E0830E0D9798B2 /* TesseractOCR.h in Headers */,
+				659990406F790CF09E09EB3B /* UIImage+G8Filters.h in Headers */,
+				E6F86DE27B1699B8BC48C047 /* UIImage+G8FixOrientation.h in Headers */,
+				419E5DD831E97387EAFF2D35 /* adaptive.h in Headers */,
+				90381FE468F4F171E0F5AFAB /* alignedblob.h in Headers */,
+				E3F5CA347AC9D403FC43F0CC /* allheaders.h in Headers */,
+				9CA5C9512984A510ECB499DB /* alltypes.h in Headers */,
+				4E65E992E32203BA28D508FC /* altlist.h in Headers */,
+				80052A6EACBDC238FE58C7E2 /* ambigs.h in Headers */,
+				157C42CBD5D675954A92E9D7 /* apitypes.h in Headers */,
+				7B43149E2313A59D5AFEE5CE /* array.h in Headers */,
+				304135A0EC52FDE9295CD2AA /* arrayaccess.h in Headers */,
+				2CBEFD9D15CDD12F1501E51C /* associate.h in Headers */,
+				AEA2C92F8763E708C9FE1CE3 /* baseapi.h in Headers */,
+				9DE109D42577B0AC243F7231 /* basedir.h in Headers */,
+				6C6C1F3857A13ABB4DFEB331 /* baselinedetect.h in Headers */,
+				A21F5F766FFEB2BD7F02953C /* bbgrid.h in Headers */,
+				9322E88ECE34C446C124B5DC /* bbuffer.h in Headers */,
+				B1507AEF2C7BCC9002E7DC49 /* beam_search.h in Headers */,
+				D6F0AC208343E8FE2AE0F5EB /* bilateral.h in Headers */,
+				0C5E24BA41A7FB4A69A05A17 /* bits16.h in Headers */,
+				92DAF98B4A75A5D30EACEEF2 /* bitvec.h in Headers */,
+				3CD5FDC7930236B14F7BE786 /* bitvector.h in Headers */,
+				5FAA43F10D8CBA42919E5C23 /* blamer.h in Headers */,
+				FD036851A6F924819FDE89BE /* blckerr.h in Headers */,
+				407F64048501AED692095A67 /* blkocc.h in Headers */,
+				F841E5E8712BCFA154446DA3 /* blobbox.h in Headers */,
+				6C96D935E2D5BAD671CF9A9C /* blobclass.h in Headers */,
+				8873EC2D98865B252B93CCB3 /* blobgrid.h in Headers */,
+				B1C8D482FDC1D6CFA609C5C3 /* blobs.h in Headers */,
+				DF135CFBFC5ACAE3F3E94A30 /* blread.h in Headers */,
+				5859A18F53037075C95BE7EB /* bmf.h in Headers */,
+				5607111BC5209094A7B2C8C8 /* bmp.h in Headers */,
+				43FEC03D92DDD2913F8B8005 /* bmp_8.h in Headers */,
+				AC2E44D289B92517D9C0C87E /* boxchar.h in Headers */,
+				A2B0FC0C48207F5186A55798 /* boxread.h in Headers */,
+				8A3B9922A649253EECF02391 /* boxword.h in Headers */,
+				C3EB9C4E35F00289742A314E /* cached_file.h in Headers */,
+				595ED9CDA9E07E4CC516165A /* callcpp.h in Headers */,
+				FAD9E3CAE739F523E4C15B83 /* capi.h in Headers */,
+				00379EAF1AA42C3B2E910050 /* ccbord.h in Headers */,
+				BEE34CC70E425A1FF4438088 /* ccnontextdetect.h in Headers */,
+				FBAEDB3633A14FB52F2A4957 /* ccstruct.h in Headers */,
+				FB077D07AC7441443295CECF /* ccutil.h in Headers */,
+				6A1FCFF1B4EE64DE18B450EB /* char_altlist.h in Headers */,
+				D539CDD34E58804B54D2B789 /* char_bigrams.h in Headers */,
+				52AF0476A5E0BA1552020CB2 /* char_samp.h in Headers */,
+				CE26216F5E3C0A98B4C52020 /* char_samp_enum.h in Headers */,
+				219DDD58ED7A64CB758507AF /* char_samp_set.h in Headers */,
+				2216DF8207D5295456BB5F40 /* char_set.h in Headers */,
+				E4A2518D6EAB3B7FC6C4E637 /* chop.h in Headers */,
+				D24359FC42917201AF6F6A6B /* chopper.h in Headers */,
+				4D20C280FAF009B4971D8ECF /* cjkpitch.h in Headers */,
+				F0944EF5808AEE053B627645 /* classifier_base.h in Headers */,
+				FA44D7430B8B416D8B0E6770 /* classifier_factory.h in Headers */,
+				0F2A414120770197CD533ED1 /* classify.h in Headers */,
+				857F5EF84A1DCF0C6DE85F9D /* clst.h in Headers */,
+				191F8F836BB611251AC6EDFC /* cluster.h in Headers */,
+				5F73E43AC80F763702536BB9 /* clusttool.h in Headers */,
+				2EEFE9716379244C12B66BEB /* colfind.h in Headers */,
+				1976E1D62F4584E5DD6D0A6A /* colpartition.h in Headers */,
+				CE58569BA44FB9F89C3149D6 /* colpartitiongrid.h in Headers */,
+				38E2953F243DFC014008BB7A /* colpartitionset.h in Headers */,
+				552A227362F55322E850E69E /* commandlineflags.h in Headers */,
+				D862EF9324C73A3B0DDD3A85 /* commontraining.h in Headers */,
+				301B00524AE8D0516F112145 /* con_comp.h in Headers */,
+				62A66F93A3AA4C5160F1A5B8 /* config_auto.h in Headers */,
+				AF52454566A0A11BFBE40077 /* config_auto.h in Headers */,
+				DA40609EA5188F3A8C5257DB /* const.h in Headers */,
+				D541539498F9ABBC0C421BD3 /* control.h in Headers */,
+				53D52608C3B7876D741B5135 /* conv_net_classifier.h in Headers */,
+				D982D5EBCB3555E07E58217E /* coutln.h in Headers */,
+				A4D051016A8CDDEDBD733E26 /* crakedge.h in Headers */,
+				964CF3E5BF9A1B955E447771 /* cube_const.h in Headers */,
+				8756A1820338698EBC9C495F /* cube_line_object.h in Headers */,
+				4F7DC710F7425B1C4EA3F28F /* cube_line_segmenter.h in Headers */,
+				B0FF8629BE6171780A1186C9 /* cube_object.h in Headers */,
+				FA386DDD77E8B279C150A6B9 /* cube_reco_context.h in Headers */,
+				49C18DEFCB96A81DC896A09B /* cube_search_object.h in Headers */,
+				ADE7401F7F5B2D678076BA62 /* cube_tuning_params.h in Headers */,
+				CAE31B611E4CBE78C40E51D6 /* cube_utils.h in Headers */,
+				266A3D62FCCC577E12B4197D /* cubeclassifier.h in Headers */,
+				DDF7BD680B896C3885E2BF57 /* cutil.h in Headers */,
+				87103DE696CD295A89393A80 /* cutil_class.h in Headers */,
+				1D5A7B8989D88DCBE31A0D03 /* cutoffs.h in Headers */,
+				19C1EDE45CCFA6814065A2F5 /* danerror.h in Headers */,
+				0A4A990D6C9D440D74C03E45 /* dawg.h in Headers */,
+				7328D5C189F8E8491B2F0C80 /* dawg_cache.h in Headers */,
+				F6CD0B7A125F6E6E7536FC2E /* degradeimage.h in Headers */,
+				DD0651782D92AA9450E52485 /* detlinefit.h in Headers */,
+				89AB60A572810C4095D2EFA9 /* devanagari_processing.h in Headers */,
+				283C15C1D85FFF99FFA63974 /* dewarp.h in Headers */,
+				4BD4D0B3038EDEAF651A9263 /* dict.h in Headers */,
+				7439CE4E7320751410AE7BE9 /* docqual.h in Headers */,
+				A50E912E4657B77B30D5F942 /* doubleptr.h in Headers */,
+				13B8D25A5405D4428BB557CD /* dppoint.h in Headers */,
+				093E16CD7BF1FCFC32667FFB /* drawedg.h in Headers */,
+				285992C68B25E27D918196E8 /* drawfx.h in Headers */,
+				4D061B36BD3292438FDB64F8 /* drawtord.h in Headers */,
+				128C6020083EA85975D63329 /* edgblob.h in Headers */,
+				561619FFCD798288CEAE2F85 /* edgloop.h in Headers */,
+				0C536C04217BA47696846EF7 /* efio.h in Headers */,
+				46AE8205D23E962295F291D7 /* elst.h in Headers */,
+				DAEC6961B61B6BBC0EDD3F2C /* elst2.h in Headers */,
+				DE0DC5FE6EF6139C9DA75892 /* emalloc.h in Headers */,
+				7B34BEC818B442C134EFF9B7 /* endianness.h in Headers */,
+				C88AEB1A059ADD623B118325 /* environ.h in Headers */,
+				3FC8F17235B044848186725E /* equationdetect.h in Headers */,
+				21730E001A22D5EE13923E24 /* equationdetectbase.h in Headers */,
+				FC926DC9CD63E669994E3491 /* errcode.h in Headers */,
+				0E2EAF50C5B4A1E32283E31D /* errorcounter.h in Headers */,
+				81BEB3664864E18B056A3077 /* extern.h in Headers */,
+				620A9835020FD566D7A2351D /* extract.h in Headers */,
+				E25D0C3E7F991114C1C03AFE /* featdefs.h in Headers */,
+				6D957EF295404749BAC809CD /* feature_base.h in Headers */,
+				FF48FF186E3DF517DA087EE9 /* feature_bmp.h in Headers */,
+				D01137332D43108B3CDE1C32 /* feature_chebyshev.h in Headers */,
+				67DC2D547FD8A3B1ED87DA5A /* feature_hybrid.h in Headers */,
+				9B36F3AA6FB78769312F76CD /* fileerr.h in Headers */,
+				DEA0667D2D6B7CF120E9140A /* fileio.h in Headers */,
+				ACAF6853534172C9ECDAE317 /* findseam.h in Headers */,
+				80680E31E0C1C73C191C1A48 /* fixspace.h in Headers */,
+				587CEEAF10A3D290513559E1 /* flexfx.h in Headers */,
+				34B6A6B8E08FB6B6330D1B30 /* float2int.h in Headers */,
+				1085268F10C9865B578F1DFC /* fontinfo.h in Headers */,
+				87332173FB17754118CF7771 /* fpchop.h in Headers */,
+				56040D9689A5F1DA22586D54 /* fpoint.h in Headers */,
+				FD04B9B19CC4D14C1D6436ED /* freelist.h in Headers */,
+				B9A6CD598DE7CBA966B3FE9C /* freetype.h in Headers */,
+				EAC95AC9EB9E3A4A0BE5863D /* fxdefs.h in Headers */,
+				D53413766EB318967123CB77 /* gap_map.h in Headers */,
+				5674BF026A958430D62F54CD /* genblob.h in Headers */,
+				293A3EC02EE5DD4D83E8A2A3 /* genericheap.h in Headers */,
+				59A9351B835903F97C599C70 /* genericvector.h in Headers */,
+				0C123707DAD9F16514DB51E9 /* gettimeofday.h in Headers */,
+				B8B04283C551E0D7B1C8D8C9 /* globaloc.h in Headers */,
+				3C71A589D7089AC886A2D8E7 /* globals.h in Headers */,
+				3810B5BA73FE90E4064215DD /* gplot.h in Headers */,
+				3C623A9B390A784EE08ADBCD /* gradechop.h in Headers */,
+				6C0F58218CB0CD351FE0D4EE /* hashfn.h in Headers */,
+				3F780544F9885ACEB438EAF0 /* heap.h in Headers */,
+				6334840D0D20F3EAE5A35ED6 /* helpers.h in Headers */,
+				56B12978D3DDB6800E81428F /* host.h in Headers */,
+				1840D4E6CFC5FF20B2A1F36B /* hpdsizes.h in Headers */,
+				913E8A15D9DD2C1CD8E2B060 /* hybrid_neural_net_classifier.h in Headers */,
+				5A2FA008270C8C33478394AD /* icuerrorcode.h in Headers */,
+				EFAA1705813A059B789EC110 /* imagefind.h in Headers */,
+				730E833932C0BF03834863DD /* imageio.h in Headers */,
+				BBD739A42FE5B3EEC018719A /* indexmapbidi.h in Headers */,
+				66B6CCBDE048C2FEF5770E93 /* input_file_buffer.h in Headers */,
+				2D550578BD929B0A8D3BE321 /* intfeaturedist.h in Headers */,
+				AD8E42873196EAD82E4B401B /* intfeaturemap.h in Headers */,
+				BB0C18B545707CD77D1A2198 /* intfeaturespace.h in Headers */,
+				0FE20734A91AF881BD87159C /* intfx.h in Headers */,
+				27CB7CF722305D72FBC76F4C /* intmatcher.h in Headers */,
+				8B6EB647BC019466C7FD0851 /* intproto.h in Headers */,
+				A67C4D68E61B7ADBDE097B83 /* ipoints.h in Headers */,
+				9B3146C4F25CB032D0E7FB51 /* jbclass.h in Headers */,
+				B27743D4818B6A7B32652ABC /* kdpair.h in Headers */,
+				48BCBC2F1D04C5A75A4C1954 /* kdtree.h in Headers */,
+				C05DF9AD218ADC0855F39327 /* lang_mod_edge.h in Headers */,
+				801AD60A6FEDE3D1035DB2FE /* lang_model.h in Headers */,
+				05A2716014054E69DAE884E0 /* language_model.h in Headers */,
+				189F606DED6F318DFA9EE1E9 /* leptwin.h in Headers */,
+				C4A15D37A20FFCE868BA984F /* ligature_table.h in Headers */,
+				F48EE71E9BFD0E3F46B54979 /* linefind.h in Headers */,
+				9F2DA0818CF1E00710467003 /* linlsq.h in Headers */,
+				EE0FEFE038B028EAF0B584AC /* list.h in Headers */,
+				7CA647018626890007E163B4 /* listio.h in Headers */,
+				B2B2CE32F57F4C2B5F441336 /* lm_consistency.h in Headers */,
+				9A30ECBC11E3341660CC37A2 /* lm_pain_points.h in Headers */,
+				BE45529DFE07E693A3108B66 /* lm_state.h in Headers */,
+				8A16EE363BD3C8EEBC430531 /* lsterr.h in Headers */,
+				DB2276CD6173D080B559DA18 /* ltrresultiterator.h in Headers */,
+				D26248E7815FE04713FB1A1D /* makechop.h in Headers */,
+				7577890D4DFA0D75326C269E /* makerow.h in Headers */,
+				B9B8591C575076836AE0518B /* mastertrainer.h in Headers */,
+				97B7052B98CE0E75A5E780FD /* matchdefs.h in Headers */,
+				B82A4778C70430515784293A /* mathfix.h in Headers */,
+				13E4288D2B2D02506E8515DA /* matrix.h in Headers */,
+				50D41DF8598578A60A1A17B7 /* measure.h in Headers */,
+				25EFE14BCB36E4824D1E970B /* memry.h in Headers */,
+				CF7764B73A2D2D72041608F2 /* mergenf.h in Headers */,
+				731FBEDCE17C7076E79B77BC /* mf.h in Headers */,
+				6F77A0EC8D4000A276E876C8 /* mfdefs.h in Headers */,
+				C0B1DE737F5157FCFB12B052 /* mfoutline.h in Headers */,
+				65A5BE7E4FBA7FA618F7CD4D /* mfx.h in Headers */,
+				BF17A6B5C45E86F6683FC0CF /* mod128.h in Headers */,
+				1221D1B0B6D8081F2F2EE334 /* morph.h in Headers */,
+				A768B25240683733B284BD39 /* mutableiterator.h in Headers */,
+				2333A1FDEB7AD9E0261FFDFC /* ndminx.h in Headers */,
+				61F6952B54B3147C53A8E7FC /* neural_net.h in Headers */,
+				9783E5949ADF9B9381E5CFBB /* neuron.h in Headers */,
+				841D12F7ECE6E5E98A2E0FDC /* normalis.h in Headers */,
+				152B21DDE357CF6144D83534 /* normfeat.h in Headers */,
+				0C2F671AE5D262C2B74AE87B /* normmatch.h in Headers */,
+				BF07DE6DFD6CF9958BFFAE01 /* normstrngs.h in Headers */,
+				5B6369D2D429706BD27B2A69 /* nwmain.h in Headers */,
+				20932843E52B63137F354CE3 /* object_cache.h in Headers */,
+				D6A5A8D5B14040BB9D0770F3 /* oclkernels.h in Headers */,
+				34818F130E6B362544D460F5 /* ocrblock.h in Headers */,
+				1BD4D881731AB410C3EB81BC /* ocrclass.h in Headers */,
+				3E3148B81A897742921EFE7E /* ocrfeatures.h in Headers */,
+				7C5FD762741FB2D632585907 /* ocrpara.h in Headers */,
+				2671058D07903FB294058F9F /* ocrrow.h in Headers */,
+				0DCBFA4371AFA8D7D02C73E4 /* oldbasel.h in Headers */,
+				5FC125CB90105B691C0BA6A8 /* oldlist.h in Headers */,
+				460CD865F3EE7A079B4D43E2 /* olutil.h in Headers */,
+				7095F6C2C3798253E64921B7 /* opencl_device_selection.h in Headers */,
+				67F592EF7D7908AF6F8AECEF /* openclwrapper.h in Headers */,
+				35684377E619F3A038F697ED /* osdetect.h in Headers */,
+				45B17CE7E509362EBA5E85AE /* otsuthr.h in Headers */,
+				3E2FC2DA7B8659EE638E4284 /* outfeat.h in Headers */,
+				2A76EE21BB6E32F6C53FFC15 /* outlines.h in Headers */,
+				A86859B52AC8EC81B84B3BB1 /* output.h in Headers */,
+				E8CDCB25F9C4E8F92C4D5CF8 /* pageiterator.h in Headers */,
+				F8FE070E42A7A67E8A168ADC /* pageres.h in Headers */,
+				529851C761102BAD30199E1E /* pango_font_info.h in Headers */,
+				D5C3CB7AB2099D28E97C9939 /* paragraphs.h in Headers */,
+				3A68CB99A3D1E1F390DC47B3 /* paragraphs_internal.h in Headers */,
+				BD173C5BD01F77697E0D122A /* params.h in Headers */,
+				91F8724F861F694A8359054D /* params_model.h in Headers */,
+				8A94C8BDA481E7F52110D362 /* params_training_featdef.h in Headers */,
+				80676CFAF951A9A5EDC5EB56 /* paramsd.h in Headers */,
+				41B49C86C9A38450D6D5E7EB /* pdblock.h in Headers */,
+				AA38DDDA7358DAF0C6B98B9A /* pgedit.h in Headers */,
+				A306EF44AB8348A82545FE00 /* picofeat.h in Headers */,
+				C978C072034A7533E7453AC0 /* pithsync.h in Headers */,
+				A78EE1B3C7C72B27AA872B54 /* pitsync1.h in Headers */,
+				E9AE1B2F646014FBA81B756E /* pix.h in Headers */,
+				E07860F87B1A64F3D9C3283B /* platform.h in Headers */,
+				B3B0CE341B3C00E51D4DD8EA /* plotedges.h in Headers */,
+				2736240C3D3D933EEA893E5B /* points.h in Headers */,
+				2BADA3612740D6522C053443 /* polyaprx.h in Headers */,
+				3E04D7C239637D408640E9A8 /* polyblk.h in Headers */,
+				A1135017CDC25D2F83B93557 /* protos.h in Headers */,
+				B4FF4AD312FA44EA0E62965B /* ptra.h in Headers */,
+				EFEB2BE8B2E606402B1A1BEC /* publictypes.h in Headers */,
+				5803BCBF5476AC82633CC62A /* qrsequence.h in Headers */,
+				ADA5446120D76784832BB6A3 /* quadlsq.h in Headers */,
+				0E3AFDFD941DACB09C9A541D /* quadratc.h in Headers */,
+				A43A9B5C504DFABDACC9E5E0 /* queue.h in Headers */,
+				1D196E558087BA31391D0796 /* quspline.h in Headers */,
+				EFFF0ECDB914C5292EFC9097 /* ratngs.h in Headers */,
+				621D7636F4E91F9C267BD567 /* readbarcode.h in Headers */,
+				691750B58262D083882EFEBB /* recog.h in Headers */,
+				6783542BDC7A219E3F62E8A4 /* rect.h in Headers */,
+				20E186624E4F42E26CA9F622 /* regutils.h in Headers */,
+				353B5ECF424E535116E41939 /* rejctmap.h in Headers */,
+				555842BA2D4AFC63F5089597 /* reject.h in Headers */,
+				FB249B6C1A6577D507057D81 /* render.h in Headers */,
+				C76A4208418B5AB4789E7064 /* renderer.h in Headers */,
+				F2BB59CF6A5D970F031D4219 /* resource.h in Headers */,
+				AF714AA0BBB713F854AE231E /* resultiterator.h in Headers */,
+				8A1BF879E70B57EDA85D413C /* sampleiterator.h in Headers */,
+				D10289DB2A55E73CDE62A325 /* scanedg.h in Headers */,
+				3B956C54FCFE158F6C809137 /* scanutils.h in Headers */,
+				1062D58321184CE4895ED5D9 /* scrollview.h in Headers */,
+				3783D58B0F2C2CC54FF7BC4D /* seam.h in Headers */,
+				13A1F3C52C1620A19BCB97A3 /* search_column.h in Headers */,
+				DAF7AFB18D915969F213F38B /* search_node.h in Headers */,
+				24F20B70C0C3993164DACCA4 /* search_object.h in Headers */,
+				374B7BE54C7D3470BA67F157 /* secname.h in Headers */,
+				7FC0DC948240CE61C7249A74 /* serialis.h in Headers */,
+				118060CCC0DB57FD70D9DFF9 /* shapeclassifier.h in Headers */,
+				ED88632E43CEF307AD15B178 /* shapetable.h in Headers */,
+				B4CBB668624A3305D8D1CB59 /* sortflts.h in Headers */,
+				5DFEB99607DA123BDFF95519 /* sorthelper.h in Headers */,
+				0AE840DA848179B990999744 /* split.h in Headers */,
+				85925A3D5C713E1C1AAE5CD6 /* stack.h in Headers */,
+				B624907BCC73509F446AC2E1 /* statistc.h in Headers */,
+				66A3EEA6A8E7BB50E1A2AE29 /* stderr.h in Headers */,
+				95FEAFE0C323F76C72612D88 /* stepblob.h in Headers */,
+				9572FAC742E4740DA8CB4006 /* stopper.h in Headers */,
+				3005166E35D52078370FA985 /* strcasestr.h in Headers */,
+				73C8A5F1928AF5C6D42124A6 /* string_32.h in Headers */,
+				A43194BD454FE21849316430 /* stringrenderer.h in Headers */,
+				E19B6AC77FD80E35E031BEF9 /* strngs.h in Headers */,
+				D3FEE44225E3786CEEE7D658 /* strokewidth.h in Headers */,
+				A93847FD48515DC0A5223949 /* strtok_r.h in Headers */,
+				FA4844641D6A5DAABB182D0B /* structures.h in Headers */,
+				2E779590DD68F7C87596235F /* sudoku.h in Headers */,
+				81220FACC6F844E8CF53B74B /* svmnode.h in Headers */,
+				BD4496C3CF3825F9B719ECCC /* svutil.h in Headers */,
+				7E7874C548222F3C2AAB8FBA /* tabfind.h in Headers */,
+				43961DA08EA92D713F015ACC /* tablefind.h in Headers */,
+				EBF5A3DCDEB1FC13C174F75B /* tablerecog.h in Headers */,
+				CECDEAC52D0F95A76299049A /* tabvector.h in Headers */,
+				F1B533E99C8B111EEDB53E99 /* tess_lang_mod_edge.h in Headers */,
+				25C60BE4C9AD5BD7B76D68A5 /* tess_lang_model.h in Headers */,
+				396F66ADD8B82894B357C83B /* tessbox.h in Headers */,
+				B528EAD60CB9BD3FDD331113 /* tesscallback.h in Headers */,
+				0EDFA8FE2D65297EB42910E6 /* tessclassifier.h in Headers */,
+				96FFDCDC16933301BB9C57BE /* tessdatamanager.h in Headers */,
+				8874892BDA68294531D5B7E3 /* tessedit.h in Headers */,
+				0DB1536EA2C5DCE9527E57D3 /* tesseract_cube_combiner.h in Headers */,
+				1A4A78F9296FA1637AD039CC /* tesseractclass.h in Headers */,
+				1F8D9DF7A96E340F3F964864 /* tessopt.h in Headers */,
+				CC290D616AED09059E792D09 /* tessvars.h in Headers */,
+				E3A73E02798C6E0BD7F68BE8 /* textlineprojection.h in Headers */,
+				90285A8B21D3E4E29AC7E5E2 /* textord.h in Headers */,
+				97614915A6A40DD9CFB9354A /* thresholder.h in Headers */,
+				F60232A64E94DCC80FE3DD87 /* tlog.h in Headers */,
+				93AD2B046B432CF6DA09FFFC /* topitch.h in Headers */,
+				339C2C0E2B83D30B3763EDCD /* tordmain.h in Headers */,
+				505C9747D0B9DCB22D32DDE9 /* tovars.h in Headers */,
+				3EEA8A035481FC3669153829 /* tprintf.h in Headers */,
+				98B3AC6560575F9DB5DA61A2 /* trainingsample.h in Headers */,
+				3E4BE80473F496A473B3A425 /* trainingsampleset.h in Headers */,
+				96CEAB4BE355C075B2C285B0 /* trie.h in Headers */,
+				155DA760C37B16A197357CF8 /* tuning_params.h in Headers */,
+				2EF6DDE6F1115ABC0C0FD1DD /* underlin.h in Headers */,
+				C2863588DE2A9FF722BD04A5 /* unichar.h in Headers */,
+				AB99E7D8BB563FAFC281E307 /* unicharmap.h in Headers */,
+				FC5B842A6874B9BFF97596B1 /* unicharset.h in Headers */,
+				EF2390315D6F1BB0286192DD /* unicity_table.h in Headers */,
+				B41575B47F8BFF7C47F443FF /* unicodes.h in Headers */,
+				53B20DEFF29574480C37B2C5 /* universalambigs.h in Headers */,
+				3F3584CCF15F5BF7E9EDD2ED /* util.h in Headers */,
+				F3992B72F21448882D314408 /* vecfuncs.h in Headers */,
+				3D0CD2D8AEBE3F56D81B3452 /* version.h in Headers */,
+				7884BC05B7F93D3917072B96 /* watershed.h in Headers */,
+				351D089D4BCD36BF720F0C2C /* werd.h in Headers */,
+				FEB7F7CA6D418C587EB3219F /* werdit.h in Headers */,
+				230C0F18F077F4DAB72ACE76 /* word_altlist.h in Headers */,
+				97E65603C6C2EC66461743EB /* word_list_lang_model.h in Headers */,
+				A376E39E461F88097D0F499C /* word_size_model.h in Headers */,
+				DF8295EDFB728C506BC4AD95 /* word_unigrams.h in Headers */,
+				FCC064159D72CD88CE4435E0 /* wordrec.h in Headers */,
+				77E7C870F3796B77B979CC1C /* wordseg.h in Headers */,
+				E3E2AD3EFF4FD89F8D8DEF44 /* workingpartset.h in Headers */,
+				799061BCA3AFA89D8053F819 /* xform2d.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00744AE76FD806C94791F8E7 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8A3CE682CD1D53767F5E52A /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				29970934E20E7B2647FE1D7F /* Sources */,
+				2CD627374DC13B54739BF1B5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFB3C04034083C3B054BAB3B /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = CC1293217D886092C5543673 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		970D8B53A18C4BB6D879F569 /* Pods-TesseractOCRiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07A5795DAF4AD08F0B8E5D80 /* Build configuration list for PBXNativeTarget "Pods-TesseractOCRiOS" */;
+			buildPhases = (
+				DAC1A46BFBCF38D8A28C8D13 /* Sources */,
+				EA69E16A5CCC1667BDE3DEBE /* Frameworks */,
+				9B43BFF8FCAC791403406517 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TesseractOCRiOS";
+			productName = "Pods-TesseractOCRiOS";
+			productReference = 30C7B4FAED83077BC82C226A /* libPods-TesseractOCRiOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6DB9F9DE775E6FB774730E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 9BE8CA94A93DB5FCC58C92FA /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 27C6F8085173B6B35C5EBB32;
+			productRefGroup = F64773747D3BE103AA9D67E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00744AE76FD806C94791F8E7 /* Pods */,
+				970D8B53A18C4BB6D879F569 /* Pods-TesseractOCRiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29970934E20E7B2647FE1D7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B80C76A0DE9156F67EAEA9 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC1A46BFBCF38D8A28C8D13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6871AB80CDDCEA9AFEC5F9 /* G8RecognitionOperation.m in Sources */,
+				FD2E129932C3EBDAF7BBBC0D /* G8RecognizedBlock.m in Sources */,
+				CECFD2281D9EA2D14044FEE2 /* G8Tesseract.mm in Sources */,
+				D4C47AC8F3F4CD4115112DE9 /* G8TesseractParameters.m in Sources */,
+				A47A5667DB5E603CB50F205A /* Pods-TesseractOCRiOS-dummy.m in Sources */,
+				799E421C6DFD22271E0ADF49 /* UIImage+G8Filters.m in Sources */,
+				E689D2E16F38C46CD85DE043 /* UIImage+G8FixOrientation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFB3C04034083C3B054BAB3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TesseractOCRiOS";
+			target = 970D8B53A18C4BB6D879F569 /* Pods-TesseractOCRiOS */;
+			targetProxy = 22A2179BF1F7F58A3751D3E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4EAD188C9A482B2472AC87AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DE93FEC0F9B7E332567BEF3 /* Pods-TesseractOCRiOS-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TesseractOCRiOS/Pods-TesseractOCRiOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		51CF1396939DA32EDDD7406A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BAE91F7A1ED7B445BF59090 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		947D68A1C1CEB87D08B64AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DE93FEC0F9B7E332567BEF3 /* Pods-TesseractOCRiOS-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TesseractOCRiOS/Pods-TesseractOCRiOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9C94014404424586F74C8B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A6273B53490D05EFC3CE231 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C25269E9B59CE01DD9A7C8EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB9437E362BB0E5BFB197DBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07A5795DAF4AD08F0B8E5D80 /* Build configuration list for PBXNativeTarget "Pods-TesseractOCRiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EAD188C9A482B2472AC87AD /* Debug */,
+				947D68A1C1CEB87D08B64AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BE8CA94A93DB5FCC58C92FA /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB9437E362BB0E5BFB197DBA /* Debug */,
+				C25269E9B59CE01DD9A7C8EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8A3CE682CD1D53767F5E52A /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51CF1396939DA32EDDD7406A /* Debug */,
+				9C94014404424586F74C8B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6DB9F9DE775E6FB774730E8 /* Project object */;
+}

@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F69FC7C1CE188C100337F57 /* popViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F69FC7B1CE188C100337F57 /* popViewController.swift */; };
+		4F69FC7E1CE18B5400337F57 /* modalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F69FC7D1CE18B5400337F57 /* modalViewController.swift */; };
+		4FEFEACF1CE16DCF0018B69D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEFEACE1CE16DCF0018B69D /* AppDelegate.swift */; };
+		4FEFEAD11CE16DCF0018B69D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEFEAD01CE16DCF0018B69D /* ViewController.swift */; };
+		4FEFEAD41CE16DCF0018B69D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FEFEAD21CE16DCF0018B69D /* Main.storyboard */; };
+		4FEFEAD61CE16DCF0018B69D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FEFEAD51CE16DCF0018B69D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4FEFEAE31CE175A70018B69D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4F69FC7B1CE188C100337F57 /* popViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = popViewController.swift; sourceTree = "<group>"; };
+		4F69FC7D1CE18B5400337F57 /* modalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = modalViewController.swift; sourceTree = "<group>"; };
+		4FEFEACB1CE16DCF0018B69D /* workingwithtvpop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = workingwithtvpop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FEFEACE1CE16DCF0018B69D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FEFEAD01CE16DCF0018B69D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FEFEAD31CE16DCF0018B69D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FEFEAD51CE16DCF0018B69D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FEFEAD71CE16DCF0018B69D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FEFEADF1CE16E020018B69D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FEFEAC81CE16DCF0018B69D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FEFEAC21CE16DCF0018B69D = {
+			isa = PBXGroup;
+			children = (
+				4FEFEACD1CE16DCF0018B69D /* workingwithtvpop */,
+				4FEFEACC1CE16DCF0018B69D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FEFEACC1CE16DCF0018B69D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FEFEACB1CE16DCF0018B69D /* workingwithtvpop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FEFEACD1CE16DCF0018B69D /* workingwithtvpop */ = {
+			isa = PBXGroup;
+			children = (
+				4FEFEADF1CE16E020018B69D /* AVFoundation.framework */,
+				4FEFEACE1CE16DCF0018B69D /* AppDelegate.swift */,
+				4FEFEAD01CE16DCF0018B69D /* ViewController.swift */,
+				4F69FC7D1CE18B5400337F57 /* modalViewController.swift */,
+				4F69FC7B1CE188C100337F57 /* popViewController.swift */,
+				4FEFEAD21CE16DCF0018B69D /* Main.storyboard */,
+				4FEFEAD51CE16DCF0018B69D /* Assets.xcassets */,
+				4FEFEAD71CE16DCF0018B69D /* Info.plist */,
+			);
+			path = workingwithtvpop;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FEFEACA1CE16DCF0018B69D /* workingwithtvpop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FEFEADA1CE16DCF0018B69D /* Build configuration list for PBXNativeTarget "workingwithtvpop" */;
+			buildPhases = (
+				4FEFEAC71CE16DCF0018B69D /* Sources */,
+				4FEFEAC81CE16DCF0018B69D /* Frameworks */,
+				4FEFEAC91CE16DCF0018B69D /* Resources */,
+				4FEFEAE31CE175A70018B69D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = workingwithtvpop;
+			productName = workingwithtvpop;
+			productReference = 4FEFEACB1CE16DCF0018B69D /* workingwithtvpop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FEFEAC31CE16DCF0018B69D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Noah Marriott";
+				TargetAttributes = {
+					4FEFEACA1CE16DCF0018B69D = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 295SA56L2N;
+					};
+				};
+			};
+			buildConfigurationList = 4FEFEAC61CE16DCF0018B69D /* Build configuration list for PBXProject "workingwithtvpop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FEFEAC21CE16DCF0018B69D;
+			productRefGroup = 4FEFEACC1CE16DCF0018B69D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FEFEACA1CE16DCF0018B69D /* workingwithtvpop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FEFEAC91CE16DCF0018B69D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FEFEAD61CE16DCF0018B69D /* Assets.xcassets in Resources */,
+				4FEFEAD41CE16DCF0018B69D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FEFEAC71CE16DCF0018B69D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F69FC7E1CE18B5400337F57 /* modalViewController.swift in Sources */,
+				4FEFEAD11CE16DCF0018B69D /* ViewController.swift in Sources */,
+				4F69FC7C1CE188C100337F57 /* popViewController.swift in Sources */,
+				4FEFEACF1CE16DCF0018B69D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4FEFEAD21CE16DCF0018B69D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FEFEAD31CE16DCF0018B69D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FEFEAD81CE16DCF0018B69D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		4FEFEAD91CE16DCF0018B69D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FEFEADB1CE16DCF0018B69D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = workingwithtvpop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.triyada.workingwithtvpop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4FEFEADC1CE16DCF0018B69D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = workingwithtvpop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.triyada.workingwithtvpop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FEFEAC61CE16DCF0018B69D /* Build configuration list for PBXProject "workingwithtvpop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FEFEAD81CE16DCF0018B69D /* Debug */,
+				4FEFEAD91CE16DCF0018B69D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FEFEADA1CE16DCF0018B69D /* Build configuration list for PBXNativeTarget "workingwithtvpop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FEFEADB1CE16DCF0018B69D /* Debug */,
+				4FEFEADC1CE16DCF0018B69D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FEFEAC31CE16DCF0018B69D /* Project object */;
+}

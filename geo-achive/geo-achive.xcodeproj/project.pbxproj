@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FAD57FE1B4F2C2C008214AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAD57FD1B4F2C2C008214AF /* AppDelegate.swift */; };
+		4FAD58001B4F2C2C008214AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAD57FF1B4F2C2C008214AF /* ViewController.swift */; };
+		4FAD58031B4F2C2C008214AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FAD58011B4F2C2C008214AF /* Main.storyboard */; };
+		4FAD58051B4F2C2C008214AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FAD58041B4F2C2C008214AF /* Images.xcassets */; };
+		4FAD58081B4F2C2C008214AF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FAD58061B4F2C2C008214AF /* LaunchScreen.xib */; };
+		4FAD58141B4F2C2C008214AF /* geo_achiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAD58131B4F2C2C008214AF /* geo_achiveTests.swift */; };
+		4FAD581E1B4F2C7B008214AF /* highway-216090_1280.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4FAD581D1B4F2C7B008214AF /* highway-216090_1280.jpg */; };
+		4FAD58231B4F337D008214AF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FAD58211B4F3351008214AF /* QuartzCore.framework */; };
+		4FAD582B1B4F4A1E008214AF /* Media-Player-256.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FAD582A1B4F4A1E008214AF /* Media-Player-256.png */; };
+		4FAD582D1B4F4D9F008214AF /* highway-216090_1280-edit.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FAD582C1B4F4D9F008214AF /* highway-216090_1280-edit.png */; };
+		4FAD58351B4F6E72008214AF /* login-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FAD58341B4F6E72008214AF /* login-image.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FAD580E1B4F2C2C008214AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FAD57F01B4F2C2C008214AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FAD57F71B4F2C2C008214AF;
+			remoteInfo = "geo-achive";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4FAD57F81B4F2C2C008214AF /* geo-achive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "geo-achive.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FAD57FC1B4F2C2C008214AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FAD57FD1B4F2C2C008214AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FAD57FF1B4F2C2C008214AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FAD58021B4F2C2C008214AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FAD58041B4F2C2C008214AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4FAD58071B4F2C2C008214AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4FAD580D1B4F2C2C008214AF /* geo-achiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "geo-achiveTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FAD58121B4F2C2C008214AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FAD58131B4F2C2C008214AF /* geo_achiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geo_achiveTests.swift; sourceTree = "<group>"; };
+		4FAD581D1B4F2C7B008214AF /* highway-216090_1280.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "highway-216090_1280.jpg"; sourceTree = "<group>"; };
+		4FAD58211B4F3351008214AF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4FAD582A1B4F4A1E008214AF /* Media-Player-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Media-Player-256.png"; sourceTree = "<group>"; };
+		4FAD582C1B4F4D9F008214AF /* highway-216090_1280-edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "highway-216090_1280-edit.png"; sourceTree = "<group>"; };
+		4FAD58341B4F6E72008214AF /* login-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-image.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FAD57F51B4F2C2C008214AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FAD58231B4F337D008214AF /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FAD580A1B4F2C2C008214AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FAD57EF1B4F2C2C008214AF = {
+			isa = PBXGroup;
+			children = (
+				4FAD58211B4F3351008214AF /* QuartzCore.framework */,
+				4FAD57FA1B4F2C2C008214AF /* geo-achive */,
+				4FAD58101B4F2C2C008214AF /* geo-achiveTests */,
+				4FAD57F91B4F2C2C008214AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FAD57F91B4F2C2C008214AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FAD57F81B4F2C2C008214AF /* geo-achive.app */,
+				4FAD580D1B4F2C2C008214AF /* geo-achiveTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FAD57FA1B4F2C2C008214AF /* geo-achive */ = {
+			isa = PBXGroup;
+			children = (
+				4FAD57FD1B4F2C2C008214AF /* AppDelegate.swift */,
+				4FAD57FF1B4F2C2C008214AF /* ViewController.swift */,
+				4FAD58011B4F2C2C008214AF /* Main.storyboard */,
+				4FAD58341B4F6E72008214AF /* login-image.png */,
+				4FAD582A1B4F4A1E008214AF /* Media-Player-256.png */,
+				4FAD582C1B4F4D9F008214AF /* highway-216090_1280-edit.png */,
+				4FAD58041B4F2C2C008214AF /* Images.xcassets */,
+				4FAD58061B4F2C2C008214AF /* LaunchScreen.xib */,
+				4FAD581D1B4F2C7B008214AF /* highway-216090_1280.jpg */,
+				4FAD57FB1B4F2C2C008214AF /* Supporting Files */,
+			);
+			path = "geo-achive";
+			sourceTree = "<group>";
+		};
+		4FAD57FB1B4F2C2C008214AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FAD57FC1B4F2C2C008214AF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FAD58101B4F2C2C008214AF /* geo-achiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FAD58131B4F2C2C008214AF /* geo_achiveTests.swift */,
+				4FAD58111B4F2C2C008214AF /* Supporting Files */,
+			);
+			path = "geo-achiveTests";
+			sourceTree = "<group>";
+		};
+		4FAD58111B4F2C2C008214AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FAD58121B4F2C2C008214AF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FAD57F71B4F2C2C008214AF /* geo-achive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FAD58171B4F2C2C008214AF /* Build configuration list for PBXNativeTarget "geo-achive" */;
+			buildPhases = (
+				4FAD57F41B4F2C2C008214AF /* Sources */,
+				4FAD57F51B4F2C2C008214AF /* Frameworks */,
+				4FAD57F61B4F2C2C008214AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "geo-achive";
+			productName = "geo-achive";
+			productReference = 4FAD57F81B4F2C2C008214AF /* geo-achive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FAD580C1B4F2C2C008214AF /* geo-achiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FAD581A1B4F2C2C008214AF /* Build configuration list for PBXNativeTarget "geo-achiveTests" */;
+			buildPhases = (
+				4FAD58091B4F2C2C008214AF /* Sources */,
+				4FAD580A1B4F2C2C008214AF /* Frameworks */,
+				4FAD580B1B4F2C2C008214AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FAD580F1B4F2C2C008214AF /* PBXTargetDependency */,
+			);
+			name = "geo-achiveTests";
+			productName = "geo-achiveTests";
+			productReference = 4FAD580D1B4F2C2C008214AF /* geo-achiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FAD57F01B4F2C2C008214AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Noah Marriott";
+				TargetAttributes = {
+					4FAD57F71B4F2C2C008214AF = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					4FAD580C1B4F2C2C008214AF = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 4FAD57F71B4F2C2C008214AF;
+					};
+				};
+			};
+			buildConfigurationList = 4FAD57F31B4F2C2C008214AF /* Build configuration list for PBXProject "geo-achive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FAD57EF1B4F2C2C008214AF;
+			productRefGroup = 4FAD57F91B4F2C2C008214AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FAD57F71B4F2C2C008214AF /* geo-achive */,
+				4FAD580C1B4F2C2C008214AF /* geo-achiveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FAD57F61B4F2C2C008214AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FAD581E1B4F2C7B008214AF /* highway-216090_1280.jpg in Resources */,
+				4FAD58031B4F2C2C008214AF /* Main.storyboard in Resources */,
+				4FAD58351B4F6E72008214AF /* login-image.png in Resources */,
+				4FAD582B1B4F4A1E008214AF /* Media-Player-256.png in Resources */,
+				4FAD582D1B4F4D9F008214AF /* highway-216090_1280-edit.png in Resources */,
+				4FAD58081B4F2C2C008214AF /* LaunchScreen.xib in Resources */,
+				4FAD58051B4F2C2C008214AF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FAD580B1B4F2C2C008214AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FAD57F41B4F2C2C008214AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FAD58001B4F2C2C008214AF /* ViewController.swift in Sources */,
+				4FAD57FE1B4F2C2C008214AF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FAD58091B4F2C2C008214AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FAD58141B4F2C2C008214AF /* geo_achiveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FAD580F1B4F2C2C008214AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FAD57F71B4F2C2C008214AF /* geo-achive */;
+			targetProxy = 4FAD580E1B4F2C2C008214AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4FAD58011B4F2C2C008214AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FAD58021B4F2C2C008214AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FAD58061B4F2C2C008214AF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FAD58071B4F2C2C008214AF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FAD58151B4F2C2C008214AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FAD58161B4F2C2C008214AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FAD58181B4F2C2C008214AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "geo-achive/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/geo-achive/XCDYouTubeKit-master/build/Debug-iphoneos",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4FAD58191B4F2C2C008214AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "geo-achive/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/geo-achive/XCDYouTubeKit-master/build/Debug-iphoneos",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4FAD581B1B4F2C2C008214AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "geo-achiveTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/geo-achive.app/geo-achive";
+			};
+			name = Debug;
+		};
+		4FAD581C1B4F2C2C008214AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "geo-achiveTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/geo-achive.app/geo-achive";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FAD57F31B4F2C2C008214AF /* Build configuration list for PBXProject "geo-achive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FAD58151B4F2C2C008214AF /* Debug */,
+				4FAD58161B4F2C2C008214AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FAD58171B4F2C2C008214AF /* Build configuration list for PBXNativeTarget "geo-achive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FAD58181B4F2C2C008214AF /* Debug */,
+				4FAD58191B4F2C2C008214AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4FAD581A1B4F2C2C008214AF /* Build configuration list for PBXNativeTarget "geo-achiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FAD581B1B4F2C2C008214AF /* Debug */,
+				4FAD581C1B4F2C2C008214AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FAD57F01B4F2C2C008214AF /* Project object */;
+}

@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FAD58451B4F76D6008214AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAD58441B4F76D6008214AF /* AppDelegate.swift */; };
+		4FAD58471B4F76D6008214AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAD58461B4F76D6008214AF /* ViewController.swift */; };
+		4FAD584A1B4F76D6008214AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FAD58481B4F76D6008214AF /* Main.storyboard */; };
+		4FAD584C1B4F76D6008214AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FAD584B1B4F76D6008214AF /* Images.xcassets */; };
+		4FAD584F1B4F76D6008214AF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FAD584D1B4F76D6008214AF /* LaunchScreen.xib */; };
+		4FAD585B1B4F76D6008214AF /* geo_take2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAD585A1B4F76D6008214AF /* geo_take2Tests.swift */; };
+		4FAD58651B4F7706008214AF /* highway-216090_1280-edit.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FAD58641B4F7706008214AF /* highway-216090_1280-edit.png */; };
+		4FAD58671B4F7937008214AF /* login-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FAD58661B4F7937008214AF /* login-image.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FAD58551B4F76D6008214AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FAD58371B4F76D6008214AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FAD583E1B4F76D6008214AF;
+			remoteInfo = "geo-take2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4FAD583F1B4F76D6008214AF /* geo-take2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "geo-take2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FAD58431B4F76D6008214AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FAD58441B4F76D6008214AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FAD58461B4F76D6008214AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FAD58491B4F76D6008214AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FAD584B1B4F76D6008214AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4FAD584E1B4F76D6008214AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4FAD58541B4F76D6008214AF /* geo-take2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "geo-take2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FAD58591B4F76D6008214AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FAD585A1B4F76D6008214AF /* geo_take2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geo_take2Tests.swift; sourceTree = "<group>"; };
+		4FAD58641B4F7706008214AF /* highway-216090_1280-edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "highway-216090_1280-edit.png"; sourceTree = "<group>"; };
+		4FAD58661B4F7937008214AF /* login-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-image.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FAD583C1B4F76D6008214AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FAD58511B4F76D6008214AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FAD58361B4F76D6008214AF = {
+			isa = PBXGroup;
+			children = (
+				4FAD58411B4F76D6008214AF /* geo-take2 */,
+				4FAD58571B4F76D6008214AF /* geo-take2Tests */,
+				4FAD58401B4F76D6008214AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FAD58401B4F76D6008214AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FAD583F1B4F76D6008214AF /* geo-take2.app */,
+				4FAD58541B4F76D6008214AF /* geo-take2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FAD58411B4F76D6008214AF /* geo-take2 */ = {
+			isa = PBXGroup;
+			children = (
+				4FAD58441B4F76D6008214AF /* AppDelegate.swift */,
+				4FAD58461B4F76D6008214AF /* ViewController.swift */,
+				4FAD58641B4F7706008214AF /* highway-216090_1280-edit.png */,
+				4FAD58661B4F7937008214AF /* login-image.png */,
+				4FAD58481B4F76D6008214AF /* Main.storyboard */,
+				4FAD584B1B4F76D6008214AF /* Images.xcassets */,
+				4FAD584D1B4F76D6008214AF /* LaunchScreen.xib */,
+				4FAD58421B4F76D6008214AF /* Supporting Files */,
+			);
+			path = "geo-take2";
+			sourceTree = "<group>";
+		};
+		4FAD58421B4F76D6008214AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FAD58431B4F76D6008214AF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FAD58571B4F76D6008214AF /* geo-take2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4FAD585A1B4F76D6008214AF /* geo_take2Tests.swift */,
+				4FAD58581B4F76D6008214AF /* Supporting Files */,
+			);
+			path = "geo-take2Tests";
+			sourceTree = "<group>";
+		};
+		4FAD58581B4F76D6008214AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FAD58591B4F76D6008214AF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FAD583E1B4F76D6008214AF /* geo-take2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FAD585E1B4F76D6008214AF /* Build configuration list for PBXNativeTarget "geo-take2" */;
+			buildPhases = (
+				4FAD583B1B4F76D6008214AF /* Sources */,
+				4FAD583C1B4F76D6008214AF /* Frameworks */,
+				4FAD583D1B4F76D6008214AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "geo-take2";
+			productName = "geo-take2";
+			productReference = 4FAD583F1B4F76D6008214AF /* geo-take2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FAD58531B4F76D6008214AF /* geo-take2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FAD58611B4F76D6008214AF /* Build configuration list for PBXNativeTarget "geo-take2Tests" */;
+			buildPhases = (
+				4FAD58501B4F76D6008214AF /* Sources */,
+				4FAD58511B4F76D6008214AF /* Frameworks */,
+				4FAD58521B4F76D6008214AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FAD58561B4F76D6008214AF /* PBXTargetDependency */,
+			);
+			name = "geo-take2Tests";
+			productName = "geo-take2Tests";
+			productReference = 4FAD58541B4F76D6008214AF /* geo-take2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FAD58371B4F76D6008214AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Noah Marriott";
+				TargetAttributes = {
+					4FAD583E1B4F76D6008214AF = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					4FAD58531B4F76D6008214AF = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 4FAD583E1B4F76D6008214AF;
+					};
+				};
+			};
+			buildConfigurationList = 4FAD583A1B4F76D6008214AF /* Build configuration list for PBXProject "geo-take2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FAD58361B4F76D6008214AF;
+			productRefGroup = 4FAD58401B4F76D6008214AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FAD583E1B4F76D6008214AF /* geo-take2 */,
+				4FAD58531B4F76D6008214AF /* geo-take2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FAD583D1B4F76D6008214AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FAD58651B4F7706008214AF /* highway-216090_1280-edit.png in Resources */,
+				4FAD584A1B4F76D6008214AF /* Main.storyboard in Resources */,
+				4FAD58671B4F7937008214AF /* login-image.png in Resources */,
+				4FAD584F1B4F76D6008214AF /* LaunchScreen.xib in Resources */,
+				4FAD584C1B4F76D6008214AF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FAD58521B4F76D6008214AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FAD583B1B4F76D6008214AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FAD58471B4F76D6008214AF /* ViewController.swift in Sources */,
+				4FAD58451B4F76D6008214AF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FAD58501B4F76D6008214AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FAD585B1B4F76D6008214AF /* geo_take2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FAD58561B4F76D6008214AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FAD583E1B4F76D6008214AF /* geo-take2 */;
+			targetProxy = 4FAD58551B4F76D6008214AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4FAD58481B4F76D6008214AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FAD58491B4F76D6008214AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FAD584D1B4F76D6008214AF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FAD584E1B4F76D6008214AF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FAD585C1B4F76D6008214AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FAD585D1B4F76D6008214AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FAD585F1B4F76D6008214AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "geo-take2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4FAD58601B4F76D6008214AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "geo-take2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4FAD58621B4F76D6008214AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "geo-take2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/geo-take2.app/geo-take2";
+			};
+			name = Debug;
+		};
+		4FAD58631B4F76D6008214AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "geo-take2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/geo-take2.app/geo-take2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FAD583A1B4F76D6008214AF /* Build configuration list for PBXProject "geo-take2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FAD585C1B4F76D6008214AF /* Debug */,
+				4FAD585D1B4F76D6008214AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FAD585E1B4F76D6008214AF /* Build configuration list for PBXNativeTarget "geo-take2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FAD585F1B4F76D6008214AF /* Debug */,
+				4FAD58601B4F76D6008214AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4FAD58611B4F76D6008214AF /* Build configuration list for PBXNativeTarget "geo-take2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FAD58621B4F76D6008214AF /* Debug */,
+				4FAD58631B4F76D6008214AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FAD58371B4F76D6008214AF /* Project object */;
+}

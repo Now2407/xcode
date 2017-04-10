@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="G0Y-JH-wyM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--LIVE-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="PlayingViewController" customModule="music_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" dataMode="prototypes" style="plain" allowsSelection="NO" rowHeight="105" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="0ID-yy-SAb">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="separatorColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <containerView key="tableHeaderView" opaque="NO" contentMode="scaleToFill" id="GoV-VG-1nN">
+                                    <rect key="frame" x="0.0" y="64" width="375" height="352"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                    <connections>
+                                        <segue destination="95j-9K-50w" kind="embed" id="ivm-sD-TAd"/>
+                                    </connections>
+                                </containerView>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TheCell" rowHeight="105" id="YfA-7h-Abj" customClass="PlayingTableViewCell" customModule="music_app" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="438" width="375" height="105"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YfA-7h-Abj" id="f1u-CT-Fds">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="104.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O48-PB-zcr">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="105"/>
+                                                    <subviews>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JZw-2v-ZjR">
+                                                            <rect key="frame" x="17" y="17" width="73" height="72"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="72" id="A6l-mN-0oI"/>
+                                                                <constraint firstAttribute="width" constant="73" id="FlE-0b-cmF"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5QZ-vL-BAv">
+                                                            <rect key="frame" x="108" y="41" width="206" height="21"/>
+                                                            <attributedString key="attributedText">
+                                                                <fragment content="LMFAO">
+                                                                    <attributes>
+                                                                        <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        <font key="NSFont" size="14" name="ArialMT"/>
+                                                                        <font key="NSOriginalFont" size="18" name="HelveticaNeue-Light"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ZU1-ZZ-2bt">
+                                                            <rect key="frame" x="108" y="68" width="123" height="22"/>
+                                                            <attributedString key="attributedText">
+                                                                <fragment content="Suggested By">
+                                                                    <attributes>
+                                                                        <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        <font key="NSFont" size="15" name="ArialMT"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="truncatingTail" baseWritingDirection="natural"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Qk-n2-EEF">
+                                                            <rect key="frame" x="108" y="8" width="206" height="32"/>
+                                                            <attributedString key="attributedText">
+                                                                <fragment content="Party Rock Anthem">
+                                                                    <attributes>
+                                                                        <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        <font key="NSFont" size="15" name="HelveticaNeue-Bold"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xsk-zy-U2v">
+                                                            <rect key="frame" x="207" y="68" width="143" height="22"/>
+                                                            <attributedString key="attributedText">
+                                                                <fragment content="Now2407">
+                                                                    <attributes>
+                                                                        <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        <font key="NSFont" size="13" name="Arial-BoldMT"/>
+                                                                        <font key="NSOriginalFont" size="18" name="Arial-BoldMT"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" red="0.47075440868047413" green="0.46444115399368679" blue="0.5911063762626263" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstItem="2Qk-n2-EEF" firstAttribute="leading" secondItem="JZw-2v-ZjR" secondAttribute="trailing" constant="18" id="Ejb-JF-BVK"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="O48-PB-zcr" firstAttribute="leading" secondItem="f1u-CT-Fds" secondAttribute="leading" id="Cne-3e-AUf"/>
+                                                <constraint firstAttribute="centerX" secondItem="O48-PB-zcr" secondAttribute="centerX" id="fdq-hv-baB"/>
+                                                <constraint firstItem="O48-PB-zcr" firstAttribute="centerY" secondItem="f1u-CT-Fds" secondAttribute="centerY" id="hNX-Ss-XA2"/>
+                                                <constraint firstItem="O48-PB-zcr" firstAttribute="top" secondItem="f1u-CT-Fds" secondAttribute="top" id="qyY-xG-ZXj"/>
+                                                <constraint firstAttribute="trailing" secondItem="O48-PB-zcr" secondAttribute="trailing" id="s75-Hb-YQL"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="SongArtist" destination="5QZ-vL-BAv" id="Igc-84-byL"/>
+                                            <outlet property="artPic" destination="JZw-2v-ZjR" id="Net-R9-2o2"/>
+                                            <outlet property="songName" destination="2Qk-n2-EEF" id="Rvb-ol-Ytz"/>
+                                            <outlet property="suggetedby" destination="xsk-zy-U2v" id="lEc-sn-7ai"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="0JL-nG-Z1S"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="QeE-M5-PkT"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="0ID-yy-SAb" secondAttribute="centerY" id="QCO-Jc-1yC"/>
+                            <constraint firstItem="0ID-yy-SAb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Xie-xL-bMV"/>
+                            <constraint firstAttribute="bottom" secondItem="0ID-yy-SAb" secondAttribute="bottom" id="YpG-MA-2aI"/>
+                            <constraint firstAttribute="centerX" secondItem="0ID-yy-SAb" secondAttribute="centerX" id="fcb-XD-GJb"/>
+                            <constraint firstAttribute="trailing" secondItem="0ID-yy-SAb" secondAttribute="trailing" id="mEL-z0-f4V"/>
+                            <constraint firstItem="0ID-yy-SAb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="sdi-cI-DNp"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="LIVE" id="GR0-6p-jiJ">
+                        <barButtonItem key="leftBarButtonItem" image="house" id="Ank-ha-lZ7">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="add" id="Lsv-q5-4o2">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2400.5" y="403.5"/>
+        </scene>
+        <!--Static Playing View Controller-->
+        <scene sceneID="Bc1-vx-dqT">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="95j-9K-50w" customClass="staticPlayingViewController" customModule="music_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WiQ-pM-ghT"/>
+                        <viewControllerLayoutGuide type="bottom" id="8fG-Jd-xzW"/>
+                    </layoutGuides>
+                    <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="kj1-hw-E4v">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="352"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZGB-Bf-wPG">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="497"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="zedd-art" translatesAutoresizingMaskIntoConstraints="NO" id="aM9-lX-IkH">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="353"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dQC-eY-z8L">
+                                        <rect key="frame" x="23" y="76" width="321" height="69"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Zedd &amp;  Selena Gomez">
+                                                <attributes>
+                                                    <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="34" name="DINAlternate-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <color key="highlightedColor" red="0.71661931818181812" green="0.71661931818181812" blue="0.71661931818181812" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="shadowColor" red="0.71661931820000002" green="0.71661931820000002" blue="0.71661931820000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x52-FG-M6z">
+                                        <rect key="frame" x="31" y="134" width="321" height="69"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="I Want You To Know ">
+                                                <attributes>
+                                                    <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="27" name="DINAlternate-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <color key="highlightedColor" red="0.71661931820000002" green="0.71661931820000002" blue="0.71661931820000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="shadowColor" red="0.71661931820000002" green="0.71661931820000002" blue="0.71661931820000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3SX-ov-Jes">
+                                        <rect key="frame" x="128" y="211" width="127" height="66"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="LIVE">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.72941176470000002" green="0.16078431369999999" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="48" name="HelveticaNeue-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.28593483278536547" green="0.39745240983470981" blue="0.85596196338383834" alpha="0.0" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="ArtistName" destination="dQC-eY-z8L" id="Lua-QO-Hsu"/>
+                        <outlet property="album" destination="aM9-lX-IkH" id="JgK-Kg-fhR"/>
+                        <outlet property="titleOfSong" destination="x52-FG-M6z" id="CYJ-yJ-jj3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TVj-fu-s8w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="379.5" y="311"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="azG-wK-e7s">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="G0Y-JH-wyM" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="PaM-B7-33Q">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="iA3-Qq-riY" kind="relationship" relationship="viewControllers" id="shR-jG-wEt"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oib-qi-Szv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="889" y="403"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="7IQ-HO-fGd">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iA3-Qq-riY" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="opc-hE-tbh"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="0Cf-UU-Rab">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="MqK-Ev-pDu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gbO-6n-a3W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1588" y="403"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="add" width="26" height="26"/>
+        <image name="house" width="26" height="26"/>
+        <image name="zedd-art" width="330" height="330"/>
+    </resources>
+</document>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="7Mm-Wf-cB9">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--First Screen View Controller-->
+        <scene sceneID="O6p-1W-Eud">
+            <objects>
+                <viewController id="7Mm-Wf-cB9" customClass="firstScreenViewController" customModule="loginapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cHM-PI-9Np"/>
+                        <viewControllerLayoutGuide type="bottom" id="OHY-FI-fK3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VnM-Nw-1XP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6vI-d9-4iV">
+                                <rect key="frame" x="0.0" y="101" width="375" height="566"/>
+                                <connections>
+                                    <segue destination="ykm-Oh-E51" kind="embed" id="Ofh-2h-53A"/>
+                                </connections>
+                            </containerView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="zJl-q6-DmF">
+                                <rect key="frame" x="31" y="45" width="313" height="29"/>
+                                <segments>
+                                    <segment title="Login"/>
+                                    <segment title="Sign Up"/>
+                                </segments>
+                                <connections>
+                                    <action selector="changeView:" destination="7Mm-Wf-cB9" eventType="valueChanged" id="I0b-Zc-ekK"/>
+                                </connections>
+                            </segmentedControl>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7lm-e1-i3G">
+                                <rect key="frame" x="0.0" y="101" width="375" height="566"/>
+                                <connections>
+                                    <segue destination="yfI-yQ-DOr" kind="embed" id="wyJ-8W-aOD"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="firstView" destination="6vI-d9-4iV" id="BXG-vA-iCs"/>
+                        <outlet property="secondView" destination="7lm-e1-i3G" id="lIn-f3-VRR"/>
+                        <outlet property="segControl" destination="zJl-q6-DmF" id="zMe-BA-sqg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CLF-k3-hUR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="881.5" y="478.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="R9Z-2I-6hx">
+            <objects>
+                <viewController id="ykm-Oh-E51" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="010-rD-4V1"/>
+                        <viewControllerLayoutGuide type="bottom" id="Fjo-8e-zMV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rm5-Vi-cRS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="566"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Login" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8rI-Je-251">
+                                <rect key="frame" x="166" y="95" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Ya-u6-9Kc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fwT-mP-SqV">
+            <objects>
+                <viewController id="yfI-yQ-DOr" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3xQ-y0-trx"/>
+                        <viewControllerLayoutGuide type="bottom" id="4ww-y3-b0R"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vYF-Sa-Cdw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="566"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sign Up" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="31R-bD-2ar">
+                                <rect key="frame" x="147" y="96" width="61" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tVJ-Di-STK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="372.5" y="373"/>
+        </scene>
+    </scenes>
+</document>
